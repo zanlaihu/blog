@@ -1,0 +1,9 @@
+.github-logo {
+  margin-left: 25px;
+  margin-right: 12px;
+  margin-top: 5px;
+  padding: 0 10px;
+  height: 30px;
+  width: 20px;
+  background: url('../../assets/img/github-white.svg') no-repeat center center;
+}
