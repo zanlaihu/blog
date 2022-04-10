@@ -8,7 +8,7 @@ export const Navigation = () => {
   return (
     <div className='navigation'>
       <div className='navigation-row'>
-        <Link to={PAGE_URL.HOME}>
+        <Link to={PAGE_URL.HOME} className="navigation-choice">
           <Logo />
         </Link>
         <Link to={PAGE_URL.NOTE} className='navigation-choice'>

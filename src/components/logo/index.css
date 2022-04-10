@@ -1,8 +1,9 @@
 .logo {
-  width: 57px;
+  width: 30px;
   height: 40px;
   line-height: 40px;
   font-size: 25px;
   font-family: dacing-script;
   color: white;
+  text-decoration: none;
 }
