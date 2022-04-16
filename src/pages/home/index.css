@@ -10,6 +10,7 @@
 
 .top-content-inner {
   width: 1240px;
+  z-index: 10;
 }
 
 .text-content {
