@@ -17,3 +17,8 @@ code {
   font-family: dacing-script;
   src: url(./assets/font/dacing-script.ttf);
 }
+
+a {
+  color: white;
+  font-weight: 500;
+}

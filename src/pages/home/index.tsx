@@ -14,7 +14,12 @@ export const Home = () => {
           <div className='text-content'>
             <div className='top-content-title'>因为兴趣使然而建立的小站</div>
             <div className='content-description'>
-              用于放置学习笔记、专业技能、项目经历、及GitHub。快点击顶部的导航来选择感兴趣的内容吧！
+              本站是我的个人网站，用于放置学习过程中的笔记、个人技能以及项目经历。其中也会加入一些前端实验性质的展示。这个是使用react搭建的第二版，因为第一版是用的原生HTML：
+              <a href='https://zanlaihu.github.io/old-blog/index.html' >
+                旧版地址
+              </a>
+              ，所以想尝试用GitHub
+              Pages来搭载React应用。但在后续会考虑使用服务器来搭载实现动态效果，可能还需要学习一下阿里云或腾讯云的使用方式。
             </div>
           </div>
         </div>
