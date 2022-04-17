@@ -21,8 +21,9 @@
 .underline {
   margin-top: 5px;
   width: 300px;
-  height: 2px;
+  height: 3px;
   background-color: var(--primary-color);
+  border-radius: 100px;
 }
 
 .project-description {
@@ -37,6 +38,7 @@
   width: 1240px;
   background-color: rgba(4, 13, 33, 0.93);
   height: 400px;
+  border-radius: 2px;
   /* background-image: url(../../assets/img/space.jpg); */
 }
 
