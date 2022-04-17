@@ -1,11 +1,12 @@
 import { Link } from 'react-router-dom'
 import { Navigation } from '../../components/navigation'
+import { ProjectList } from '../../components/project-list'
 import { PAGE_URL } from '../../constants/page-url/router-url'
 import './index.css'
 
 export const Home = () => {
   return (
-    <div className='home'>
+    <div className='home home-var'>
       <div className='top-content'>
         <div className='left-blue'></div>
         <div className='right-blue-purple'></div>
@@ -24,8 +25,10 @@ export const Home = () => {
           </div>
         </div>
       </div>
-      <div>
-        <div></div>
+      <div className='project-content'>
+        <div className='project-content-inner'>
+          <ProjectList />
+        </div>
       </div>
     </div>
   )

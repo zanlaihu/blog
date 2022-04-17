@@ -1,3 +1,7 @@
+.home-var {
+  --inner-width: 1240px;
+}
+
 .top-content {
   background-color: rgb(4, 13, 33);
   width: 100%;
@@ -9,7 +13,7 @@
 }
 
 .top-content-inner {
-  width: 1240px;
+  width: var(--inner-width);
   z-index: 10;
 }
 
@@ -36,7 +40,7 @@
   position: absolute;
   top: 0px;
   left: 0px;
-  background-image: url("../../assets/img/blue-circle-small.png");
+  background-image: url('../../assets/img/blue-circle-small.png');
   height: 600px;
   width: 600px;
 }
@@ -45,7 +49,17 @@
   position: absolute;
   top: 0px;
   right: 0px;
-  background-image: url("../../assets/img/blue-purple-small.png");
+  background-image: url('../../assets/img/blue-purple-small.png');
   height: 600px;
   width: 600px;
+}
+
+.project-content {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.project-content-inner {
+  width: var(--inner-width);
 }
