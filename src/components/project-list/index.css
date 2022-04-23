@@ -14,8 +14,9 @@
   width: 200px;
   font-size: 40px;
   font-weight: 900;
-  color: var(--primary-color);
+  /* color: var(--primary-color); */
   font-family: serif;
+  color: linear-gradient(-70deg, #a2facf 0%, #64acff 100%);
 }
 
 .underline {
