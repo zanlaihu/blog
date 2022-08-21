@@ -1,0 +1,53 @@
+.bottom {
+  height: 140px;
+  width: 100%;
+  font-size: x-small;
+}
+
+.bottom-contact {
+  margin: auto;
+  margin-bottom: 30px;
+  width: 70%;
+}
+
+.home-bottom-special {
+  position: relative;
+  bottom: 64px;
+}
+
+.contact-title {
+  height: 20px;
+  color: rgb(128, 128, 128);
+}
+
+.contact-message {
+  color: rgb(150, 150, 150);
+  height: 15px;
+}
+
+.bottom-label {
+  margin: auto;
+  width: 300px;
+  text-align: center;
+  color: darkgrey;
+}
+
+.bottom-line {
+  margin: auto;
+  width: 70%;
+  border: 0.3px solid #dadada;
+}
+
+.unhome-padding {
+  padding: 64px;
+}
+
+@media screen and (min-width: 0px) and (max-width: 1450px) {
+  .bottom-contact {
+    width: 90%;
+  }
+
+  .bottom-line {
+    width: 90%;
+  }
+}
