@@ -11,11 +11,12 @@
 }
 
 .project-list-title {
-  width: 200px;
+  width: 100%;
   font-size: 40px;
   font-weight: 900;
   /* color: var(--primary-color); */
-  font-family: serif;
+  /* font-family: serif; */
+  /* text-align: center; */
   color: linear-gradient(-70deg, #a2facf 0%, #64acff 100%);
 }
 
