@@ -1,4 +1,4 @@
-import './index.css';
+import './index.css'
 
 export const Navigation = () => {
   return (
@@ -7,19 +7,19 @@ export const Navigation = () => {
         <div className='navigation navigation-grey'>
           <div className='navigation-content'>
             <div className='navigation-choice'>
-              <a href='index.html' className='logo logo-white'>
+              <a className='logo logo-white'>
                 <div>Hu</div>
               </a>
-              <a href='study-notes.html'>
+              <a>
                 <div className='choice choice-home'>学习笔记</div>
               </a>
-              <a href='skills.html'>
+              <a>
                 <div className='choice choice-home'>专业技能</div>
               </a>
-              <a href='projects.html'>
+              <a>
                 <div className='choice choice-home'>项目经历</div>
               </a>
-              <a href='about.html'>
+              <a>
                 <div className='choice choice-home'>关于本站</div>
               </a>
               <a href='https://github.com/zanlaihu'>
@@ -34,23 +34,23 @@ export const Navigation = () => {
           <div className='dropdown dropdown-dark'>
             <div className='dropdown-line dropdown-line-white'></div>
             <div className='dropdown-menu dropdown-menu-white'>
-              <a href='index.html'>
+              <a>
                 <p>主页</p>
               </a>
               <hr />
-              <a href='study-notes.html'>
+              <a>
                 <p>学习笔记</p>
               </a>
               <hr />
-              <a href='skills.html'>
+              <a>
                 <p>专业技能</p>
               </a>
               <hr />
-              <a href='projects.html'>
+              <a>
                 <p>项目经历</p>
               </a>
               <hr />
-              <a href='about.html'>
+              <a>
                 <p>关于本站</p>
               </a>
               <hr />
