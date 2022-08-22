@@ -33,7 +33,7 @@
   );
 }
 
-.news-dreamy{
+.news-dreamy {
   background-image: linear-gradient(
     to right,
     rgb(197, 124, 252, 1),
@@ -85,6 +85,7 @@
   line-height: 40px;
   font-size: 25px;
   font-family: dacing-script;
+  cursor: pointer;
 }
 
 .logo-white {
@@ -114,14 +115,14 @@
 }
 
 .choice {
-  flex-direction: row;
-  margin-left: 28px;
-  margin-right: 28px;
-  height: 40px;
+  padding-left: 28px;
+  padding-right: 28px;
   line-height: 40px;
   text-align: center;
   font-size: 13px;
+  font-weight: 500;
   color: #e0e0e0ee;
+  cursor: pointer;
 }
 
 .choice:hover {
@@ -144,21 +145,16 @@
   color: #9b57db;
 }
 
-.github {
-  margin-left: 25px;
-  margin-right: 12px;
-  margin-top: 5px;
-  padding: 0 10px;
-  height: 30px;
+.github-content {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding-left: 28px;
+}
+
+.icon {
   width: 20px;
-}
-
-.github-white {
-  background: url("../../../../assets/img/github-white.svg") no-repeat center center;
-}
-
-.github-black {
-  background: url("../../../../assets/img/github-black.svg") no-repeat center center;
+  height: 20px;
 }
 
 .dropdown {
