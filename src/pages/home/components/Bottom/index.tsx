@@ -1,6 +1,6 @@
 import './index.css'
 
-export const Bottom = () => {
+const Bottom = () => {
   return (
     <div className='bottom'>
       <div className='bottom-contact'>
@@ -12,3 +12,5 @@ export const Bottom = () => {
     </div>
   )
 }
+
+export default Bottom

@@ -1,5 +1,5 @@
 /* 主页渐变蓝紫 */
-.home-ins-blue {
+.home-ins {
   background-image: linear-gradient(
     -45deg,
     #6525cc,
@@ -7,33 +7,29 @@
     rgb(48, 146, 231),
     rgb(37, 188, 223) 100%
   );
-  /* background: linear-gradient(-200deg, #783bd3, rgb(37, 188, 223) 100%); */
-}
-
-/* 其他页面黑色 */
-.home-ins-other {
-  background-color: rgb(39, 39, 39);
-}
-
-/* 上移覆盖导航 */
-.fill-top {
-  position: relative;
-  top: -40px;
-}
-
-.ins-content {
-  padding-top: 180px;
-  padding-left: 15px;
-  padding-right: 15px;
-  padding-bottom: 100px;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .ins-title {
+  width: 100%;
   text-align: center;
   line-height: 60px;
   font-size: 50px;
   font-weight: 450;
   color: white;
+}
+
+.ins-title-cn {
+  width: 100%;
+  text-align: center;
+  line-height: 60px;
+  font-size: 5rem;
+  font-weight: 450;
+  color: white;
+  letter-spacing: 18px;
 }
 
 .ins-ins {
