@@ -1,9 +1,9 @@
 import './index.css'
 import { Navigation } from '../../Common/components/Navigation'
-import { Bottom } from './components/Bottom'
+import { News } from '../../Common/components/News'
 import { MainContent } from './components/MainContent'
 import { MainItems } from './components/MainItems'
-import { News } from '../../Common/components/News'
+import Bottom from './components/Bottom'
 
 export const Home = () => {
   return (
