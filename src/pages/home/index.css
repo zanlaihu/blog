@@ -1,0 +1,20 @@
+.top-bar {
+  height: 580px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: rgba(1,1,1,.9);
+}
+
+.top-bar div:nth-child(1) {
+  padding-bottom: 10px;
+}
+
+.title-content {
+  font-size: 56px;
+  font-weight: 600;
+  color: white;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
