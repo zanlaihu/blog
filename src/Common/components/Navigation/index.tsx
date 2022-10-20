@@ -2,6 +2,7 @@ import { useNavigate } from 'react-router-dom'
 import { PAGE_URL } from '../../../constants/page-url/router-url'
 import './index.css'
 import githubIcon from '../../../assets/img/github-white.svg'
+import { DropDownButton } from '../DropDownButton'
 
 const navigationList = [
   { title: '学习笔记', url: PAGE_URL.NOTE },
@@ -42,10 +43,7 @@ export const Navigation = () => {
             <img src={githubIcon} className='icon'></img>
           </a>
         </div>
-        <div className='inner-header-icon'>
-          <span> </span>
-          <span> </span>
-        </div>
+        <DropDownButton />
       </div>
       <div className='dropdown dropdown-dark'>
         <div className='dropdown-line dropdown-line-white'></div>
