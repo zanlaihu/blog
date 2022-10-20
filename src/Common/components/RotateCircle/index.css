@@ -1,19 +1,30 @@
 .circle {
-  width: 300px;
-  height: 300px;
-  -webkit-animation:changeright 6s linear infinite;
+  background-color: blueviolet;
+  width: 500px;
+  height: 500px;
+  /* animation: rotating 20s linear infinite; */
+  position: relative;
 }
 
-@-webkit-keyframes changeright {
+@keyframes rotating {
+  /*以百分比来规定改变发生的时间 也可以通过"from"和"to",等价于0% 和 100%*/
   0% {
-    -webkit-transform: rotate(0deg);
+    /*rotate(2D旋转) scale(放大或者缩小) translate(移动) skew(翻转)*/
+    transform: rotate(0deg);
   }
-
-  50% {
-    -webkit-transform: rotate(180deg);
-  }
-
   100% {
-    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
   }
+}
+
+.circle-one {
+  position: absolute;
+  top: 125.5px;
+  left: 125.5px;
+}
+
+.circle-two {
+  position: absolute;
+  top: 50px;
+  left: 50px;
 }
