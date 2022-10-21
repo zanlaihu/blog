@@ -10,7 +10,7 @@ export const Home = () => {
   return (
     <div>
       <News />
-      <Navigation />
+      {/* <Navigation /> */}
       {/* <MainContent /> */}
       <div className='top-bar'>
         <div className='title-content'>欢迎来到我的站点</div>

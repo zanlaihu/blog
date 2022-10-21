@@ -20,7 +20,7 @@ const RotateCircle: FC<RotateCircleProps> = () => {
         a 37,37 0 1,1 -74,0'
           />
         </defs>
-        <text font-size='7'>
+        <text fontSize='7'>
           <textPath xlinkHref='#circle'>{circleStr}</textPath>
         </text>
       </svg>
