@@ -1,4 +1,4 @@
-import { Navigation } from '../../Common/components/Navigation'
+import { Navigation } from '../../Common/components/OldNavigation'
 import { News } from '../../Common/components/News'
 
 export const About = () => {
