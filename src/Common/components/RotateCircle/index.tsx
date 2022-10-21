@@ -8,7 +8,7 @@ const RotateCircle: FC<RotateCircleProps> = () => {
     '</><></><></><></><></><></><></><></><></><></><></><></><></>'
 
   const dot = ' . . / . . / '
-  const dotBlank = <div>{dot}&nbsp;&nbsp;&nbsp;&nbsp;</div>
+  const brace = ' { { {  } } }'
 
   return (
     <div className='circle'>
@@ -29,7 +29,7 @@ const RotateCircle: FC<RotateCircleProps> = () => {
           />
         </defs>
         <text font-size='7'>
-          <textPath xlinkHref='#circle'>{circleStr}</textPath>
+          <textPath xlinkHref='#circle' stroke="grey" stroke-width="0.1">{circleStr}</textPath>
         </text>
       </svg>
       <svg
@@ -54,7 +54,7 @@ const RotateCircle: FC<RotateCircleProps> = () => {
           </textPath>
         </text>
       </svg>
-      {/* <svg viewBox='0 0 100 100' width='300' height='300' className='circle-three'>
+      <svg viewBox='0 0 100 100' width='550' height='550' className='circle-three'>
         <defs>
           <path
             id='circle'
@@ -65,10 +65,10 @@ const RotateCircle: FC<RotateCircleProps> = () => {
         a 37,37 0 1,1 -74,0'
           />
         </defs>
-        <text font-size='7'>
-          <textPath xlinkHref='#circle'>{circleStr}</textPath>
+        <text font-size='4.1'>
+          <textPath xlinkHref='#circle'>{brace}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{brace}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{brace}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{brace}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{brace}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{brace}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{brace}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{brace}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{brace}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</textPath>
         </text>
-      </svg> */}
+      </svg>
     </div>
   )
 }

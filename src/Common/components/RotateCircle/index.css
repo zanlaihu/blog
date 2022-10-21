@@ -1,8 +1,7 @@
 .circle {
-  background-color: blueviolet;
-  width: 500px;
-  height: 500px;
-  /* animation: rotating 20s linear infinite; */
+  width: 550px;
+  height: 550px;
+  animation: rotating 20s linear infinite;
   position: relative;
 }
 
@@ -19,12 +18,23 @@
 
 .circle-one {
   position: absolute;
-  top: 125.5px;
-  left: 125.5px;
+  top: 150px;
+  left: 150px;
+  color: green;
 }
 
 .circle-two {
   position: absolute;
-  top: 50px;
-  left: 50px;
+  top: 75.5px;
+  left: 75.5px;
+}
+
+.circle-three {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+.circle-font {
+  color: bisque;
 }

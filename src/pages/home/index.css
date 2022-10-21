@@ -1,9 +1,8 @@
 .top-bar {
-  height: 580px;
+  height: 500px;
   display: flex;
   justify-content: center;
   flex-direction: column;
-  background-color: rgba(1,1,1,.9);
 }
 
 .top-bar div:nth-child(1) {
@@ -11,10 +10,10 @@
 }
 
 .title-content {
-  font-size: 56px;
+  font-size: 40px;
   font-weight: 600;
-  color: white;
   width: 100%;
   display: flex;
   justify-content: center;
+  color: #1d1d1f;;
 }
