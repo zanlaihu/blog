@@ -12,9 +12,9 @@ export const Home = () => {
       <div className='rotate-content'>
         <RotateCircle />
       </div>
-      <div className='top-bar'>
+      <div className='home-top-bar'>
         <div className='home-welcome-title-ch'>欢迎来到我的站点</div>
-        <div className='title-content'>Welcome to my website</div>
+        <div className='home-welcome-title-eg'>Welcome to my website</div>
       </div>
       <MainItems />
       <Bottom />

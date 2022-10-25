@@ -17,6 +17,7 @@ const RotateWords: FC<RotateWordsProps> = () => {
         width='250'
         height='250'
         className='circle-one'
+        fill='rgb(157, 157, 157)'
       >
         <defs>
           <path

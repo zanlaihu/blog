@@ -1,7 +1,7 @@
 .circle {
   width: 550px;
   height: 550px;
-  animation: rotating 50s linear infinite;
+  animation: rotating 200s linear infinite;
   position: relative;
 }
 
@@ -20,16 +20,23 @@
   position: absolute;
   top: 150px;
   left: 150px;
+  fill: rgb(120, 120, 120);
 }
 
 .circle-two {
   position: absolute;
   top: 75.5px;
   left: 75.5px;
+  fill: rgb(120, 120, 120);
 }
 
 .circle-three {
   position: absolute;
   top: 0px;
   left: 0px;
+  fill: rgb(120, 120, 120);
+}
+
+path {
+  fill: rgb(194, 194, 194);
 }
