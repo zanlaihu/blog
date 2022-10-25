@@ -9,9 +9,18 @@
   padding-bottom: 10px;
 }
 
+.home-welcome-title-ch {
+  font-size: 52px;
+  font-weight: 600;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  color: #1d1d1f;;
+}
+
 .title-content {
   font-size: 40px;
-  font-weight: 600;
+  font-weight: 400;
   width: 100%;
   display: flex;
   justify-content: center;
