@@ -1,23 +1,12 @@
 /* 顶端的warmmings */
-.news {
+.news-content {
   width: 100%;
-}
-
-.news-blue {
   background-image: linear-gradient(
     to right,
     rgb(120, 221, 252),
     rgb(69, 171, 255),
     rgb(69, 143, 255),
     rgb(156, 69, 255)
-  );
-}
-
-.news-purple {
-  background-image: linear-gradient(
-    to right,
-    rgb(222, 120, 252, 1),
-    rgb(126, 69, 255, 1)
   );
 }
 
@@ -45,7 +34,8 @@
 
 .news-text {
   margin: auto;
-  line-height: 20px;
+  line-height: 24px;
+  color: white;
   text-align: center;
   font-size: x-small;
 }

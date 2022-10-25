@@ -3,20 +3,27 @@ import { MainItems } from './components/MainItems'
 import Bottom from './components/Bottom'
 import RotateCircle from '../../Common/components/RotateWords'
 import { Navigation } from '../../Common/components/Navigation'
+import { News } from '../../Common/components/News'
 
 export const Home = () => {
   return (
-    <div>
-      {/* <News /> */}
+    <div className='home-content'>
       <Navigation />
+      <News />
       <div className='rotate-content'>
         <RotateCircle />
       </div>
       <div className='home-top-bar'>
-        <div className='home-welcome-title-ch'>欢迎来到我的站点</div>
-        <div className='home-welcome-title-eg'>Welcome to my website</div>
+        <div className='home-welcome-title-ch'>
+          <div className='home-ch-underline'>欢迎</div>来到我的小站
+        </div>
+        <div className='home-welcome-title-eg'>
+          Welcome to my&nbsp;
+          <div className='home-ch-underline'>tiny website</div>
+        </div>
       </div>
-      <MainItems />
+      <div className='home-me-content'></div>
+      {/* <MainItems /> */}
       <Bottom />
     </div>
   )

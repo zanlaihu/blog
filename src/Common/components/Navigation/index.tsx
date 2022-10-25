@@ -7,9 +7,10 @@ import Hu from '../Logo'
 
 const navigationList = [
   { title: <Hu />, url: PAGE_URL.HOME },
-  { title: '项目经历', url: PAGE_URL.PROJECT },
-  { title: '学习笔记', url: PAGE_URL.NOTE },
-  { title: '专业技能', url: PAGE_URL.SKILL },
+  { title: '关于我', url: PAGE_URL.PROJECT },
+  { title: '我的项目', url: PAGE_URL.PROJECT },
+  { title: '我的随笔', url: PAGE_URL.NOTE },
+  { title: '我的技能', url: PAGE_URL.SKILL },
   { title: '关于本站', url: PAGE_URL.ABOUT },
 ]
 
