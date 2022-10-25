@@ -26,3 +26,10 @@
   justify-content: center;
   color: #1d1d1f;;
 }
+
+.rotate-content {
+  z-index: -1;
+  position: absolute;
+  top: 0px;
+  left: 200px;
+}

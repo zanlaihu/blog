@@ -1,3 +1,4 @@
+/* 顶端的warmmings */
 .news {
   width: 100%;
 }
@@ -12,10 +13,39 @@
   );
 }
 
+.news-purple {
+  background-image: linear-gradient(
+    to right,
+    rgb(222, 120, 252, 1),
+    rgb(126, 69, 255, 1)
+  );
+}
+
+.news-golden {
+  background-image: linear-gradient(
+    to right,
+    rgb(243, 229, 200),
+    rgb(139, 118, 81),
+    rgb(80, 64, 38),
+    rgb(80, 64, 38),
+    rgb(160, 136, 95),
+    rgb(243, 229, 200)
+  );
+}
+
+.news-dreamy {
+  background-image: linear-gradient(
+    to right,
+    rgb(197, 124, 252, 1),
+    rgb(253, 201, 200, 1),
+    rgb(253, 244, 226, 1),
+    rgb(253, 222, 173, 1)
+  );
+}
+
 .news-text {
   margin: auto;
   line-height: 20px;
   text-align: center;
   font-size: x-small;
-  color: white;
 }

@@ -1,9 +1,9 @@
 import { FC } from 'react'
 import './index.css'
 
-interface RotateCircleProps {}
+interface RotateWordsProps {}
 
-const RotateCircle: FC<RotateCircleProps> = () => {
+const RotateWords: FC<RotateWordsProps> = () => {
   const circleStr =
     '</><></><></><></><></><></><></><></><></><></><></><></><></>'
 
@@ -73,4 +73,4 @@ const RotateCircle: FC<RotateCircleProps> = () => {
   )
 }
 
-export default RotateCircle
+export default RotateWords
