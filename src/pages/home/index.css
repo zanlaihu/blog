@@ -1,8 +1,17 @@
+.rotate-content {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
 .top-bar {
+  margin-top: -500px;
   height: 500px;
   display: flex;
   justify-content: center;
   flex-direction: column;
+  overflow: hidden;
+  z-index: 5;
 }
 
 .top-bar div:nth-child(1) {
@@ -11,11 +20,11 @@
 
 .home-welcome-title-ch {
   font-size: 52px;
-  font-weight: 600;
+  font-weight: 800;
   width: 100%;
   display: flex;
   justify-content: center;
-  color: #1d1d1f;;
+  color: #1d1d1f;
 }
 
 .title-content {
@@ -24,12 +33,5 @@
   width: 100%;
   display: flex;
   justify-content: center;
-  color: #1d1d1f;;
-}
-
-.rotate-content {
-  z-index: -1;
-  position: absolute;
-  top: 0px;
-  left: 200px;
+  color: #1d1d1f;
 }

@@ -1,7 +1,7 @@
 .circle {
   width: 550px;
   height: 550px;
-  animation: rotating 20s linear infinite;
+  animation: rotating 50s linear infinite;
   position: relative;
 }
 
@@ -20,7 +20,6 @@
   position: absolute;
   top: 150px;
   left: 150px;
-  color: green;
 }
 
 .circle-two {
@@ -33,8 +32,4 @@
   position: absolute;
   top: 0px;
   left: 0px;
-}
-
-.circle-font {
-  color: bisque;
 }
