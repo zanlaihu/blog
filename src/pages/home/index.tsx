@@ -5,6 +5,7 @@ import RotateCircle from '../../Common/components/RotateWords'
 import { Navigation } from '../../Common/components/Navigation'
 import { News } from '../../Common/components/News'
 import HomeMe from './components/HomeMe'
+import HomeRecentProject from './components/HomeRecentProject'
 
 export const Home = () => {
   return (
@@ -26,7 +27,7 @@ export const Home = () => {
         </div>
       </div>
       <HomeMe />
-      {/* <MainItems /> */}
+      <HomeRecentProject />
       <Bottom />
     </div>
   )

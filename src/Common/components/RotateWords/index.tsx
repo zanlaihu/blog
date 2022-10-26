@@ -29,7 +29,7 @@ const RotateWords: FC<RotateWordsProps> = () => {
         a 37,37 0 1,1 -74,0'
           />
         </defs>
-        <text font-size='7'>
+        <text>
           <textPath xlinkHref='#circle' stroke='#ffffff' strokeWidth='0.1'>
             {circleStr}
           </textPath>
@@ -51,14 +51,20 @@ const RotateWords: FC<RotateWordsProps> = () => {
         a 37,37 0 1,1 -74,0'
           />
         </defs>
-        <text font-size='4.8'>
+        <text>
           <textPath xlinkHref='#circle' stroke='#ffffff' strokeWidth='0.1'>
-            {dot}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{dot}
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{dot}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            {dot}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{dot}
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{dot}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            {dot}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{dot}
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            {dot}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{dot}
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{dot}
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            {dot}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{dot}
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{dot}
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            {dot}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{dot}
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{dot}
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{dot}
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{dot}
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{dot}
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
           </textPath>
         </text>
       </svg>
@@ -78,14 +84,23 @@ const RotateWords: FC<RotateWordsProps> = () => {
         a 37,37 0 1,1 -74,0'
           />
         </defs>
-        <text font-size='4.1'>
+        <text>
           <textPath xlinkHref='#circle' stroke='#ffffff' strokeWidth='0.1'>
-            {brace}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{brace}
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{brace}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            {brace}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{brace}
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{brace}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            {brace}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{brace}
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{brace}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            {brace}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{brace}
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{brace}
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            {brace}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{brace}
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{brace}
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            {brace}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{brace}
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{brace}
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            {brace}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{brace}
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{brace}
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            {brace}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{brace}
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{brace}
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
           </textPath>
         </text>
       </svg>

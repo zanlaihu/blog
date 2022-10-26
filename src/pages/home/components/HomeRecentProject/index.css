@@ -1,0 +1,36 @@
+.home-r-content {
+  background-color: rgb(248, 248, 248);
+  margin-top: 16px;
+  width: 100%;
+  height: 550px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.home-r-title {
+  font-size: 22px;
+  font-weight: 800;
+  text-align: center;
+  color: rgb(35, 35, 35);
+}
+
+.home-r-pro-name {
+  font-size: 85px;
+  font-weight: 800;
+  text-align: center;
+  background-image: linear-gradient(
+    90deg,
+    rgb(235, 105, 255) 0%,
+    rgb(78, 208, 255) 40%,
+    rgba(248, 110, 0, 1) 66.6%,
+    rgb(255, 26, 26) 100%
+  );
+  /*chrome私有样式，加前缀，文字显示背景图片*/
+  background-clip: text;
+  -webkit-background-clip: text;
+  /*文字颜色设为透明*/
+  color: transparent;
+  /*扩大背景区域*/
+  background-size: 100% 100%;
+}

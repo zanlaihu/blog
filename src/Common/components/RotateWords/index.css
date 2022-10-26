@@ -21,6 +21,7 @@
   top: 150px;
   left: 150px;
   fill: rgb(207, 207, 207);
+  font-size: 0.4rem;
 }
 
 .circle-two {
@@ -28,6 +29,7 @@
   top: 75.5px;
   left: 75.5px;
   fill: rgb(207, 207, 207);
+  font-size: 0.3rem;
 }
 
 .circle-three {
@@ -35,6 +37,7 @@
   top: 0px;
   left: 0px;
   fill: rgb(207, 207, 207);
+  font-size: 0.2rem;
 }
 
 path {
