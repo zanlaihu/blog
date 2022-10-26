@@ -4,6 +4,7 @@ import Bottom from './components/Bottom'
 import RotateCircle from '../../Common/components/RotateWords'
 import { Navigation } from '../../Common/components/Navigation'
 import { News } from '../../Common/components/News'
+import HomeMe from './components/HomeMe'
 
 export const Home = () => {
   return (
@@ -11,7 +12,9 @@ export const Home = () => {
       <Navigation />
       <News />
       <div className='rotate-content'>
-        <RotateCircle />
+        <div className='rotate-middle-content'>
+          <RotateCircle />
+        </div>
       </div>
       <div className='home-top-bar'>
         <div className='home-welcome-title-ch'>
@@ -22,7 +25,7 @@ export const Home = () => {
           <div className='home-ch-underline'>tiny website</div>
         </div>
       </div>
-      <div className='home-me-content'></div>
+      <HomeMe />
       {/* <MainItems /> */}
       <Bottom />
     </div>
