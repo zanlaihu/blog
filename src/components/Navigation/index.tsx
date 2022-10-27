@@ -1,16 +1,15 @@
 import { useNavigate } from 'react-router-dom'
-import { PAGE_URL } from '../../../constants/page-url/router-url'
+import { PAGE_URL } from '../../constants/page-url/router-url'
 import './index.css'
-import githubIcon from '../../../assets/img/github-white.svg'
-import { DropDownButton } from '../DropDownButton'
-import Hu from '../Logo'
+import githubIcon from './assets/github-white.svg'
+import { DropDownButton } from '../../Common/components/DropDownButton'
+import Hu from '../../Common/components/Logo'
 
 const navigationList = [
   { title: <Hu />, url: PAGE_URL.HOME },
   { title: '关于我', url: PAGE_URL.PROJECT },
   { title: '我的项目', url: PAGE_URL.PROJECT },
   { title: '我的随笔', url: PAGE_URL.NOTE },
-  { title: '我的技能', url: PAGE_URL.SKILL },
   { title: '关于本站', url: PAGE_URL.ABOUT },
 ]
 
@@ -19,8 +18,8 @@ export const Navigation = () => {
   const navigate = useNavigate()
 
   return (
-    <div className='navigation'>
-      <div className='navigation-content'>
+    <div className='ng-content'>
+      <div className='ng-pc'>
         <div className='navigation-choice'>
           {navigationList.map((item, index) => {
             return (

@@ -1,13 +1,13 @@
 import './index.css'
 import { MainItems } from './components/MainItems'
-import Bottom from './components/Bottom'
+import Bottom from '../../components/Bottom'
 import RotateCircle from '../../Common/components/RotateWords'
-import { Navigation } from '../../Common/components/Navigation'
-import { News } from '../../Common/components/News'
+import { Navigation } from '../../components/Navigation'
+import { News } from '../../components/News'
 import HomeMe from './components/HomeMe'
 import HomeRecentProject from './components/HomeRecentProject'
 
-export const Home = () => {
+const Home = () => {
   return (
     <div className='home-content'>
       <Navigation />
@@ -32,3 +32,5 @@ export const Home = () => {
     </div>
   )
 }
+
+export default Home
