@@ -12,7 +12,7 @@ export const Home = () => {
       {/* <div><Navigation /></div> */}
       <Navigation />
       <div className='top-bar'>
-        <div className='title-content'>欢迎来到我的站点</div>
+        <div className='title-content'>欢迎来到我的小站</div>
         <div className='title-content'>Welcome to my website</div>
       </div>
       <RotateCircle />
