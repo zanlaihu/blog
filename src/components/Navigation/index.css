@@ -1,107 +1,17 @@
-/* 顶端的warmmings */
-.news {
-  width: 100%;
-}
-
-.news-blue {
-  background-image: linear-gradient(
-    to right,
-    rgb(120, 221, 252),
-    rgb(69, 171, 255),
-    rgb(69, 143, 255),
-    rgb(156, 69, 255)
-  );
-}
-
-.news-purple {
-  background-image: linear-gradient(
-    to right,
-    rgb(222, 120, 252, 1),
-    rgb(126, 69, 255, 1)
-  );
-}
-
-.news-golden {
-  background-image: linear-gradient(
-    to right,
-    rgb(243, 229, 200),
-    rgb(139, 118, 81),
-    rgb(80, 64, 38),
-    rgb(80, 64, 38),
-    rgb(160, 136, 95),
-    rgb(243, 229, 200)
-  );
-}
-
-.news-dreamy {
-  background-image: linear-gradient(
-    to right,
-    rgb(197, 124, 252, 1),
-    rgb(253, 201, 200, 1),
-    rgb(253, 244, 226, 1),
-    rgb(253, 222, 173, 1)
-  );
-}
-
-.news-text {
-  margin: auto;
-  line-height: 20px;
-  text-align: center;
-  font-size: x-small;
-}
-
-/* navigation */
-.navigation {
-  position: sticky;
-  position: -webkit-sticky;
+.ng-content {
+  position: fixed;
   top: 0;
-  height: 40px;
-  z-index: 5;
+  width: 100%;
+  height: 44px;
+  z-index: 10;
+  background-color: rgba(0, 0, 0, 0.8);
 }
 
-.navigation-grey {
-  background-color: rgba(0, 0, 0, 0.178);
-}
-
-.navigation-shadow {
-  box-shadow: 0 2px 8px rgba(189, 189, 189, 0.2);
-}
-
-.navigation-content-unhome {
-  color: #262626;
-}
-
-.navigation-content {
+.ng-pc {
   position: absolute;
   left: 15%;
   width: 70%;
   z-index: 20;
-}
-
-/* logo */
-.logo {
-  width: 57px;
-  height: 40px;
-  line-height: 40px;
-  font-size: 25px;
-  font-family: dacing-script;
-  cursor: pointer;
-}
-
-.logo-white {
-  color: #e9e9e9ee;
-}
-
-.logo-white:hover {
-  color: #ffffff;
-}
-
-.logo-black {
-  color: #616161;
-}
-
-.logo-black:hover {
-  color: #000000;
 }
 
 .navigation-choice {
@@ -111,38 +21,25 @@
   flex-wrap: -webkit-wrap;
   justify-content: center;
   justify-content: -webkit-space-around;
-  width: 100;
+  height: 44px;
 }
 
 .choice {
   padding-left: 28px;
   padding-right: 28px;
-  line-height: 40px;
   text-align: center;
   font-size: 13px;
   font-weight: 500;
   color: #e0e0e0ee;
   cursor: pointer;
+  transition: 0.3s;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .choice:hover {
   color: #ffffff;
-}
-
-.choice-study {
-  color: #616161;
-}
-
-.choice-study:hover {
-  color: #9b57db;
-}
-
-.choice-focused-white {
-  color: #ffffff;
-}
-
-.choice-focused-black {
-  color: #9b57db;
 }
 
 .github-content {
@@ -164,10 +61,6 @@
   -webkit-backdrop-filter: blur(15px);
   backdrop-filter: blur(15px);
   z-index: 10;
-}
-
-.dropdown-dark {
-  background: rgba(0, 0, 0, 0.747);
 }
 
 .dropdown-menu {

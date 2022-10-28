@@ -1,0 +1,45 @@
+/* 顶端的warmmings */
+.news-content {
+  width: 100%;
+  background-image: linear-gradient(
+    to right,
+    rgb(120, 221, 252),
+    rgb(69, 171, 255),
+    rgb(69, 143, 255),
+    rgb(156, 69, 255)
+  );
+}
+
+.news-text {
+  margin: auto;
+  line-height: 28px;
+  color: white;
+  text-align: center;
+  font-size: 12px;
+  font-weight: 800;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.new-old-ng {
+  color: rgb(37, 52, 255);
+  text-decoration: underline;
+  text-decoration-color: rgb(37, 52, 255);
+  text-decoration-thickness: 1px;
+  text-underline-offset: 2px;
+}
+
+.news-golden {
+  background-image: linear-gradient(
+    to right,
+    rgb(243, 229, 200),
+    rgb(139, 118, 81),
+    rgb(80, 64, 38),
+    rgb(80, 64, 38),
+    rgb(160, 136, 95),
+    rgb(243, 229, 200)
+  );
+}
+
+

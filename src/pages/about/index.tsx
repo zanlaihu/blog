@@ -1,5 +1,5 @@
-import { Navigation } from '../../Common/components/OldNavigation'
-import { News } from '../../Common/components/News'
+import { Navigation } from '../../components/Navigation'
+import { News } from '../../components/News'
 
 export const About = () => {
   return (
