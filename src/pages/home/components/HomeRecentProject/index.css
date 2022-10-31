@@ -6,6 +6,7 @@
   display: flex;
   flex-direction: row;
   justify-content: center;
+  padding-top: 48px;
 }
 
 .home-r-back {
@@ -13,14 +14,15 @@
 }
 
 .home-r-title {
-  font-size: 22px;
+  font-size: 16px;
   font-weight: 800;
   text-align: center;
-  /* color: rgb(35, 35, 35); */
   background-image: linear-gradient(
     90deg,
-    rgb(111, 217, 255) 0%,
-    rgb(255, 186, 66) 100%
+    rgb(235, 105, 255) 0%,
+    rgb(78, 208, 255) 40%,
+    rgba(248, 110, 0, 1) 66.6%,
+    rgb(255, 26, 26) 100%
   );
   background-clip: text;
   -webkit-background-clip: text;
@@ -28,7 +30,7 @@
 }
 
 .home-r-pro-name {
-  font-size: 85px;
+  font-size: 64px;
   font-weight: 800;
   text-align: center;
   background-image: linear-gradient(
@@ -44,7 +46,8 @@
 }
 
 .home-r-pro-desc {
-  font-size: 15px;
+  padding-top: 8px;
+  font-size: 16px;
   font-weight: 600;
   line-height: 22px;
   text-align: center;
@@ -61,8 +64,8 @@
 }
 
 .home-r-ng {
-  padding-top: 20px;
-  font-size: 15px;
+  padding-top: 32px;
+  font-size: 16px;
   font-weight: 400;
   line-height: 22px;
   text-align: center;
@@ -74,7 +77,6 @@
 }
 
 .sample-content {
-  padding-bottom: 6px;
   width: 100%;
   display: flex;
   justify-content: center;
