@@ -1,5 +1,4 @@
 import './index.css'
-import { MainItems } from './components/MainItems'
 import Bottom from '../../components/Bottom'
 import RotateCircle from '../../Common/components/RotateWords'
 import { Navigation } from '../../components/Navigation'
