@@ -10,41 +10,46 @@
 .ng-pc {
   -webkit-backdrop-filter: blur(5px);
   backdrop-filter: blur(5px);
-}
-
-.ng-choice-content {
   display: flex;
-  flex-wrap: wrap;
   justify-content: center;
   flex-direction: row;
 }
 
-.ng-choice {
-  padding-left: 28px;
-  padding-right: 28px;
+.ng-pc-choice-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 600px;
+}
+
+.ng-pc-choice {
+  width: 60px;
   text-align: center;
   font-size: 13px;
   font-weight: 500;
   color: #e0e0e0ee;
   cursor: pointer;
-  transition: 0.3s;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
+  transition: 0.2s;
   display: flex;
   justify-content: center;
   flex-direction: column;
 }
 
-.choice:hover {
+.ng-pc-choice:hover {
   color: #ffffff;
 }
 
 .github-content {
+  width: 60px;
   display: flex;
   justify-content: center;
   flex-direction: column;
-  padding-left: 28px;
+}
+
+.github-middle-content {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
 }
 
 .icon {

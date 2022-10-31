@@ -6,7 +6,7 @@
     rgb(120, 221, 252),
     rgb(69, 171, 255),
     rgb(69, 143, 255),
-    rgb(156, 69, 255)
+    rgb(140, 69, 255)
   );
 }
 
@@ -22,7 +22,7 @@
   flex-direction: row;
 }
 
-.news-old-ng {
+.new-old-ng {
   color: rgb(37, 52, 255);
   text-decoration: underline;
   text-decoration-color: rgb(37, 52, 255);

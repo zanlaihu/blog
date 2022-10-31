@@ -1,6 +1,6 @@
 import './index.css'
 
-export const News = () => {
+const News = () => {
   return (
     <div className='news-content'>
       <div className='news-text'>
@@ -17,3 +17,5 @@ export const News = () => {
     </div>
   )
 }
+
+export default News

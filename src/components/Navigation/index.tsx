@@ -13,19 +13,19 @@ const navigationList = [
   { title: '关于本站', url: PAGE_URL.ABOUT },
 ]
 
-export const Navigation = () => {
+const Navigation = () => {
   // hooks
   const navigate = useNavigate()
 
   return (
     <div className='ng-content'>
       <div className='ng-pc'>
-        <div className='ng-choice-content'>
+        <div className='ng-pc-choice-content'>
           {navigationList.map((item, index) => {
             return (
               <div
                 key={index}
-                className='ng-choice'
+                className='ng-pc-choice'
                 onClick={() => {
                   navigate(item.url)
                 }}
@@ -35,7 +35,9 @@ export const Navigation = () => {
             )
           })}
           <a href='https://github.com/zanlaihu' className='github-content'>
-            <img src={githubIcon} className='icon'></img>
+            <div className='github-middle-content'>
+              <img src={githubIcon} className='icon'></img>
+            </div>
           </a>
         </div>
         <DropDownButton />
@@ -72,3 +74,5 @@ export const Navigation = () => {
     </div>
   )
 }
+
+export default Navigation

@@ -1,0 +1,11 @@
+.home-note-content {
+  margin-top: 16px;
+  width: 100%;
+  height: 550px;
+  background-image: linear-gradient(
+    to right,
+    rgb(120, 221, 252),
+    rgb(69, 171, 255),
+    rgb(69, 143, 255)
+  );
+}

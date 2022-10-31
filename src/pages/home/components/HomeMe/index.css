@@ -10,10 +10,10 @@
 
 .home-me-title {
   color: white;
-  font-size: 65px;
+  font-size: 58px;
   font-weight: 800;
   text-align: center;
-  padding-bottom: 28px;
+  padding-bottom: 20px;
 }
 
 .home-me-desc {
@@ -25,13 +25,13 @@
 }
 
 .home-me-ng {
+  padding-top: 48px;
   color: rgb(23, 127, 255);
   font-size: 16px;
   font-weight: 800;
   text-align: center;
-  padding-top: 48px;
   text-decoration: underline;
   text-decoration-color: rgb(23, 127, 255);
   text-decoration-thickness: 1px;
-  text-underline-offset: 2px;
+  text-underline-offset: 4px;
 }
