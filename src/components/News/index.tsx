@@ -7,7 +7,12 @@ export const News = () => {
         <div>
           2022年10月27日：本站新建中，目前移动端响应式布局还没做好，建议用PC端浏览。也可点此&nbsp;
         </div>
-        <div className='new-old-ng'>进入老站</div>
+        <a
+          className='news-old-ng'
+          href='https://zanlaihu.github.io/old-blog/index.html'
+        >
+          进入老站
+        </a>
       </div>
     </div>
   )

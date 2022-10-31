@@ -20,12 +20,12 @@ export const Navigation = () => {
   return (
     <div className='ng-content'>
       <div className='ng-pc'>
-        <div className='navigation-choice'>
+        <div className='ng-choice-content'>
           {navigationList.map((item, index) => {
             return (
               <div
                 key={index}
-                className='choice choice-home'
+                className='ng-choice'
                 onClick={() => {
                   navigate(item.url)
                 }}
@@ -40,7 +40,7 @@ export const Navigation = () => {
         </div>
         <DropDownButton />
       </div>
-      <div className='dropdown dropdown-dark'>
+      {/* <div className='dropdown dropdown-dark'>
         <div className='dropdown-line dropdown-line-white'></div>
         <div className='dropdown-menu dropdown-menu-white'>
           <a>
@@ -68,7 +68,7 @@ export const Navigation = () => {
           </a>
           <hr />
         </div>
-      </div>
+      </div> */}
     </div>
   )
 }

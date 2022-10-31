@@ -1,5 +1,6 @@
-.bottom {
-  height: 140px;
+.bottom-content {
+  padding-top: 64px;
+  padding-bottom: 48px;
   width: 100%;
   font-size: x-small;
 }
