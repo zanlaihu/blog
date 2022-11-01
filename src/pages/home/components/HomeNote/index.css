@@ -11,7 +11,7 @@
 .home-note-title {
   text-align: center;
   font-size: 64px;
-  font-weight: 800;
+  font-weight: 500;
   line-height: 64px;
   color: #404040;
   padding-bottom: 48px;
@@ -20,7 +20,7 @@
 .home-note-desc {
   text-align: center;
   font-size: 22px;
-  font-weight: 800;
+  font-weight: 200;
   line-height: 52px;
   color: #404040;
 }
