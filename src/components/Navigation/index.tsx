@@ -34,7 +34,7 @@ const Navigation = () => {
               </div>
             )
           })}
-          <a href='https://github.com/zanlaihu' className='github-content'>
+          <a href='https://github.com/zanlaihu' target="view_window" className='github-content'>
             <div className='github-middle-content'>
               <img src={githubIcon} className='icon'></img>
             </div>

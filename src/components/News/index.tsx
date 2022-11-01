@@ -10,6 +10,7 @@ const News = () => {
         <a
           className='news-old-ng'
           href='https://zanlaihu.github.io/old-blog/index.html'
+          target="view_window"
         >
           进入老站
         </a>

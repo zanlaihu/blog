@@ -27,8 +27,7 @@
 }
 
 .bottom-label {
-  margin: auto;
-  width: 300px;
+  padding-top: 4px;
   text-align: center;
   color: darkgrey;
 }
