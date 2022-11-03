@@ -34,7 +34,18 @@ const Navigation = () => {
               </div>
             )
           })}
-          <a href='https://github.com/zanlaihu' target="view_window" className='github-content'>
+          <a
+            className='ng-pc-choice'
+            href='https://zanlaihu.github.io/old-blog/index.html'
+            target='view_widnow'
+          >
+            前往老站
+          </a>
+          <a
+            href='https://github.com/zanlaihu'
+            target='view_window'
+            className='github-content'
+          >
             <div className='github-middle-content'>
               <img src={githubIcon} className='icon'></img>
             </div>
