@@ -1,4 +1,5 @@
 import LuckyDraw from '../../../../Common/components/LuckyDraw'
+import NgWord from '../../../../components/NgWord'
 import './index.css'
 
 const HomeRecentProject = () => {
@@ -11,7 +12,7 @@ const HomeRecentProject = () => {
           <LuckyDraw />
         </div>
         <div className='home-r-pro-desc'>点中间的GO试一试</div>
-        <div className='home-r-ng'>点我了解更多关于“大转盘”的事</div>
+        <NgWord words='点我了解更多关于“大转盘”的事' url='' />
       </div>
     </div>
   )

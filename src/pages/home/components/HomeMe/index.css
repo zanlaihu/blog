@@ -19,19 +19,8 @@
 .home-me-desc {
   color: white;
   font-size: 25px;
-  font-weight: 800;
+  font-weight: 400;
   text-align: center;
   line-height: 40px;
-}
-
-.home-me-ng {
-  padding-top: 48px;
-  color: rgb(23, 127, 255);
-  font-size: 16px;
-  font-weight: 800;
-  text-align: center;
-  text-decoration: underline;
-  text-decoration-color: rgb(23, 127, 255);
-  text-decoration-thickness: 1px;
-  text-underline-offset: 4px;
+  padding-bottom: 32px;
 }

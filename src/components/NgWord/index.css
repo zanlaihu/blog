@@ -1,0 +1,17 @@
+.ng-word-content {
+  text-align: center;
+}
+
+.ng-word-text {
+  width: auto;
+  display: inline-block;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  color: rgb(48, 124, 255);
+  text-decoration: underline;
+  text-decoration-color: rgb(48, 124, 255);
+  text-decoration-thickness: 1px;
+  text-underline-offset: 2px;
+}
