@@ -9,7 +9,7 @@ const navigationList = [
   { title: <Hu />, url: PAGE_URL.HOME },
   { title: '关于我', url: PAGE_URL.ME },
   { title: '我的项目', url: PAGE_URL.PROJECT },
-  { title: '我的随笔', url: PAGE_URL.NOTE },
+  { title: '我的笔记', url: PAGE_URL.NOTE },
   { title: '关于本站', url: PAGE_URL.ABOUT },
 ]
 

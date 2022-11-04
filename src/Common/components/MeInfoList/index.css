@@ -1,16 +1,17 @@
 .me-info-list-content {
   display: flex;
   flex-direction: row;
-  padding: 16px 0px;
+  padding-top: 22px;
 }
 
 .me-info-list-img-content {
+  padding-top: 6px;
   padding-right: 28px;
 }
 
 .me-info-list-img-wrap {
-  width: 84px;
-  height: 84px;
+  width: 64px;
+  height: 64px;
   background-color: white;
 }
 

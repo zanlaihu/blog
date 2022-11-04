@@ -1,4 +1,4 @@
-import NgWord from '../../../../components/NgWord'
+import NgWord from '../../../../Common/components/NgWord'
 import { PAGE_URL } from '../../../../constants/page-url/router-url'
 import './index.css'
 
