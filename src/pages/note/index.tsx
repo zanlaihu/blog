@@ -1,18 +1,18 @@
 import Bottom from '../../components/Bottom'
 import Navigation from '../../components/Navigation'
 import News from '../../components/News'
-import HomeRecentProject from '../home/components/HomeRecentProject'
+import HomeNote from '../home/components/HomeNote'
 import './index.css'
 
-const Project = () => {
+const Note = () => {
   return (
-    <div className='project-content'>
+    <div className='note-content'>
       <Navigation />
       <News />
-      <HomeRecentProject />
+      <HomeNote />
       <Bottom />
     </div>
   )
 }
 
-export default Project
+export default Note
