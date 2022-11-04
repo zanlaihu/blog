@@ -1,3 +1,4 @@
+import classNames from 'classnames'
 import { FC } from 'react'
 import { useNavigate } from 'react-router-dom'
 import './index.css'
@@ -6,9 +7,10 @@ interface NgWordType {
   words: string
   url?: string
   outlUrl?: string
+  white?: boolean
 }
 
-const NgWord: FC<NgWordType> = ({ words, url, outlUrl }) => {
+const NgWord: FC<NgWordType> = ({ words, url, outlUrl, white }) => {
   const navigate = useNavigate()
 
   function Jump() {
@@ -29,7 +31,14 @@ const NgWord: FC<NgWordType> = ({ words, url, outlUrl }) => {
       }}
       className='ng-word-content'
     >
-      <p className='ng-word-text'>{words}</p>
+      <p
+        className={classNames(
+          'ng-word-text',
+          `${white && 'ng-word-text-white'}`
+        )}
+      >
+        {words}
+      </p>
     </div>
   )
 }

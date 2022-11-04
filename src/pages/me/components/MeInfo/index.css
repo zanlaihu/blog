@@ -1,0 +1,18 @@
+.me-info-content {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  background-color: rgb(245, 245, 245);
+}
+
+.me-info-middle-content {
+  width: 760px;
+}
+
+.me-info-title {
+  font-size: 36px;
+  font-weight: 700;
+  color: rgb(46, 46, 46);
+}

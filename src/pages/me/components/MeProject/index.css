@@ -1,0 +1,33 @@
+.me-project-content {
+  margin-top: 16px;
+  /* background: rgba(0, 0, 0, 0.9); */
+  background-image: linear-gradient(
+    to right,
+    rgb(255, 94, 69),
+    rgb(253, 100, 89),
+    rgb(255, 69, 119),
+    rgb(255, 69, 143)
+  );
+  width: 100%;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.me-project-title {
+  color: white;
+  font-size: 58px;
+  font-weight: 800;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.me-project-desc {
+  color: white;
+  font-size: 25px;
+  font-weight: 400;
+  text-align: center;
+  line-height: 40px;
+  padding-bottom: 32px;
+}

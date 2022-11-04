@@ -1,0 +1,35 @@
+.me-info-list-content {
+  display: flex;
+  flex-direction: row;
+  padding: 16px 0px;
+}
+
+.me-info-list-img-content {
+  padding-right: 28px;
+}
+
+.me-info-list-img-wrap {
+  width: 84px;
+  height: 84px;
+  background-color: white;
+}
+
+.me-info-list-uni {
+  font-size: 26px;
+  font-weight: 400;
+  color: rgb(46, 46, 46);
+  padding-bottom: 4px;
+}
+
+.me-info-list-major {
+  font-size: 20px;
+  font-weight: 200;
+  color: rgb(46, 46, 46);
+  padding-bottom: 8px;
+}
+
+.me-info-list-date {
+  font-size: 16px;
+  font-weight: 200;
+  color: rgb(46, 46, 46);
+}

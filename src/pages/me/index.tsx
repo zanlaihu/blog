@@ -1,9 +1,11 @@
 import Bottom from '../../components/Bottom'
 import Navigation from '../../components/Navigation'
 import News from '../../components/News'
+import MeInfo from './components/MeInfo'
+import MePhoto from './components/MePhoto'
+import MeProject from './components/MeProject'
 import './index.css'
-import MeEdu from './MeEdu'
-import MePhoto from './MePhoto'
+
 
 const Me = () => {
   return (
@@ -11,7 +13,8 @@ const Me = () => {
       <Navigation />
       <News />
       <MePhoto />
-      <MeEdu />
+      <MeInfo />
+      <MeProject />
       <Bottom />
     </div>
   )
