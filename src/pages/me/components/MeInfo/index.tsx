@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import DropDownBar from '../../../../Common/components/DropDownBar'
 import MeInfoList from '../../../../Common/components/MeInfoList'
 import './index.css'
 
@@ -33,38 +34,23 @@ const MeInfo = () => {
             uni={'蚂蚁集团 Ant group'}
             major={'前端工程师 Front-end developer'}
             date={'2021.10 - NOW'}
+            btnName='展开详情'
           />
-          <div className='me-info-detail-btn-content'>
-            <div
-              className='me-info-detail-btn'
-              onClick={() => {
-                setShowAnt(true)
-              }}
-            >
-              展开详情
+          <DropDownBar show={showAnt}>
+            <div className='me-info-detail-content'>
+              <div>钱包产品化（有名新基线）</div>
+              <div>钱包自研组件化</div>
+              <div>Vodapay</div>
             </div>
-          </div>
-          <div className='me-info-detail-content'>
-            <div>钱包产品化（有名新基线）</div>
-            <div>钱包自研组件化</div>
-            <div>Vodapay</div>
-          </div>
+          </DropDownBar>
           <MeInfoList
             photo={''}
             uni={'埃森哲 Accenture'}
             major={'软件工程师 Software engineer'}
             date={'2020.05 - 2021.08'}
+            btnName='展开详情'
           />
-          <div className='me-info-detail-btn-content'>
-            <div
-              className='me-info-detail-btn'
-              onClick={() => {
-                setShowAc(true)
-              }}
-            >
-              展开详情
-            </div>
-          </div>
+          <DropDownBar show={showAc}>123</DropDownBar>
         </div>
       </div>
       <div className='me-info-content'>

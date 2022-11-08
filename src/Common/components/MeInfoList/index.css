@@ -9,6 +9,10 @@
   padding-right: 28px;
 }
 
+.me-info-list-text-content {
+  flex-grow: 1;
+}
+
 .me-info-list-img-wrap {
   width: 64px;
   height: 64px;
@@ -33,4 +37,18 @@
   font-size: 16px;
   font-weight: 200;
   color: rgb(46, 46, 46);
+}
+
+/* .me-info-list-last-line {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+} */
+
+.me-info-list-detail-btn {
+  padding-top: 8px;
+  font-size: 14px;
+  font-weight: 500;
+  color: rgb(48, 124, 255);
+  cursor: pointer;
 }

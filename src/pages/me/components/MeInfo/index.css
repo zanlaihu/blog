@@ -31,16 +31,3 @@
   height: 400px;
   background-color: white;
 }
-
-.me-info-detail-btn-content {
-  display: flex;
-  justify-content: flex-end;
-  flex-direction: row;
-}
-
-.me-info-detail-btn {
-  font-size: 14px;
-  font-weight: 500;
-  color: rgb(48, 124, 255);
-  cursor: pointer;
-}
