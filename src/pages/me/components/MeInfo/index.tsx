@@ -42,25 +42,34 @@ const MeInfo = () => {
               singleDate='主要职责'
               desc={[
                 '根据PRD撰写软件详细设计书，并开发相应功能。配合后端完成联调，并修复测试提出的bug。',
-                '独立开发：KYC、OTC、discount、lucky draw',
+                '按照新的UI稿，重构旧页面。',
+                '项目交付期间，对蚂蚁集团的海外雇员进行工作安排和指导，与海外客户和海外技术团队进行技术沟通。对客户疑问进行解答，并提出解决方案。',
               ]}
             />
             <WorkDetailList
-              startDate={'2022.6'}
-              endDate={'2022.10'}
-              title={'钱包产品化（又名钱包新基线）'}
+              singleDate='经手项目'
               desc={[
-                '根据PRD撰写软件详细设计书，并开发相应功能。配合后端完成联调，并修复测试提出的bug。',
-                '独立开发：KYC、OTC、discount、lucky draw',
+                'C端：KYC、OTC、折扣券支付、大转盘、券详情页、活动详情页',
+                'BO：登录系统',
+                'Vodapay：FAQ页面',
               ]}
             />
             <WorkDetailList
-              startDate={'2022.6'}
-              endDate={'2022.10'}
-              title={'钱包产品化（又名钱包新基线）KYC'}
+              startDate={'2022.'}
+              endDate={'2022.'}
+              title={'大转盘'}
               desc={[
-                '根据PRD撰写软件详细设计书，并开发相应功能。配合后端完成联调，并修复测试提出的bug。',
-                '独立开发：KYC、OTC、discount、lucky draw',
+                '使用大转盘的形式，让用户可以通过抽奖来获得折扣券。',
+                '共包含5个页面：大转盘介绍页、大转盘活动页、奖励列表页、抽奖券列表页、T&C说明页面。是一套可复用的完整的抽奖系统。',
+              ]}
+            />
+            <WorkDetailList
+              startDate={'2022.'}
+              endDate={'2022.'}
+              title={'活动详情页'}
+              desc={[
+                '用于详细展示APP上某项营销活动的页面',
+                '独立的活动详情页面，可以通过APP上的一级入口进入。',
               ]}
             />
           </DropDownBar>

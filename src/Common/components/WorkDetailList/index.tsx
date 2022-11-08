@@ -25,12 +25,15 @@ const WorkDetailList: FC<WorkDetailListType> = ({
       ) : (
         <div className='work-detail-list-date-content'>
           <div className='work-detail-list-date'>{startDate}</div>
-          <div className='work-detail-list-date'>-</div>
+          <div className='work-detail-list-date'>~</div>
           <div className='work-detail-list-date'>{endDate}</div>
         </div>
       )}
       <div className='work-detail-list-text-content'>
         <div className='work-detail-list-title'>{title}</div>
+        {/* {desc.map((item, index) => (
+          <div key={index}>{item}</div>
+        ))} */}
         <ul>
           {desc.map((item, index) => (
             <li key={index}>{item}</li>

@@ -26,6 +26,7 @@ a {
 ul {
   padding: 0px;
   margin: 0px;
+  /* list-style-type: none; */
 }
 
 ul li {
