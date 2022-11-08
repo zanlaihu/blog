@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import DropDownBar from '../../../../Common/components/DropDownBar'
-import MeInfoList from '../../../../Common/components/MeInfoList'
+import MeInfoList from '../../../../components/MeInfoList'
 import WorkDetailList from '../../../../Common/components/WorkDetailList'
 import './index.css'
 
@@ -39,6 +39,7 @@ const MeInfo = () => {
             onClick={() => {
               setShowAnt(!showAnt)
             }}
+            active={showAnt}
           />
           <DropDownBar show={showAnt} height={'400px'}>
             <WorkDetailList

@@ -1,4 +1,6 @@
-import React, { FC, ReactChild } from 'react'
+import classNames from 'classnames'
+import React, { FC } from 'react'
+import detailArrow from '../../Common/icon/detailArrow.svg'
 import './index.css'
 
 interface InsListType {
@@ -8,6 +10,7 @@ interface InsListType {
   date: string
   btnName?: string
   onClick?: (e: React.MouseEvent) => void
+  active?: boolean
 }
 
 const MeInfoList: FC<InsListType> = ({
@@ -17,6 +20,7 @@ const MeInfoList: FC<InsListType> = ({
   date,
   btnName,
   onClick,
+  active,
 }) => {
   return (
     <div className='me-info-list-content'>
@@ -30,8 +34,19 @@ const MeInfoList: FC<InsListType> = ({
         <div className='me-info-list-major'>{major}</div>
         <div className='me-info-list-date'>{date}</div>
         {btnName && (
-          <div className='me-info-list-detail-btn' onClick={onClick}>
-            {btnName}
+          <div className='me-info-list-detail-btn-content'>
+            <div className='me-info-list-detail-btn' onClick={onClick}>
+              {active ? '收回详情' : '展开详情'}
+            </div>
+            <div className='me-info-list-detail-arrow-content'>
+              <img
+                src={detailArrow}
+                className={classNames(
+                  `${active && 'me-info-list-detail-arrow-up'}`,
+                  'me-info-list-detail-arrow'
+                )}
+              ></img>
+            </div>
           </div>
         )}
       </div>
