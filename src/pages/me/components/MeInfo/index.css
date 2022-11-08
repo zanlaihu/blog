@@ -4,7 +4,6 @@
   display: flex;
   justify-content: center;
   flex-direction: row;
-  background-color: rgb(245, 245, 245);
 }
 
 .me-info-middle-content {
@@ -23,7 +22,6 @@
   display: flex;
   justify-content: center;
   flex-direction: row;
-  background-color: rgb(245, 245, 245);
 }
 
 .me-info-skill-img {

@@ -19,6 +19,11 @@
   background-color: white;
 }
 
+.me-info-list-img {
+  width: 64px;
+  height: 64px;
+}
+
 .me-info-list-uni {
   font-size: 26px;
   font-weight: 400;

@@ -5,15 +5,21 @@ import './index.css'
 interface DropDownBarType {
   show: boolean
   children?: ReactNode
+  height: string
 }
 
-const DropDownBar: FC<DropDownBarType> = ({ show, children }) => {
+const DropDownBar: FC<DropDownBarType> = ({ show, children, height }) => {
+  function getHeight() {
+    if (show) {
+      return height
+    } else {
+      return undefined
+    }
+  }
   return (
     <div
-      className={classNames(
-        'drop-down-bar-content',
-        `${show && 'drop-down-bar-show'}`
-      )}
+      className={classNames('drop-down-bar-content')}
+      style={{ height: getHeight() }}
     >
       {children}
     </div>
