@@ -6,7 +6,7 @@ interface WorkDetailListType {
   startDate?: string
   endDate?: string
   title?: string
-  desc: string[]
+  desc?: string[]
 }
 
 const WorkDetailList: FC<WorkDetailListType> = ({
@@ -20,7 +20,7 @@ const WorkDetailList: FC<WorkDetailListType> = ({
     <div className='work-detail-list-content'>
       {singleDate ? (
         <div className='work-detail-list-date-content'>
-          <div className='work-detail-list-date'>{singleDate}</div>
+          <div className='work-detail-list-single-title'>{singleDate}</div>
         </div>
       ) : (
         <div className='work-detail-list-date-content'>
@@ -31,12 +31,9 @@ const WorkDetailList: FC<WorkDetailListType> = ({
       )}
       <div className='work-detail-list-text-content'>
         <div className='work-detail-list-title'>{title}</div>
-        {/* {desc.map((item, index) => (
-          <div key={index}>{item}</div>
-        ))} */}
         <ul>
-          {desc.map((item, index) => (
-            <li key={index}>{item}</li>
+          {desc?.map((item, index) => (
+            <li key={index} className='work-detail-list-item'>{item}</li>
           ))}
         </ul>
       </div>
