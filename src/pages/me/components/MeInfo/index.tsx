@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import DropDownBar from '../../../../Common/components/DropDownBar'
 import MeInfoList from '../../../../Common/components/MeInfoList'
+import WorkDetailList from '../../../../Common/components/WorkDetailList'
 import './index.css'
 
 const MeInfo = () => {
@@ -37,11 +38,31 @@ const MeInfo = () => {
             btnName='展开详情'
           />
           <DropDownBar show={showAnt}>
-            <div className='me-info-detail-content'>
-              <div>钱包产品化（有名新基线）</div>
-              <div>钱包自研组件化</div>
-              <div>Vodapay</div>
-            </div>
+            <WorkDetailList
+              singleDate='主要职责'
+              desc={[
+                '根据PRD撰写软件详细设计书，并开发相应功能。配合后端完成联调，并修复测试提出的bug。',
+                '独立开发：KYC、OTC、discount、lucky draw',
+              ]}
+            />
+            <WorkDetailList
+              startDate={'2022.6'}
+              endDate={'2022.10'}
+              title={'钱包产品化（又名钱包新基线）'}
+              desc={[
+                '根据PRD撰写软件详细设计书，并开发相应功能。配合后端完成联调，并修复测试提出的bug。',
+                '独立开发：KYC、OTC、discount、lucky draw',
+              ]}
+            />
+            <WorkDetailList
+              startDate={'2022.6'}
+              endDate={'2022.10'}
+              title={'钱包产品化（又名钱包新基线）KYC'}
+              desc={[
+                '根据PRD撰写软件详细设计书，并开发相应功能。配合后端完成联调，并修复测试提出的bug。',
+                '独立开发：KYC、OTC、discount、lucky draw',
+              ]}
+            />
           </DropDownBar>
           <MeInfoList
             photo={''}
@@ -50,7 +71,7 @@ const MeInfo = () => {
             date={'2020.05 - 2021.08'}
             btnName='展开详情'
           />
-          <DropDownBar show={showAc}>123</DropDownBar>
+          <DropDownBar show={showAc}></DropDownBar>
         </div>
       </div>
       <div className='me-info-content'>
