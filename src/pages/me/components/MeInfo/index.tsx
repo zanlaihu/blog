@@ -31,7 +31,9 @@ const MeInfo = () => {
             major={'软件工程 学士 (Bachelor of Software engineering)'}
             date={'2018.02 - 2020.02'}
           />
-          <div className={classNames('me-info-title','me-info-title-work')}>Work</div>
+          <div className={classNames('me-info-title', 'me-info-title-work')}>
+            Work
+          </div>
           <MeInfoList
             photo={
               'https://media.licdn.cn/dms/image/C560BAQEMPJh5f4BL0A/company-logo_100_100/0/1598349071448?e=1675900800&v=beta&t=3LupXpN93ZWHfE8u46u_SE8yiZ5s_e00A5o2zXSBcfw'
@@ -102,7 +104,9 @@ const MeInfo = () => {
         </div>
       </div>
       <div className='me-info-skill-content'>
-        <div className='me-info-skill-img'></div>
+        <div className='me-info-skill-img'>
+          <img src='https://www.yuque.com/klaus-rtgrx/gvet1g/zgaufm?inner=zKJgf'></img>
+        </div>
       </div>
     </div>
   )
