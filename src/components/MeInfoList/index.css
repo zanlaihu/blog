@@ -50,12 +50,17 @@
   flex-direction: row;
 }
 
+.me-info-list-detail-click {
+  display: flex;
+  flex-direction: row;
+  cursor: pointer;
+}
+
 .me-info-list-detail-btn {
   padding-right: 4px;
   font-size: 14px;
   font-weight: 500;
   color: rgb(48, 124, 255);
-  cursor: pointer;
   display: inline-block;
   width: auto;
 }

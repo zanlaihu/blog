@@ -1,9 +1,10 @@
 import { useState } from 'react'
 import DropDownBar from '../../../../Common/components/DropDownBar'
 import MeInfoList from '../../../../components/MeInfoList'
-import WorkDetailList from '../../../../Common/components/WorkDetailList'
+import WorkDetailList from '../../../../components/WorkDetailList'
 import './index.css'
-import { AntProjectList } from '../../constants'
+import { AcProjectList, AntProjectList } from '../../constants'
+import classNames from 'classnames'
 
 const MeInfo = () => {
   const [showAnt, setShowAnt] = useState(false)
@@ -30,11 +31,7 @@ const MeInfo = () => {
             major={'软件工程 学士 (Bachelor of Software engineering)'}
             date={'2018.02 - 2020.02'}
           />
-        </div>
-      </div>
-      <div className='me-info-content'>
-        <div className='me-info-middle-content'>
-          <div className='me-info-title'>Work</div>
+          <div className={classNames('me-info-title','me-info-title-work')}>Work</div>
           <MeInfoList
             photo={
               'https://media.licdn.cn/dms/image/C560BAQEMPJh5f4BL0A/company-logo_100_100/0/1598349071448?e=1675900800&v=beta&t=3LupXpN93ZWHfE8u46u_SE8yiZ5s_e00A5o2zXSBcfw'
@@ -42,13 +39,12 @@ const MeInfo = () => {
             uni={'蚂蚁集团 Ant group'}
             major={'前端工程师 Front-end developer'}
             date={'2021.10 - NOW'}
-            btnName='展开详情'
             onClick={() => {
               setShowAnt(!showAnt)
             }}
             active={showAnt}
           />
-          <DropDownBar show={showAnt} height={'1150px'}>
+          <DropDownBar show={showAnt} height={'1280px'}>
             {AntProjectList.map((item, index) =>
               item?.singleDate ? (
                 <WorkDetailList
@@ -74,9 +70,30 @@ const MeInfo = () => {
             uni={'埃森哲 Accenture'}
             major={'软件工程师 Software engineer'}
             date={'2020.05 - 2021.08'}
-            btnName='展开详情'
+            onClick={() => {
+              setShowAc(!showAc)
+            }}
+            active={showAc}
           />
-          <DropDownBar show={showAc} height='300px'></DropDownBar>
+          <DropDownBar show={showAc} height='450px'>
+            {AcProjectList.map((item, index) =>
+              item?.singleDate ? (
+                <WorkDetailList
+                  key={index}
+                  singleDate={item.singleDate}
+                  desc={item.description}
+                />
+              ) : (
+                <WorkDetailList
+                  key={index}
+                  startDate={item.startDate}
+                  endDate={item.endDate}
+                  title={item.title}
+                  desc={item.description}
+                />
+              )
+            )}
+          </DropDownBar>
         </div>
       </div>
       <div className='me-info-content'>
