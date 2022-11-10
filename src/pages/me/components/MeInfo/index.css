@@ -1,4 +1,8 @@
 .me-info-content {
+  padding-bottom: 28px;
+}
+
+.me-info-wrap {
   padding-bottom: 12px;
   display: flex;
   justify-content: center;
@@ -15,7 +19,7 @@
   color: rgb(46, 46, 46);
 }
 
-.me-info-title-work {
+.me-info-title- {
   padding-top: 8px;
 }
 
@@ -28,7 +32,5 @@
 }
 
 .me-info-skill-img {
-  width: 700px;
-  height: 400px;
   background-color: white;
 }

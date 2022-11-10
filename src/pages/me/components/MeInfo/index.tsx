@@ -5,14 +5,15 @@ import WorkDetailList from '../../../../components/WorkDetailList'
 import './index.css'
 import { AcProjectList, AntProjectList } from '../../constants'
 import classNames from 'classnames'
+import NgWord from '../../../../Common/components/NgWord'
 
 const MeInfo = () => {
   const [showAnt, setShowAnt] = useState(false)
   const [showAc, setShowAc] = useState(false)
 
   return (
-    <div>
-      <div className='me-info-content'>
+    <div className='me-info-content'>
+      <div className='me-info-wrap'>
         <div className='me-info-middle-content'>
           <div className='me-info-title'>Education</div>
           <MeInfoList
@@ -96,18 +97,20 @@ const MeInfo = () => {
               )
             )}
           </DropDownBar>
-        </div>
-      </div>
-      <div className='me-info-content'>
-        <div className='me-info-middle-content'>
-          <div className='me-info-title'>Skills</div>
+          <div className={classNames('me-info-title', 'me-info-title-work')}>
+            Skills
+          </div>
         </div>
       </div>
       <div className='me-info-skill-content'>
         <div className='me-info-skill-img'>
-          <img src='https://www.yuque.com/klaus-rtgrx/gvet1g/zgaufm?inner=zKJgf'></img>
+          <img src='https://cdn.marmot-cloud.com/storage/2022/11/10/a77f6937-8d68-49ab-b692-f2e0364da57c.svg'></img>
         </div>
       </div>
+      <NgWord
+        words={'技能树的学习笔记收纳在“我的笔记”中，点此前往'}
+        outlUrl={'https://www.yuque.com/klaus-rtgrx/goy4cy'}
+      ></NgWord>
     </div>
   )
 }
