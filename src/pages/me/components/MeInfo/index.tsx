@@ -32,7 +32,7 @@ const MeInfo = () => {
             major={'软件工程 学士 (Bachelor of Software engineering)'}
             date={'2018.02 - 2020.02'}
           />
-          <div className={classNames('me-info-title', 'me-info-title-work')}>
+          <div className={classNames('me-info-title', 'me-info-title-second')}>
             Work
           </div>
           <MeInfoList
@@ -97,7 +97,7 @@ const MeInfo = () => {
               )
             )}
           </DropDownBar>
-          <div className={classNames('me-info-title', 'me-info-title-work')}>
+          <div className={classNames('me-info-title', 'me-info-title-second')}>
             Skills
           </div>
         </div>
