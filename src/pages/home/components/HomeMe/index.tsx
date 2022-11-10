@@ -1,5 +1,5 @@
 import NgWord from '../../../../Common/components/NgWord'
-import { PAGE_URL } from '../../../../constants/page-url/router-url'
+import { PAGE_URL } from '../../../../constants/pageUrl/router-url'
 import './index.css'
 
 const HomeMe = () => {

@@ -5,15 +5,9 @@ const News = () => {
     <div className='news-content'>
       <div className='news-text'>
         <div>
-          2022年11月4日：新版站点的响应式布局还没做好，建议用PC端浏览。也可点此&nbsp;
+          2022年11月10日：GitHub pages
+          不能原生支持SPA，所以请不要在非主页的页面进行网页刷新
         </div>
-        <a
-          className='news-old-ng'
-          href='https://zanlaihu.github.io/old-blog/index.html'
-          target="view_window"
-        >
-          进入老站
-        </a>
       </div>
     </div>
   )

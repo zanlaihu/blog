@@ -1,7 +1,7 @@
 import React from 'react'
 import './App.css'
 import { Route, Routes } from 'react-router-dom'
-import { PAGE_URL } from './constants/page-url/router-url'
+import { PAGE_URL } from './constants/pageUrl/router-url'
 import Me from './pages/me'
 import Home from './pages/home'
 import Note from './pages/note'

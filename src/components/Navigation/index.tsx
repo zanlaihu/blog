@@ -1,5 +1,5 @@
 import { useNavigate } from 'react-router-dom'
-import { PAGE_URL } from '../../constants/page-url/router-url'
+import { PAGE_URL } from '../../constants/pageUrl/router-url'
 import './index.css'
 import githubIcon from './assets/github-white.svg'
 import { DropDownButton } from '../../Common/components/DropDownButton'
