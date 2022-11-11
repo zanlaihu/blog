@@ -5,7 +5,7 @@ import WorkDetailList from '../../../../components/WorkDetailList'
 import './index.css'
 import { AcProjectList, AntProjectList } from '../../constants'
 import classNames from 'classnames'
-import NgWord from '../../../../Common/components/NgWord'
+import NgWord from '../../../../components/NgWord'
 
 const MeInfo = () => {
   const [showAnt, setShowAnt] = useState(false)

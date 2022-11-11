@@ -25,17 +25,15 @@ const NgWord: FC<NgWordType> = ({ words, url, outlUrl, white }) => {
   }
 
   return (
-    <div
-      onClick={() => {
-        Jump()
-      }}
-      className='ng-word-content'
-    >
+    <div className='ng-word-content'>
       <p
         className={classNames(
           'ng-word-text',
           `${white && 'ng-word-text-white'}`
         )}
+        onClick={() => {
+          Jump()
+        }}
       >
         {words}
       </p>

@@ -1,5 +1,5 @@
 import LuckyDraw from '../../../../Common/components/LuckyDraw'
-import NgWord from '../../../../Common/components/NgWord'
+import NgWord from '../../../../components/NgWord'
 import './index.css'
 
 const HomeRecentProject = () => {
