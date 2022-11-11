@@ -1,0 +1,29 @@
+.about-design-content {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  padding-top: 16px;
+}
+
+.about-design-middle {
+  width: 800px;
+}
+
+.about-design-title {
+  padding-top: 36px;
+  padding-bottom: 36px;
+  font-size: 32px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.about-design-text {
+  text-indent: 2em;
+  font-size: 16px;
+  line-height: 36px;
+}
+
+.about-design-img {
+  padding: 28px 0px;
+  width: 800px;
+}
