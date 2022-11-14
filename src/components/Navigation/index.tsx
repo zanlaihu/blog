@@ -4,84 +4,114 @@ import './index.css'
 import githubIcon from './assets/github-white.svg'
 import { DropDownButton } from '../../Common/components/DropDownButton'
 import Hu from '../../Common/components/Logo'
+import classNames from 'classnames'
+import { useState } from 'react'
 
 const navigationList = [
-  { title: <Hu />, url: PAGE_URL.HOME },
+  { title: '主页', element: <Hu />, url: PAGE_URL.HOME },
   { title: '关于我', url: PAGE_URL.ME },
   { title: '我的项目', url: PAGE_URL.PROJECT },
   { title: '我的笔记', url: PAGE_URL.NOTE },
   { title: '关于本站', url: PAGE_URL.ABOUT },
+  {
+    title: '前往老站',
+    outLink: 'https://zanlaihu.github.io/old-blog/index.html',
+  },
+  {
+    title: 'GitHub',
+    element: (
+      <div className='github-middle-content'>
+        <img src={githubIcon} className='icon'></img>
+      </div>
+    ),
+    outLink: 'https://github.com/zanlaihu',
+  },
 ]
 
 const Navigation = () => {
   // hooks
   const navigate = useNavigate()
+  const [show, setShow] = useState(false)
+
+  function ClickUrl(item: any) {
+    if (item.url) {
+      navigate(item.url)
+    }
+    if (item?.outLink) {
+      window.open(item?.outLink)
+    }
+  }
 
   return (
-    <div className='ng-content'>
+    <div className={classNames('ng-content', `${show && 'ng-content-black'}`)}>
       <div className='ng-pc'>
         <div className='ng-pc-choice-content'>
           {navigationList.map((item, index) => {
-            return (
-              <div
-                key={index}
-                className='ng-pc-choice'
-                onClick={() => {
-                  navigate(item.url)
-                }}
-              >
-                {item.title}
-              </div>
-            )
+            if (item.element) {
+              return (
+                <div
+                  key={index}
+                  className='ng-pc-choice'
+                  onClick={item => {
+                    ClickUrl(item)
+                  }}
+                >
+                  {item.element}
+                </div>
+              )
+            } else {
+              return (
+                <div
+                  key={index}
+                  className='ng-pc-choice'
+                  onClick={item => {
+                    ClickUrl(item)
+                  }}
+                >
+                  {item.title}
+                </div>
+              )
+            }
           })}
-          <a
-            className='ng-pc-choice'
-            href='https://zanlaihu.github.io/old-blog/index.html'
-            target='view_widnow'
-          >
-            前往老站
-          </a>
-          <a
-            href='https://github.com/zanlaihu'
-            target='view_window'
-            className='github-content'
-          >
-            <div className='github-middle-content'>
-              <img src={githubIcon} className='icon'></img>
-            </div>
-          </a>
         </div>
-        <DropDownButton />
       </div>
-      {/* <div className='dropdown dropdown-dark'>
-        <div className='dropdown-line dropdown-line-white'></div>
-        <div className='dropdown-menu dropdown-menu-white'>
-          <a>
-            <p>主页</p>
-          </a>
-          <hr />
-          <a>
-            <p>学习笔记</p>
-          </a>
-          <hr />
-          <a>
-            <p>专业技能</p>
-          </a>
-          <hr />
-          <a>
-            <p>项目经历</p>
-          </a>
-          <hr />
-          <a>
-            <p>关于本站</p>
-          </a>
-          <hr />
-          <a href='https://github.com/zanlaihu'>
-            <p>GitHub</p>
-          </a>
-          <hr />
+      <div className='ng-mobile'>
+        <div className='ng-mobile-text'>
+          <div className='ng-mobile-Placeholder'></div>
+          <Hu />
+          <div
+            onClick={() => {
+              setShow(!show)
+            }}
+          >
+            <DropDownButton />
+          </div>
         </div>
-      </div> */}
+        <div
+          className={classNames(
+            'ng-mobile-dropdown',
+            `${show && 'ng-mobile-dropdown-show'}`
+          )}
+        >
+          <div className='ng-mobile-dropdown-line'></div>
+          {navigationList.map((item, index) => {
+            if (typeof item.title === 'string') {
+              return (
+                <div className='ng-mogile-dropdown-text-content'>
+                  <div
+                    className='ng-mobile-dropdown-text'
+                    onClick={() => {
+                      ClickUrl(item)
+                    }}
+                  >
+                    {item.title}
+                  </div>
+                </div>
+              )
+            }
+          })}
+        </div>
+      </div>
     </div>
   )
 }

@@ -7,6 +7,9 @@
   cursor: pointer;
   color: #e9e9e9ee;
   transition: 0.3s;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
 }
 
 .logo:hover {

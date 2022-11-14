@@ -5,8 +5,7 @@ const News = () => {
     <div className='news-content'>
       <div className='news-text'>
         <div>
-          2022年11月10日：GitHub pages
-          不能原生支持SPA，所以请不要在非主页的页面进行网页刷新
+          GitHub pages 不支持SPA，所以请不要刷新页面
         </div>
       </div>
     </div>

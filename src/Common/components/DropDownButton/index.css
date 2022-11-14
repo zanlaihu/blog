@@ -1,8 +1,5 @@
 .inner-header-icon {
-  position: absolute;
-  top: 0px;
-  right: -10px;
-  display: none;
+  position: relative;
   height: 40px;
   font-size: 25px;
   text-align: center;
@@ -17,10 +14,6 @@
   width: 25px;
   height: 1px;
   background-color: rgb(235, 235, 235);
-}
-
-.inner-header-icon-unhome span {
-  background-color: rgba(24, 24, 24, 0.548);
 }
 
 .inner-header-icon span:nth-child(1) {
@@ -94,11 +87,5 @@
 
   100% {
     transform: translateY(4px) rotate(0deg);
-  }
-}
-
-@media screen and (min-width: 0px) and (max-width: 900px) {
-  .inner-header-icon {
-    display: inline;
   }
 }

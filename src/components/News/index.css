@@ -1,6 +1,14 @@
 /* 顶端的warmmings */
 .news-content {
   width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.news-text {
+  width: 100%;
+  min-width: 700px;
   background-image: linear-gradient(
     to right,
     rgb(120, 221, 252),
@@ -8,9 +16,6 @@
     rgb(69, 143, 255),
     rgb(140, 69, 255)
   );
-}
-
-.news-text {
   margin: auto;
   line-height: 26px;
   color: white;
@@ -41,5 +46,3 @@
     rgb(243, 229, 200)
   );
 }
-
-
