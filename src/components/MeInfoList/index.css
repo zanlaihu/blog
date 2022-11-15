@@ -80,3 +80,15 @@
 .me-info-list-detail-arrow-up {
   transform: rotate(180deg);
 }
+
+@media screen and (min-width: 0px) and (max-width: 900px) {
+  .me-info-list-uni {
+    font-size: 16px;
+  }
+  .me-info-list-major {
+    font-size: 14px;
+  }
+  .me-info-list-date {
+    font-size: 14px;
+  }
+}

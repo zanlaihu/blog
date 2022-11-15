@@ -31,3 +31,14 @@
   line-height: 40px;
   padding-bottom: 32px;
 }
+
+@media screen and (min-width: 0px) and (max-width: 900px) {
+  .me-project-title {
+    font-size: 36px;
+  }
+
+  .me-project-desc {
+    font-size: 18px;
+    line-height: 24px;
+  }
+}
