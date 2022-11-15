@@ -2,16 +2,17 @@
   display: flex;
   justify-content: center;
   flex-direction: row;
-  padding-top: 16px;
+  padding: 16px;
 }
 
 .about-design-middle {
-  width: 900px;
+  padding: 0px 16px;
+  width: 100%;
+  max-width: 900px;
 }
 
 .about-design-title {
-  padding-top: 36px;
-  padding-bottom: 36px;
+  padding: 36px 0px;
   font-size: 42px;
   font-weight: 700;
   text-align: center;
@@ -23,7 +24,24 @@
   line-height: 36px;
 }
 
+.about-design-img-content {
+  overflow-x: auto;
+}
+
 .about-design-img {
   padding: 28px 0px;
   width: 900px;
+}
+
+@media screen and (min-width: 0px) and (max-width: 900px) {
+  .about-design-title {
+    font-size: 28px;
+    line-height: 28px;
+    padding: 28px 0px;
+  }
+
+  .about-design-text {
+    font-size: 14px;
+    line-height: 32px;
+  }
 }

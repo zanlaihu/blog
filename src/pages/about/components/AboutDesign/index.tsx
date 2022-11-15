@@ -7,7 +7,7 @@ const AboutDesign = () => {
     '那位面试官很友好，一直在试图挖掘我身上的一些闪光点，但最终没有达到他的预期。一方面是那时候掌握的知识点不够而且和他需求不匹配。另一方面也是自己的表达能力有待提高。所以他无比沮丧的问了这一句话。',
     '也因为这句话，让我萌生了建立这个网站的想法。',
     '做这个网站，是为了让他人可以更好地了解和判断我是不是贵司需要的人。',
-    '并且，我是一个前端开发人员，那么做一个自己的网站，也是一个很好地展示个人能力的方式。'
+    '并且，我是一个前端开发人员，那么做一个自己的网站，也是一个很好地展示个人能力的方式。',
   ]
   const para1 = [
     '一开始只是想单纯做一个简历页面。在做的过程中我发现还可以使用它来展示项目，和统一展示一些学习笔记。',
@@ -26,9 +26,7 @@ const AboutDesign = () => {
   return (
     <div className='about-design-content'>
       <div className='about-design-middle'>
-        <div className='about-design-title'>
-          为什么要建立本站
-        </div>
+        <div className='about-design-title'>为什么要建立本站</div>
         {showpara.map((item, index) => (
           <div className='about-design-text' key={index}>
             {item}
@@ -40,7 +38,12 @@ const AboutDesign = () => {
             {item}
           </div>
         ))}
-        <img src="https://cdn.marmot-cloud.com/storage/2022/11/11/20fe916f-ac14-4ecc-853a-08546597b21d.svg" className='about-design-img'></img>
+        <div className='about-design-img-content'>
+          <img
+            src='https://cdn.marmot-cloud.com/storage/2022/11/11/20fe916f-ac14-4ecc-853a-08546597b21d.svg'
+            className='about-design-img'
+          ></img>
+        </div>
         {para2.map((item, index) => (
           <div className='about-design-text' key={index}>
             {item}
