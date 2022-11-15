@@ -12,7 +12,7 @@ const HomeRecentProject = () => {
           <LuckyDraw />
         </div>
         <div className='home-r-pro-desc'>点中间的GO试一试</div>
-        <NgWord words='点我了解更多关于“大转盘”的事' url='' />
+        <NgWord words='点我了解更多关于“大转盘”的事' outlUrl='https://www.yuque.com/klaus-rtgrx/goy4cy/ogv3sl' />
       </div>
     </div>
   )

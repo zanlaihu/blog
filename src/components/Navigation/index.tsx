@@ -37,8 +37,8 @@ const Navigation = () => {
     if (item.url) {
       navigate(item.url)
     }
-    if (item?.outLink) {
-      window.open(item?.outLink)
+    if (item.outLink) {
+      window.open(item.outLink)
     }
   }
 
@@ -52,7 +52,7 @@ const Navigation = () => {
                 <div
                   key={index}
                   className='ng-pc-choice'
-                  onClick={item => {
+                  onClick={() => {
                     ClickUrl(item)
                   }}
                 >
@@ -64,7 +64,7 @@ const Navigation = () => {
                 <div
                   key={index}
                   className='ng-pc-choice'
-                  onClick={item => {
+                  onClick={() => {
                     ClickUrl(item)
                   }}
                 >
@@ -94,7 +94,7 @@ const Navigation = () => {
           )}
         >
           <div className='ng-mobile-dropdown-line'></div>
-          {navigationList.map((item, index) => {
+          {navigationList.map((item) => {
             if (typeof item.title === 'string') {
               return (
                 <div className='ng-mogile-dropdown-text-content'>
