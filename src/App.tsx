@@ -7,6 +7,7 @@ import Home from './pages/home'
 import Note from './pages/note'
 import Project from './pages/project'
 import About from './pages/about'
+import MyComponent from './pages/myComponent'
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Route path={PAGE_URL.NOTE} element={<Note />} />
         <Route path={PAGE_URL.ABOUT} element={<About />} />
         <Route path={PAGE_URL.PROJECT} element={<Project />} />
+        <Route path={PAGE_URL.COMPONENT} element={<MyComponent />} />
       </Routes>
     </div>
   )

@@ -2,7 +2,7 @@ import classNames from 'classnames'
 import { useState } from 'react'
 import './index.css'
 
-export const DropDownButton = () => {
+export const MagicCrossButton = () => {
   const [close, setClose] = useState(false)
 
   return (

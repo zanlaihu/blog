@@ -2,8 +2,8 @@ import { useNavigate } from 'react-router-dom'
 import { PAGE_URL } from '../../constants/pageUrl/router-url'
 import './index.css'
 import githubIcon from './assets/github-white.svg'
-import { DropDownButton } from '../../Common/components/DropDownButton'
-import Hu from '../../Common/components/Logo'
+import { MagicCrossButton } from '../../Common/components/MagicCrossButton'
+import Hu from '../Logo'
 import classNames from 'classnames'
 import { useState } from 'react'
 
@@ -12,6 +12,7 @@ const navigationList = [
   { title: '关于我', url: PAGE_URL.ME },
   { title: '我的项目', url: PAGE_URL.PROJECT },
   { title: '我的笔记', url: PAGE_URL.NOTE },
+  // { title: '我的组件', url: PAGE_URL.COMPONENT },
   { title: '关于本站', url: PAGE_URL.ABOUT },
   {
     title: '前往老站',
@@ -84,7 +85,7 @@ const Navigation = () => {
               setShow(!show)
             }}
           >
-            <DropDownButton />
+            <MagicCrossButton />
           </div>
         </div>
         <div

@@ -16,12 +16,14 @@
   font-size: 42px;
   font-weight: 700;
   text-align: center;
+  color: rgb(64, 64, 64);
 }
 
 .about-design-text {
   text-indent: 2em;
   font-size: 16px;
   line-height: 36px;
+  color: rgb(61, 61, 61);
 }
 
 .about-design-img-content {
@@ -35,13 +37,13 @@
 
 @media screen and (min-width: 0px) and (max-width: 900px) {
   .about-design-title {
-    font-size: 28px;
+    font-size: 32px;
     line-height: 28px;
-    padding: 28px 0px;
+    padding: 38px 0px;
   }
 
   .about-design-text {
     font-size: 14px;
-    line-height: 32px;
+    line-height: 34px;
   }
 }
