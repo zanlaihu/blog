@@ -11,7 +11,7 @@ const navigationList = [
   { title: '主页', element: <Hu />, url: PAGE_URL.HOME },
   { title: '关于我', url: PAGE_URL.ME },
   { title: '我的项目', url: PAGE_URL.PROJECT },
-  { title: '我的笔记', url: PAGE_URL.NOTE },
+  { title: '我的笔记', outLink: 'https://www.yuque.com/klaus-rtgrx/goy4cy' },
   // { title: '我的组件', url: PAGE_URL.COMPONENT },
   { title: '关于本站', url: PAGE_URL.ABOUT },
   {
