@@ -47,11 +47,11 @@
 
 @media screen and (min-width: 0px) and (max-width: 900px) {
   .work-detail-list-date {
-    font-size: 8px;
+    font-size: 14px;
     /* font-weight: 400; */
   }
   .work-detail-list-text-content {
-    font-size: 8px;
+    font-size: 12px;
     /* font-weight: 400; */
   }
 }
