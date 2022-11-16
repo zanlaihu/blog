@@ -34,11 +34,11 @@
 
 @media screen and (min-width: 0px) and (max-width: 900px) {
   .me-project-title {
-    font-size: 36px;
+    font-size: 44px;
   }
 
   .me-project-desc {
-    font-size: 18px;
+    font-size: 22px;
     line-height: 24px;
   }
 }
