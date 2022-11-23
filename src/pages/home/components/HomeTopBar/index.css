@@ -10,10 +10,6 @@
   margin-bottom: 16px;
 }
 
-.home-content {
-  padding-top: 40px;
-}
-
 .rotate-content {
   display: flex;
   justify-content: center;
@@ -46,7 +42,7 @@
 }
 
 .home-welcome-title-ch {
-  font-size: 65px;
+  font-size: 84px;
   font-weight: 800;
   width: 100%;
   display: flex;

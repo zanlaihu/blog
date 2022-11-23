@@ -8,22 +8,22 @@
 .about-design-middle {
   padding: 0px 16px;
   width: 100%;
-  max-width: 900px;
+  max-width: 800px;
 }
 
 .about-design-title {
   padding: 36px 0px;
-  font-size: 42px;
+  font-size: 46px;
   font-weight: 700;
   text-align: center;
-  color: rgb(64, 64, 64);
+  color: #1d1d1f;
 }
 
 .about-design-text {
   text-indent: 2em;
-  font-size: 16px;
+  font-size: 17px;
   line-height: 36px;
-  color: rgb(61, 61, 61);
+  color: #1d1d1f;
 }
 
 .about-design-img-content {
@@ -32,7 +32,7 @@
 
 .about-design-img {
   padding: 28px 0px;
-  width: 900px;
+  width: 800px;
 }
 
 @media screen and (min-width: 0px) and (max-width: 900px) {
