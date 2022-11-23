@@ -16,9 +16,9 @@
   font-size: 46px;
   font-weight: 700;
   text-align: center;
-  color: #1d1d1f;
+  color: rgb(45, 134, 243);
   text-decoration: wavy underline;
-  text-decoration-color: rgba(23, 128, 255, 0.714);
+  text-decoration-color: rgb(45, 134, 243);
   text-decoration-thickness: 2px;
   text-underline-offset: 8px;
 }
