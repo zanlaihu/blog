@@ -88,18 +88,22 @@ const LuckyDraw = () => {
 
     const response = await getTargetDegree()
     if (response?.targetDegree) {
-      let rotateDeg = 0
-      // 递归计算下次要转到的度数
-      let i = 0
-      const _fn = (n = 0) => {
-        if (response?.targetDegree + 360 * n > startRotateDeg) {
-          rotateDeg = response?.targetDegree + 360 * n
-        } else {
-          i++
-          _fn(i)
-        }
+      // let rotateDeg = 0
+      // // 递归计算下次要转到的度数
+      // let i = 0
+      // const _fn = (n = 0) => {
+      //   if (response?.targetDegree + 360 * n > startRotateDeg) {
+      //     rotateDeg = response?.targetDegree + 360 * n
+      //   } else {
+      //     i++
+      //     _fn(i)
+      //   }
+      // }
+      // _fn()
+      let rotateDeg = response?.targetDegree + 360;
+      while (rotateDeg <= startRotateDeg) {
+        rotateDeg = rotateDeg + 360;
       }
-      _fn()
 
       // 获取转盘实例
       const ele = document.getElementById('turntable') as HTMLElement
