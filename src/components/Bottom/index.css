@@ -19,7 +19,9 @@
 }
 
 .contact-title {
+  padding-bottom: 8px;
   height: 20px;
+  font-weight: 500;
   color: rgb(128, 128, 128);
 }
 

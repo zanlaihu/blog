@@ -14,7 +14,7 @@ const Me = () => {
       <News />
       <MePhoto />
       <MeInfo />
-      <MeProject />
+      {/* <MeProject /> */}
       <Bottom />
     </div>
   )
