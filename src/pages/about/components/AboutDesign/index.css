@@ -2,12 +2,20 @@
   display: flex;
   justify-content: center;
   flex-direction: row;
-  padding: 16px 0px 0px;
+  padding: 16px;
+  background-image: linear-gradient(
+    to right,
+    rgb(120, 221, 252),
+    rgb(69, 171, 255),
+    rgb(69, 143, 255),
+    rgb(140, 69, 255)
+  );
 }
 
 .about-design-middle {
-  padding: 32px 70px 64px;
-  width: 800px;
+  padding: 32px 100px;
+  width: 100%;
+  max-width: 700px;
   background-color: white;
   border-radius: 48px;
 }
@@ -41,6 +49,16 @@
 }
 
 @media screen and (min-width: 0px) and (max-width: 900px) {
+  .about-design-content {
+    padding-bottom: 0px;
+  }
+
+  .about-design-middle {
+    padding: 32px 16px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+
   .about-design-title {
     font-size: 36px;
     line-height: 28px;
