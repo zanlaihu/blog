@@ -2,25 +2,26 @@
   display: flex;
   justify-content: center;
   flex-direction: row;
-  padding: 16px;
+  padding: 16px 0px 0px;
 }
 
 .about-design-middle {
-  padding: 0px 16px;
-  width: 100%;
-  max-width: 800px;
+  padding: 32px 70px 64px;
+  width: 800px;
+  background-color: white;
+  border-radius: 48px;
 }
 
 .about-design-title {
-  padding: 36px 0px;
+  padding: 36px 0px 24px;
   font-size: 46px;
   font-weight: 700;
   text-align: center;
-  color: rgb(45, 134, 243);
+  color: rgba(0, 0, 0, 0.859);
   text-decoration: wavy underline;
   text-decoration-color: rgb(45, 134, 243);
   text-decoration-thickness: 2px;
-  text-underline-offset: 8px;
+  text-underline-offset: 12px;
 }
 
 .about-design-text {
