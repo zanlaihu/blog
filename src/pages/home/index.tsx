@@ -14,8 +14,8 @@ const Home = () => {
       <Navigation />
       <HomeTopBar />
       <HomeRecentProject />
-      <HomeMe />
       <HomeNote />
+      <HomeMe />
       <Bottom />
     </div>
   )
