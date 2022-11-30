@@ -8,7 +8,7 @@ import { useState } from 'react'
 
 const navigationList = [
   // { title: 'Projects', url: PAGE_URL.PROJECT },
-  { title: 'Notes', outLink: 'https://www.yuque.com/klaus-rtgrx/goy4cy' },
+  { title: 'Docs', outLink: 'https://www.yuque.com/klaus-rtgrx/goy4cy' },
   { title: 'About', url: PAGE_URL.ABOUT },
   { title: 'GitHub', outLink: 'https://github.com/zanlaihu' },
 ]
