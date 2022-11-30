@@ -8,20 +8,10 @@ import classNames from 'classnames'
 import { useState } from 'react'
 
 const navigationList = [
-  { title: 'Projects', url: PAGE_URL.PROJECT },
+  // { title: 'Projects', url: PAGE_URL.PROJECT },
   { title: 'Notes', outLink: 'https://www.yuque.com/klaus-rtgrx/goy4cy' },
-  // { title: '我的组件', url: PAGE_URL.COMPONENT },
   { title: 'About', url: PAGE_URL.ABOUT },
   { title: 'GitHub' },
-  // {
-  //   title: 'GitHub',
-  //   element: (
-  //     <div className='github-middle-content'>
-  //       <img src={githubIcon} className='icon'></img>
-  //     </div>
-  //   ),
-  //   outLink: 'https://github.com/zanlaihu',
-  // },
 ]
 
 const Navigation = () => {
