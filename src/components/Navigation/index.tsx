@@ -12,6 +12,7 @@ const navigationList = [
   { title: 'Notes', outLink: 'https://www.yuque.com/klaus-rtgrx/goy4cy' },
   // { title: '我的组件', url: PAGE_URL.COMPONENT },
   { title: 'About', url: PAGE_URL.ABOUT },
+  { title: 'GitHub' },
   // {
   //   title: 'GitHub',
   //   element: (
@@ -43,9 +44,8 @@ const Navigation = () => {
         <div className='ng-pc-choice-content'>
           <div className='ng-pc-choice-left-content'>
             <div
-              className='ng-pc-choice'
               onClick={() => {
-                ClickUrl(PAGE_URL.HOME)
+                navigate(PAGE_URL.HOME)
               }}
             >
               <Hu />
@@ -65,16 +65,6 @@ const Navigation = () => {
                 </div>
               )
             })}
-            <div
-              className='ng-pc-choice'
-              onClick={() => {
-                ClickUrl('https://zanlaihu.github.io/old-blog/index.html')
-              }}
-            >
-              <div className='github-middle-content'>
-                <img src={githubIcon} className='icon'></img>
-              </div>
-            </div>
           </div>
         </div>
       </div>
