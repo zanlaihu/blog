@@ -2,17 +2,14 @@
   position: fixed;
   top: 0;
   width: 100%;
-  height: 44px;
+  height: 64px;
   z-index: 10;
-  background: rgba(0, 0, 0, 0.8);
+  background: #ffffffcc;
   transition-delay: 0.3s;
   transition: background 0.36s;
   -webkit-backdrop-filter: blur(10px);
   backdrop-filter: blur(10px);
-}
-
-.ng-content-black {
-  background: #000;
+  box-shadow: inset 0 -1px 0 0 rgba(0, 0, 0, 0.1);
 }
 
 .ng-pc {
@@ -25,16 +22,26 @@
 .ng-pc-choice-content {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
-  width: 600px;
+  justify-content: space-between;
+  width: 1200px;
+}
+
+.ng-pc-choice-left-content {
+
+}
+
+.ng-pc-choice-right-content {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
 }
 
 .ng-pc-choice {
-  width: 60px;
+  width: 100px;
   text-align: center;
-  font-size: 12px;
-  font-weight: 500;
-  color: #e0e0e0ee;
+  font-size: 14px;
+  font-weight: 400;
+  color: #666666;
   cursor: pointer;
   transition: 0.2s;
   display: flex;
@@ -43,7 +50,7 @@
 }
 
 .ng-pc-choice:hover {
-  color: #ffffff;
+  color: #000;
 }
 
 .github-content {

@@ -1,11 +1,12 @@
 .logo {
   width: 57px;
-  height: 44px;
-  line-height: 44px;
-  font-size: 25px;
+  height: 64px;
+  line-height: 64px;
+  font-size: 30px;
+  font-weight: 600;
   font-family: dacing-script;
   cursor: pointer;
-  color: #e9e9e9ee;
+  color: #000;
   transition: 0.3s;
   display: flex;
   justify-content: center;
