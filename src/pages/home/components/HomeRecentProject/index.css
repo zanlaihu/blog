@@ -16,7 +16,7 @@
   font-size: 18px;
   font-weight: 200;
   text-align: center;
-  /* background-image: linear-gradient(
+  background-image: linear-gradient(
     90deg,
     rgb(235, 105, 255) 0%,
     rgb(78, 208, 255) 40%,
@@ -25,8 +25,8 @@
   );
   background-clip: text;
   -webkit-background-clip: text;
-  color: transparent; */
-  color: rgba(0, 0, 0, 0.9);
+  color: transparent;
+  /* color: rgba(0, 0, 0, 0.9); */
 }
 
 .home-r-pro-name {

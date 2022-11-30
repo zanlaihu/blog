@@ -10,13 +10,8 @@ const HomeTopBar = () => {
         </div>
       </div>
       <div className='home-top-bar'>
-        <div className='home-welcome-title-ch'>
-          <div className='home-ch-underline'>欢迎</div>来到我的小站
-        </div>
-        <div className='home-welcome-title-eg'>
-          Welcome to my&nbsp;
-          <div className='home-ch-underline'>tiny website</div>
-        </div>
+        <div className='home-welcome-title-ch'>欢迎来到我的小站</div>
+        <div className='home-welcome-title-eg'>Welcome to my website</div>
       </div>
     </div>
   )
