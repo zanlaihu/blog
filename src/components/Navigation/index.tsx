@@ -1,7 +1,6 @@
 import { useNavigate } from 'react-router-dom'
 import { PAGE_URL } from '../../constants/pageUrl/router-url'
 import './index.css'
-import githubIcon from './assets/github-white.svg'
 import { MagicCrossButton } from '../../Common/components/MagicCrossButton'
 import Hu from '../Logo'
 import classNames from 'classnames'
@@ -11,7 +10,7 @@ const navigationList = [
   // { title: 'Projects', url: PAGE_URL.PROJECT },
   { title: 'Notes', outLink: 'https://www.yuque.com/klaus-rtgrx/goy4cy' },
   { title: 'About', url: PAGE_URL.ABOUT },
-  { title: 'GitHub' },
+  { title: 'GitHub', outLink: 'https://github.com/zanlaihu' },
 ]
 
 const Navigation = () => {
