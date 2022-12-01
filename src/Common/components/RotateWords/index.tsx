@@ -5,7 +5,7 @@ interface RotateWordsProps {}
 
 const RotateWords: FC<RotateWordsProps> = () => {
   const circleStr =
-    '</><></><></><></><></><></><></><></><></><></><></><></><></>'
+    '</><></><></><></><></><></><></><></><></><></><></><></><></></><></></><></>'
 
   const dot = ' . . / . . / '
   const brace = ' { { {  } } }'
