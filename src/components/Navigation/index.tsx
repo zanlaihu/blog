@@ -8,9 +8,12 @@ import { useState } from 'react'
 
 const navigationList = [
   // { title: 'Projects', url: PAGE_URL.PROJECT },
-  { title: 'Docs', outLink: 'https://www.yuque.com/klaus-rtgrx/goy4cy' },
-  { title: 'About', url: PAGE_URL.ABOUT },
-  { title: 'GitHub', outLink: 'https://github.com/zanlaihu' },
+  {
+    title: <div>Docs</div>,
+    outLink: 'https://www.yuque.com/klaus-rtgrx/goy4cy',
+  },
+  { title: <div>About</div>, url: PAGE_URL.ABOUT },
+  { title: <div>GitHub</div>, outLink: 'https://github.com/zanlaihu' },
 ]
 
 const Navigation = () => {
@@ -51,6 +54,7 @@ const Navigation = () => {
                   }}
                 >
                   {item.title}
+                  {item.outLink && <div></div>}
                 </div>
               )
             })}
