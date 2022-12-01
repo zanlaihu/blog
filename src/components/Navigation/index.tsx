@@ -4,7 +4,7 @@ import './index.css'
 import { MagicCrossButton } from '../../Common/components/MagicCrossButton'
 import Hu from '../Logo'
 import classNames from 'classnames'
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 
 const navigationList = [
   // { title: 'Projects', url: PAGE_URL.PROJECT },
@@ -29,6 +29,29 @@ const Navigation = () => {
       window.open(item.outLink)
     }
   }
+
+  function disableScroll() {
+    // To get the scroll position of current webpage
+    const TopScroll = window.pageYOffset || document.documentElement.scrollTop
+    const LeftScroll = window.pageXOffset || document.documentElement.scrollLeft
+
+    // if scroll happens, set it to the previous value
+    window.onscroll = function () {
+      window.scrollTo(LeftScroll, TopScroll)
+    }
+  }
+
+  function enableScroll() {
+    window.onscroll = function () {}
+  }
+
+  useEffect(() => {
+    if (show) {
+      disableScroll()
+    } else {
+      enableScroll()
+    }
+  }, [show])
 
   return (
     <div className={'ng-content'}>
@@ -80,22 +103,18 @@ const Navigation = () => {
           )}
         >
           <div className='ng-mobile-dropdown-line'></div>
-          {navigationList.map(item => {
-            if (typeof item.title === 'string') {
-              return (
-                <div className='ng-mogile-dropdown-text-content'>
-                  <div
-                    className='ng-mobile-dropdown-text'
-                    onClick={() => {
-                      ClickUrl(item)
-                    }}
-                  >
-                    {item.title}
-                  </div>
-                </div>
-              )
-            }
-          })}
+          {navigationList.map(item => (
+            <div className='ng-mogile-dropdown-text-content'>
+              <div
+                className='ng-mobile-dropdown-text'
+                onClick={() => {
+                  ClickUrl(item)
+                }}
+              >
+                {item.title}
+              </div>
+            </div>
+          ))}
         </div>
       </div>
     </div>

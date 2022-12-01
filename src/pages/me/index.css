@@ -3,3 +3,12 @@
   overflow: hidden;
   padding-top: 64px;
 }
+
+@media screen and (max-width: 910px) {
+}
+@media screen and (min-width: 911px) and (max-width: 1199px) {
+}
+@media screen and (min-width: 1200px) and (max-width: 1792px) {
+}
+@media screen and (min-width: 1793px) {
+}
