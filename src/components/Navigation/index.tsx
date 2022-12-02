@@ -54,7 +54,7 @@ const Navigation = () => {
   }, [show])
 
   return (
-    <div className={'ng-content'}>
+    <div className={classNames('ng-content', `${show && 'ng-content-white'}`)}>
       <div className='ng-pc'>
         <div className='ng-pc-choice-content'>
           <div className='ng-pc-choice-left-content'>
