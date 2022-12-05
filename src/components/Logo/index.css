@@ -12,3 +12,15 @@
   justify-content: center;
   flex-direction: row;
 }
+
+@media screen and (max-width: 910px) {
+  .logo {
+    font-weight: 500;
+  }
+}
+@media screen and (min-width: 911px) and (max-width: 1199px) {
+}
+@media screen and (min-width: 1200px) and (max-width: 1792px) {
+}
+@media screen and (min-width: 1793px) {
+}

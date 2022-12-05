@@ -93,12 +93,14 @@
     font-weight: 500;
     width: 100%;
     text-align: center;
+    color: rgba(0, 0, 0, 0.8);
   }
   .home-welcome-title-eg {
     font-size: 24px;
     width: 100%;
     text-align: center;
     letter-spacing: 2px;
+    color: rgba(0, 0, 0, 0.8);
   }
   .home-welcome-desc {
     display: none;
