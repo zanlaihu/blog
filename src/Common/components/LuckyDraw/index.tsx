@@ -3,68 +3,82 @@ import { useState } from 'react'
 import './index.css'
 
 const LuckyDraw = () => {
-  const backgroundUrl = 'https://cdn.marmot-cloud.com/storage/2022/9/8/a0f11c0d-b57b-478e-93d5-53cd355cc1ab.svg'
-  const pointImgSrc = 'https://cdn.marmot-cloud.com/storage/2022/9/8/813f75f7-ad9f-4d44-82e0-9a931c68a16d.svg'
-  const playButtonImgSrc = 'https://cdn.marmot-cloud.com/storage/2022/9/8/4da54754-cdcb-4db3-a392-3e4399278999.svg'
+  const backgroundUrl =
+    'https://cdn.marmot-cloud.com/storage/2022/9/8/a0f11c0d-b57b-478e-93d5-53cd355cc1ab.svg'
+  const pointImgSrc =
+    'https://cdn.marmot-cloud.com/storage/2022/9/8/813f75f7-ad9f-4d44-82e0-9a931c68a16d.svg'
+  const playButtonImgSrc =
+    'https://cdn.marmot-cloud.com/storage/2022/9/8/4da54754-cdcb-4db3-a392-3e4399278999.svg'
   const active = true
   const prizeList: any[] = [
     {
+      'blankPrize': true,
+      'imgSrc':
+        'http://marketingmng-public.oss-cn-hzfinance.aliyuncs.com/5a33e41e-1062-4207-92b8-2115b1955cb0_369424024324392_prize01.png?Expires=4824428262&OSSAccessKeyId=LTAI5tJVdEYimQ7awwzsGB5A&Signature=N4ovj70SuWiVvL5I64vPGEDxsS0%3D',
+      'prizeId': 'BLANK_PRIZE',
       'prizeSequence': 0,
-      'imgSrc':
-        'https://cdn.marmot-cloud.com/storage/2022/9/29/8e1aa1f6-a4b9-4c9d-a955-fdb70411163c.png',
-      'name': '$15 cashback',
-      'description': 'This is a default description.',
-      'blankPrize': true,
     },
     {
-      'prizeSequence': 1,
-      'imgSrc':
-        'https://cdn.marmot-cloud.com/storage/2022/9/29/65dbb2f1-d6b0-4d32-bfbb-e39945e69c97.png',
-      'name': '$20 coupon',
-      'description': 'This is a default description.',
-      'blankPrize': true,
-    },
-    {
-      'prizeSequence': 2,
-      'imgSrc':
-        'https://cdn.marmot-cloud.com/storage/2022/9/29/160192f9-d10a-4c76-a94f-fc0ae94b1602.png',
-      'name': '$15 voucher',
-      'description': 'This is a default description.',
-      'blankPrize': true,
-    },
-    {
-      'prizeSequence': 3,
-      'imgSrc':
-        'https://cdn.marmot-cloud.com/storage/2022/9/29/5a63f914-a21e-442d-9774-00abf97f979a.png',
-      'name': '$20 discount',
-      'description': 'This is a default description.',
-      'blankPrize': true,
-    },
-    {
-      'prizeSequence': 4,
-      'imgSrc':
-        'https://cdn.marmot-cloud.com/storage/2022/9/29/ca0dfda6-915f-4679-87b8-d88cd24911c8.png',
-      'name': '$10 coupon',
-      'description': 'This is a default description.',
-      'blankPrize': true,
-    },
-    {
-      'prizeSequence': 5,
-      'imgSrc':
-        'https://cdn.marmot-cloud.com/storage/2022/9/29/7f6459ee-deef-43e2-9924-97546a10c8bf.png',
-      'name': '',
-      'description': 'This is a default description.',
       'blankPrize': false,
+      'description':
+        'test desc test desc test desc test desc test desc test desc test desc test desc test desc test desc test desc test desc test desc test desc test desc test desc test desc test desc test desc test desc test desc test desc test desc test desc test desc test desc test desc test desc test desc test desc test desc test desc test desc test desc test desc test desc test desc test desc test desc test desc test desc test desc test desc test desc test desc ',
+      'imgSrc':
+        'http://marketingmng-public.oss-cn-hzfinance.aliyuncs.com/aad82c6b-3990-4288-91a5-61a36b9028a1_369429697530958_prize03.png?Expires=4824428268&OSSAccessKeyId=LTAI5tJVdEYimQ7awwzsGB5A&Signature=UstMEv4ASgs80QHJgfrkVeHDYbU%3D',
+      'name': 'muyu coupon test 11181106',
+      'prizeId': 'PRIZE20221118000000684794',
+      'prizeSequence': 1,
+    },
+    {
+      'blankPrize': false,
+      'description': '',
+      'imgSrc':
+        'http://marketingmng-public.oss-cn-hzfinance.aliyuncs.com/7e892b0c-550c-4a64-a348-4f1997e6ffca_369435293165464_prize05.png?Expires=4824428273&OSSAccessKeyId=LTAI5tJVdEYimQ7awwzsGB5A&Signature=ZJG9R4INpfG3rM8SUHi%2FL9vG55M%3D',
+      'name': 'cashback display 11181451',
+      'prizeId': 'PRIZE20221118000000684805',
+      'prizeSequence': 2,
+    },
+    {
+      'blankPrize': false,
+      'description': '',
+      'imgSrc':
+        'http://marketingmng-public.oss-cn-hzfinance.aliyuncs.com/f9b0f86e-e8ff-43b3-a451-b866ff09edbe_369437743703996_prize04png.png?Expires=4824428276&OSSAccessKeyId=LTAI5tJVdEYimQ7awwzsGB5A&Signature=fXly%2FLLUx75YnhDYibXnmwuXbq8%3D',
+      'name': 'cert display 1181453',
+      'prizeId': 'PRIZE20221118000000684807',
+      'prizeSequence': 3,
+    },
+    {
+      'blankPrize': false,
+      'description':
+        'test desc test desc test desc test desc test desc test desc test desc test desc test desc test desc test desc test desc test desc test desc test desc test desc test desc test desc test desc test desc test desc test desc test desc test desc test desc test desc test desc test desc test desc test desc test desc test desc test desc test desc test desc test desc test desc test desc test desc test desc test desc test desc test desc test desc test desc ',
+      'imgSrc':
+        'http://marketingmng-public.oss-cn-hzfinance.aliyuncs.com/aad82c6b-3990-4288-91a5-61a36b9028a1_369429697530958_prize03.png?Expires=4824428268&OSSAccessKeyId=LTAI5tJVdEYimQ7awwzsGB5A&Signature=UstMEv4ASgs80QHJgfrkVeHDYbU%3D',
+      'name': 'muyu coupon test 11181106',
+      'prizeId': 'PRIZE20221118000000684794',
+      'prizeSequence': 4,
+    },
+    {
+      'blankPrize': false,
+      'description': '',
+      'imgSrc':
+        'http://marketingmng-public.oss-cn-hzfinance.aliyuncs.com/7e892b0c-550c-4a64-a348-4f1997e6ffca_369435293165464_prize05.png?Expires=4824428273&OSSAccessKeyId=LTAI5tJVdEYimQ7awwzsGB5A&Signature=ZJG9R4INpfG3rM8SUHi%2FL9vG55M%3D',
+      'name': 'cashback display 11181451',
+      'prizeId': 'PRIZE20221118000000684805',
+      'prizeSequence': 5,
     },
   ]
 
   const [startRotateDeg, setStartRotateDeg] = useState(0)
 
+  function getRandomPrizeIndex() {
+    return Math.floor(Math.random() * 6)
+  }
+
   async function getTargetDegree() {
     let blankPrize = false
     let name = ''
 
-    const prizeIndex = 1
+    // const prizeIndex = 1
+    const prizeIndex = getRandomPrizeIndex()
     const Denominator = prizeList.length
     let Numerator = 0
     for (let i = 0; i < prizeList.length + 1; i++) {
@@ -100,9 +114,9 @@ const LuckyDraw = () => {
       //   }
       // }
       // _fn()
-      let rotateDeg = response?.targetDegree + 360;
+      let rotateDeg = response?.targetDegree + 360
       while (rotateDeg <= startRotateDeg) {
-        rotateDeg = rotateDeg + 360;
+        rotateDeg = rotateDeg + 360
       }
 
       // 获取转盘实例
