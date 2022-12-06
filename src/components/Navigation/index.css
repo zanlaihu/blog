@@ -56,7 +56,6 @@
 
 .ng-choice-content {
   display: flex;
-  justify-content: center;
   flex-direction: row;
 }
 
@@ -68,7 +67,6 @@
 
 .ng-choice-icon {
   margin-left: 4px;
-  margin-bottom: 2px;
   width: 16px;
 }
 
