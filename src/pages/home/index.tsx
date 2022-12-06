@@ -19,8 +19,8 @@ const Home = () => {
       <Navigation />
       <HomeTopBar />
       <HomeRecentProject />
-      <HomeNote />
-      <HomeMe />
+      {/* <HomeNote /> */}
+      {/* <HomeMe /> */}
       <Bottom />
     </div>
   )
