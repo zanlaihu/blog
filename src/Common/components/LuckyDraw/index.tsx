@@ -7,9 +7,9 @@ const LuckyDraw = () => {
   const backgroundUrl =
     'https://cdn.marmot-cloud.com/storage/2022/9/8/a0f11c0d-b57b-478e-93d5-53cd355cc1ab.svg'
   const pointImgSrc =
-    'https://cdn.marmot-cloud.com/storage/2022/9/8/813f75f7-ad9f-4d44-82e0-9a931c68a16d.svg'
+    'http://marketingmng-public.oss-cn-hzfinance.aliyuncs.com/4222822f-1431-40f5-9d5c-ac17a41a9c0a_369453199436936_img_wheelpointer.png?Expires=4824428291&OSSAccessKeyId=LTAI5tJVdEYimQ7awwzsGB5A&Signature=RysqfaednKjABTQ56KnioGFCOcI%3D'
   const playButtonImgSrc =
-    'https://cdn.marmot-cloud.com/storage/2022/9/8/4da54754-cdcb-4db3-a392-3e4399278999.svg'
+    'http://marketingmng-public.oss-cn-hzfinance.aliyuncs.com/5c417211-3ffc-4700-8acb-c682d9d6f49e_369455728176832_img_wheelbutton.png?Expires=4824428294&OSSAccessKeyId=LTAI5tJVdEYimQ7awwzsGB5A&Signature=sY0rSqRPLzFZlQFooGGZKwEeYCM%3D'
   const active = true
   const prizeList: any[] = [
     {
@@ -155,13 +155,21 @@ const LuckyDraw = () => {
   return (
     <div className='lucky-content'>
       <div className='lucky-back-content' id='turntable'>
-        <img src={backgroundUrl} className='lucky-back-img'></img>
+        <img
+          src={backgroundUrl}
+          className='lucky-back-img'
+          alt='background'
+        ></img>
         <ul>
           {prizeList &&
             prizeList.map((item, index) => {
               return (
                 <li key={index}>
-                  <img src={item?.imgSrc} className='lucky-prize-list'></img>
+                  <img
+                    src={item?.imgSrc}
+                    className='lucky-prize-list'
+                    alt='prize list'
+                  ></img>
                 </li>
               )
             })}
@@ -170,7 +178,7 @@ const LuckyDraw = () => {
       <div
         className={classNames('lucky-point-wrap', `${!active && 'lucky-grey'}`)}
       >
-        <img src={pointImgSrc} className='lucky-point'></img>
+        <img src={pointImgSrc} className='lucky-point' alt='point button'></img>
       </div>
       <div
         className={classNames('lucky-play-wrap', `${!active && 'lucky-grey'}`)}
@@ -181,6 +189,7 @@ const LuckyDraw = () => {
           onClick={() => {
             handleClick()
           }}
+          alt='play button'
         ></img>
       </div>
     </div>

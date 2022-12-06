@@ -54,6 +54,24 @@
   color: #000;
 }
 
+.ng-choice-content {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.np-choice-icon-content {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.ng-choice-icon {
+  margin-left: 4px;
+  margin-bottom: 2px;
+  width: 16px;
+}
+
 .github-content {
   width: 60px;
   display: flex;

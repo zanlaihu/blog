@@ -5,15 +5,26 @@ import { MagicCrossButton } from '../../Common/components/MagicCrossButton'
 import Hu from '../Logo'
 import classNames from 'classnames'
 import { useEffect, useState } from 'react'
+import jump from '../../assets/img/tiaozhuan.svg'
 
 const navigationList = [
   // { title: 'Projects', url: PAGE_URL.PROJECT },
+  // {
+  //   title: <div>Docs</div>,
+  //   outLink: 'https://www.yuque.com/klaus-rtgrx/goy4cy',
+  // },
+  // { title: <div>About</div>, url: PAGE_URL.ABOUT },
   {
-    title: <div>Docs</div>,
-    outLink: 'https://www.yuque.com/klaus-rtgrx/goy4cy',
+    title: (
+      <div className='ng-choice-content'>
+        GitHub
+        <div className='np-choice-icon-content'>
+          <img className='ng-choice-icon' src={jump}></img>
+        </div>
+      </div>
+    ),
+    outLink: 'https://github.com/zanlaihu',
   },
-  { title: <div>About</div>, url: PAGE_URL.ABOUT },
-  { title: <div>GitHub</div>, outLink: 'https://github.com/zanlaihu' },
 ]
 
 const Navigation = () => {
