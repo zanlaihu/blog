@@ -56,10 +56,10 @@
 
 .home-welcome-title-ch {
   color: #000;
-  /* background-image: linear-gradient(180deg, #555, #000);
+  background-image: linear-gradient(180deg, #555, #000);
   background-clip: text;
   -webkit-background-clip: text;
-  color: transparent; */
+  color: transparent;
 }
 
 .home-welcome-title-eg {
@@ -93,7 +93,11 @@
     font-weight: 500;
     width: 100%;
     text-align: center;
-    color: rgba(0, 0, 0, 0.8);
+    /* color: rgba(0, 0, 0, 0.8); */
+    background-image: linear-gradient(180deg, rgba(85, 85, 85, 0.9), rgba(0, 0, 0, 0.9));
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
   }
   .home-welcome-title-eg {
     font-size: 24px;
