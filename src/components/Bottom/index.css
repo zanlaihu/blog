@@ -1,33 +1,28 @@
 .bottom-content {
-  margin-top: 16px;
-  padding-top: 128px;
-  padding-bottom: 64px;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
   width: 100%;
-  font-size: x-small;
-  background-color: rgba(255, 255, 255, 0.99);
+  background-color: #fafafa;
+  padding: 52px 0px;
+  
 }
 
-.bottom-contact {
-  margin: auto;
-  margin-bottom: 30px;
-  width: 70%;
-}
-
-.home-bottom-special {
-  position: relative;
-  bottom: 64px;
+.bottom-middle-content {
+  display: flex;
+  flex-direction: column;
 }
 
 .contact-title {
-  padding-bottom: 8px;
-  height: 20px;
-  font-weight: 500;
-  color: rgb(128, 128, 128);
+  font-size: 14px;
+  padding-bottom: 24px;
+  color: rgb(0, 0, 0);
 }
 
 .contact-message {
-  color: rgb(150, 150, 150);
-  height: 15px;
+  font-size: 14px;
+  color: #666666;
+  padding-bottom: 12px;
 }
 
 .bottom-label {
@@ -37,21 +32,53 @@
 }
 
 .bottom-line {
-  margin: auto;
-  width: 70%;
+  margin-top: 36px;
+  margin-bottom: 8px;
+  width: 100%;
   border: 0.3px solid #dadada;
 }
 
-.unhome-padding {
-  padding: 64px;
-}
-
-@media screen and (min-width: 0px) and (max-width: 1450px) {
-  .bottom-contact {
+@media screen and (max-width: 910px) {
+  .bottom-middle-content {
     width: 90%;
   }
-
+  .contact-title {
+    padding-bottom: 16px;
+  }
+  .contact-message {
+    padding-bottom: 8px;
+  }
+  .bottom-label {
+    padding-top: 4px;
+  }
   .bottom-line {
-    width: 90%;
+    margin-top: 32px;
+  }
+}
+@media screen and (min-width: 911px) and (max-width: 1199px) {
+  .bottom-middle-content {
+    width: 800px;
+  }
+}
+@media screen and (min-width: 1200px) and (max-width: 1792px) {
+  .bottom-middle-content {
+    width: 1000px;
+  }
+  .contact-title {
+    padding-bottom: 16px;
+  }
+  .contact-message {
+    padding-bottom: 8px;
+  }
+  .bottom-label {
+    padding-top: 4px;
+  }
+  .bottom-line {
+    margin-top: 28px;
+  }
+}
+@media screen and (min-width: 1793px) {
+  .bottom-middle-content {
+    width: 1200px;
   }
 }
