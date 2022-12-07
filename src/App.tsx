@@ -14,7 +14,7 @@ function App() {
   return (
     <div className='App'>
       <Routes>
-        <Route path='/' element={<Home />} />
+        <Route path='/*' element={<Home />} />
         {/* <Route path={PAGE_URL.ME} element={<Me />} />
         <Route path={PAGE_URL.NOTE} element={<Note />} />
         <Route path={PAGE_URL.ABOUT} element={<About />} /> */}

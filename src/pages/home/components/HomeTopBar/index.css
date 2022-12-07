@@ -80,6 +80,7 @@
     rgb(var(--gradient-to) / 0.15) 100%
   );
   color: #000;
+  cursor: pointer;
 }
 
 @media screen and (max-width: 910px) {
