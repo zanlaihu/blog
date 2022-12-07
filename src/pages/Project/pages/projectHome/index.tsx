@@ -2,6 +2,7 @@ import { FC } from 'react'
 import Bottom from '../../../../components/Bottom'
 import Navigation from '../../../../components/Navigation'
 import News from '../../../../components/News'
+import TitleTopBar from '../../../../components/TitleTopBar'
 import HomeRecentProject from '../../../home/components/HomeRecentProject'
 import './index.css'
 
@@ -10,6 +11,7 @@ const projectHome: FC = () => {
     <div className='project-content'>
       <Navigation />
       <News />
+      <TitleTopBar title="Project"/>
       <HomeRecentProject />
       <Bottom />
     </div>
