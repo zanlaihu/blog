@@ -8,7 +8,7 @@ import { useEffect, useState } from 'react'
 import jump from '../../assets/img/tiaozhuan.svg'
 
 const navigationList = [
-  // { title: 'Projects', url: PAGE_URL.PROJECT },
+  { title: 'Projects', url: PAGE_URL.PROJECT },
   // {
   //   title: <div>Docs</div>,
   //   outLink: 'https://www.yuque.com/klaus-rtgrx/goy4cy',
@@ -114,8 +114,8 @@ const Navigation = () => {
           )}
         >
           <div className='ng-mobile-dropdown-line'></div>
-          {navigationList.map(item => (
-            <div className='ng-mogile-dropdown-text-content'>
+          {navigationList.map((item, index) => (
+            <div className='ng-mogile-dropdown-text-content' key={index}>
               <div
                 className='ng-mobile-dropdown-text'
                 onClick={() => {

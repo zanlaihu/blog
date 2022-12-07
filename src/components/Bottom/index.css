@@ -16,12 +16,12 @@
 .contact-title {
   font-size: 14px;
   padding-bottom: 24px;
-  color: rgb(0, 0, 0);
+  color: rgba(0, 0, 0, 0.9);
 }
 
 .contact-message {
   font-size: 14px;
-  color: #666666;
+  color: #666666ee;
   padding-bottom: 12px;
 }
 

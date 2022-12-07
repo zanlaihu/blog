@@ -1,17 +1,13 @@
-import Bottom from '../../components/Bottom'
-import Navigation from '../../components/Navigation'
-import News from '../../components/News'
-import HomeRecentProject from '../home/components/HomeRecentProject'
-import './index.css'
+import { Route, Routes } from 'react-router-dom'
+import ProjectLuckyDraw from './pages/luckydraw'
+import ProjectHome from './pages/projectHome/index'
 
 const Project = () => {
   return (
-    <div className='project-content'>
-      <Navigation />
-      <News />
-      <HomeRecentProject />
-      <Bottom />
-    </div>
+    <Routes>
+      <Route path='' element={<ProjectHome />}></Route>
+      <Route path='lucky-draw' element={<ProjectLuckyDraw />}></Route>
+    </Routes>
   )
 }
 
