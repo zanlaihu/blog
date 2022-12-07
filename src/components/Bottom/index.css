@@ -4,7 +4,7 @@
   flex-direction: row;
   width: 100%;
   background-color: #fafafa;
-  padding: 52px 0px;
+  padding: 52px 0px 24px;
   
 }
 
@@ -43,16 +43,16 @@
     width: 90%;
   }
   .contact-title {
-    padding-bottom: 16px;
+    padding-bottom: 14px;
   }
   .contact-message {
-    padding-bottom: 8px;
+    padding-bottom: 4px;
   }
   .bottom-label {
     padding-top: 4px;
   }
   .bottom-line {
-    margin-top: 32px;
+    margin-top: 48px;
   }
 }
 @media screen and (min-width: 911px) and (max-width: 1199px) {
