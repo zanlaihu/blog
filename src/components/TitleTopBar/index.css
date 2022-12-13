@@ -1,6 +1,6 @@
 .titletopbar-content {
   /* height: 300px; */
-  padding-bottom: 64px;
+  padding-bottom: 70px;
   --gradient-from: 247 185 85;
   --gradient-to: 255 0 128;
   background: linear-gradient(180deg, #fff 0, hsla(0, 0%, 100%, 0) 100%),
@@ -42,13 +42,18 @@
   flex-direction: row;
   padding: 8px 0px;
   /* width: auto; */
+  cursor: pointer;
 }
 
 .titletopbar-title {
   padding: 16px 0px;
   font-size: 80px;
-  font-family: Georgia, serif;
   font-weight: 700;
+}
+
+.title-top-bar-desc {
+  color: #555;
+  font-size: 16px;
 }
 
 @media screen and (max-width: 910px) {

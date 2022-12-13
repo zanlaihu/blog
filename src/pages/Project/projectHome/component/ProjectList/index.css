@@ -1,17 +1,20 @@
 .project-list-content {
-    min-height: 50vh;
-    padding: 64px 0px;
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
+  min-height: 50vh;
+  padding: 64px 0px;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
 }
 .project-list-title {
-    font-size: 18px;
-    padding-bottom: 16px;
+  font-size: 32px;
+  padding-bottom: 14px;
+  margin-bottom: 24px;
+  border-bottom: 0.5px solid #d8d8d8;
 }
-.project-list-subtitle{
-    font-size: 14px;
-    color: #3f3f3f;
+.project-list-subtitle {
+  font-size: 16px;
+  color: #3f3f3f;
+  cursor: pointer;
 }
 
 @media screen and (max-width: 910px) {

@@ -1,8 +1,11 @@
+import { useNavigate } from 'react-router-dom'
 import LuckyDraw from '../../../../Common/components/LuckyDraw'
 import NgWord from '../../../../components/NgWord'
+import { PROJECT_URL } from '../../../../constants/router-url'
 import './index.css'
 
 const HomeRecentProject = () => {
+  const navigate = useNavigate()
   return (
     <div className='home-r-content'>
       <div className='home-r-back'>
@@ -12,7 +15,10 @@ const HomeRecentProject = () => {
           <LuckyDraw />
         </div>
         <div className='home-r-pro-desc'>点中间的GO试一试</div>
-        <NgWord words='点我了解更多关于“大转盘”的事' outlUrl='https://www.yuque.com/klaus-rtgrx/goy4cy/ogv3sl' />
+        <NgWord
+          words='点我了解更多关于“大转盘”的事'
+          url={'project/' + PROJECT_URL.LUCKYDRAW}
+        />
       </div>
     </div>
   )

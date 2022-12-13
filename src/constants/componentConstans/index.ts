@@ -1,1 +1,0 @@
-export const newsText = '2022年11月4日：新版站点的响应式布局还没做好，建议用PC端浏览。也可点此&nbsp;'

@@ -1,5 +1,5 @@
 import { useNavigate } from 'react-router-dom'
-import { PAGE_URL } from '../../constants/pageUrl/router-url'
+import { PAGE_URL } from '../../constants/router-url'
 import './index.css'
 import { MagicCrossButton } from '../../Common/components/MagicCrossButton'
 import Hu from '../Logo'

@@ -1,12 +1,13 @@
 import { Route, Routes } from 'react-router-dom'
-import ProjectLuckyDraw from './pages/luckydraw'
-import ProjectHome from './pages/projectHome/index'
+import { PROJECT_URL } from '../../constants/router-url'
+import ProjectLuckyDraw from './luckydraw'
+import ProjectHome from './projectHome/index'
 
 const Project = () => {
   return (
     <Routes>
       <Route path='' element={<ProjectHome />}></Route>
-      <Route path='lucky-draw' element={<ProjectLuckyDraw />}></Route>
+      <Route path={PROJECT_URL.LUCKYDRAW} element={<ProjectLuckyDraw />}></Route>
     </Routes>
   )
 }
