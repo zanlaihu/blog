@@ -97,7 +97,7 @@ const Navigation = () => {
       </div>
       <div className='ng-mobile'>
         <div className='ng-mobile-text'>
-          <div className='ng-mobile-Placeholder'></div>
+          <div className='ng-mobile-placeholder'></div>
           <Hu />
           <div
             onClick={() => {

@@ -15,7 +15,7 @@ const Home = () => {
 
   return (
     <div className='home-content'>
-      <News />
+      {/* <News /> */}
       <Navigation />
       <HomeTopBar />
       <HomeRecentProject />
