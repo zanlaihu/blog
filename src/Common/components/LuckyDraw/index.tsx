@@ -50,21 +50,14 @@ const LuckyDraw = () => {
     }
     setIsRotate(true)
 
+    // 获取目标角度
     const response = getTargetDegree()
     if (response?.targetDegree !== undefined) {
-      // let rotateDeg = 0
-      // // 递归计算下次要转到的度数
-      // let i = 0
-      // const _fn = (n = 0) => {
-      //   if (response?.targetDegree + 360 * n > startRotateDeg) {
-      //     rotateDeg = response?.targetDegree + 360 * n
-      //   } else {
-      //     i++
-      //     _fn(i)
-      //   }
-      // }
-      // _fn()
+
+      // 先给目标角度加上一个360，来保证转盘会顺时针转动
       let rotateDeg = response?.targetDegree + 360
+
+      // 和上次记录的角度作比较，只要小于它，就不断加上360
       while (rotateDeg <= startRotateDeg) {
         rotateDeg = rotateDeg + 360
       }
