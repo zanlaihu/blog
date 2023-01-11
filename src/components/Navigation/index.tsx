@@ -8,12 +8,23 @@ import { useEffect, useState } from 'react'
 import jump from '../../assets/img/tiaozhuan.svg'
 
 const navigationList = [
-  { title: 'Projects', url: PAGE_URL.PROJECT },
+  // { title: 'Projects', url: PAGE_URL.PROJECT },
   // {
   //   title: <div>Docs</div>,
   //   outLink: 'https://www.yuque.com/klaus-rtgrx/goy4cy',
   // },
   // { title: <div>About</div>, url: PAGE_URL.ABOUT },
+  {
+    title: (
+      <div className='ng-choice-content'>
+        Docs
+        <div className='np-choice-icon-content'>
+          <img className='ng-choice-icon' src={jump}></img>
+        </div>
+      </div>
+    ),
+    outLink: 'https://www.yuque.com/klaus-rtgrx/goy4cy',
+  },
   {
     title: (
       <div className='ng-choice-content'>
