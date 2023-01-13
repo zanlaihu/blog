@@ -19,7 +19,7 @@ const HomeTopBar = () => {
         <div className='home-top-text-content'>
           <div className='home-welcome-title-ch'>欢迎来到我的小站</div>
           <div className='home-welcome-desc'>
-            我用这个网站来更直观地展示项目和文章。近期做好的比较有特色的项目会放在首页。
+            我用这个网站来更直观地展示项目。近期做好的比较有特色的项目会放在首页。
           </div>
           <div className='home-welcome-contact-content'>
             <div
