@@ -6,6 +6,7 @@ const HomeOtherProject = () => {
   const navigate = useNavigate()
   return (
     <div className='home-other-project-content'>
+      <div className='home-other-project-big-title'>其他项目</div>
       <div className='home-other-project-title'>企业项目</div>
       <div className='home-other-project-sub-title'>
         这些是往期的企业项目，按照时间顺序越新的排在越前面。
