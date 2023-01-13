@@ -1,0 +1,21 @@
+.table-project-item-content {
+  border: 1px solid #eaeaea;
+  padding: 24px;
+  border-radius: 5px;
+}
+
+.table-project-item-title {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.table-project-item-sub-title {
+  font-size: 15px;
+  padding: 14px 0px;
+  line-height: 24px;
+}
+
+.table-project-item-link {
+    color: #0070f3;
+    font-size: 14px;
+}
