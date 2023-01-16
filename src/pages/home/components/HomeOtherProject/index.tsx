@@ -14,20 +14,20 @@ const HomeOtherProject = () => {
       <div className='home-other-project-table-content'>
         <div className='home-other-project-table'>
           <TableProjectItem
+            title={'批量代发'}
+            subTitle={'批量代发全称批量代发员工工资，是BO中台的功能'}
+            link={'https://www.yuque.com/klaus-rtgrx/goy4cy/od46uvb6ekuzbowc'}
+          />
+          <TableProjectItem
             title={'大转盘'}
             subTitle={'使用大转盘进行抽奖'}
             link={'https://www.yuque.com/klaus-rtgrx/goy4cy/vphvsdbku8qf8oxp'}
           />
           <TableProjectItem
-            title={'批量代发'}
-            subTitle={'批量代发全称批量代发员工工资，是BO中台的功能'}
-            link={'https://www.yuque.com/klaus-rtgrx/goy4cy/od46uvb6ekuzbowc'}
-          />
-          {/* <TableProjectItem
             title={'折扣券支付'}
             subTitle={'使用折扣券抵扣支付金额，是钱包APP的核心功能之一'}
-            link={''}
-          /> */}
+            link={'https://www.yuque.com/klaus-rtgrx/goy4cy/zq8e31vbukahpz5c'}
+          />
           {/* <TableProjectItem
             title={'券详情页'}
             subTitle={'用于展示折扣券详情的页面'}
