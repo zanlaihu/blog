@@ -1,4 +1,5 @@
-import NgWord from '../../../../components/NgWord'
+
+import NgWord from '../../../components/NgWord'
 import './index.css'
 
 const HomeNote = () => {

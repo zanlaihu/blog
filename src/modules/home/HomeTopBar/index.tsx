@@ -1,4 +1,5 @@
-import RotateWords from '../../../../Common/components/RotateWords'
+
+import RotateWords from '../../../Common/components/RotateWords'
 import './index.css'
 
 const HomeTopBar = () => {

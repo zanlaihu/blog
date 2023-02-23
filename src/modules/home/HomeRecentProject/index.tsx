@@ -1,7 +1,7 @@
 import { useNavigate } from 'react-router-dom'
-import LuckyDraw from '../../../../Common/components/LuckyDraw'
-import NgWord from '../../../../components/NgWord'
-import { PROJECT_URL } from '../../../../constants/router-url'
+import LuckyDraw from '../../../Common/components/LuckyDraw'
+import NgWord from '../../../components/NgWord'
+
 import './index.css'
 
 const HomeRecentProject = () => {

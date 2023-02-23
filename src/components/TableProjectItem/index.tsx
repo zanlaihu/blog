@@ -5,18 +5,17 @@ import { useNavigate } from 'react-router-dom'
 import { PAGE_URL } from '../../constants/router-url'
 import rightArrow from '../../assets/img/rightArrow.svg'
 
-interface TableProjectItemProps {
+interface ProjectItemProps {
   title: string
   subTitle: string
   link: string
 }
+interface TableProjectItemProps {
+  item: ProjectItemProps
+}
 
-const TableProjectItem: FC<TableProjectItemProps> = ({
-  title,
-  subTitle,
-  link,
-}) => {
-  const navigate = useNavigate()
+const TableProjectItem = (props: TableProjectItemProps) => {
+  const { title, subTitle, link } = props.item
 
   return (
     <div

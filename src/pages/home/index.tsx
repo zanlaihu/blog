@@ -1,10 +1,10 @@
 import './index.css'
 import Bottom from '../../components/Bottom'
-import HomeRecentProject from './components/HomeRecentProject'
-import HomeTopBar from './components/HomeTopBar'
 import Navigation from '../../components/Navigation'
 import { useEffect } from 'react'
-import HomeOtherProject from './components/HomeOtherProject'
+import HomeOtherProject from '../../modules/home/HomeOtherProject'
+import HomeRecentProject from '../../modules/home/HomeRecentProject'
+import HomeTopBar from '../../modules/home/HomeTopBar'
 
 const Home = () => {
   useEffect(() => {
