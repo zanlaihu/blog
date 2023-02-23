@@ -13,7 +13,7 @@ const Me = () => {
       <Navigation />
       <News />
       <MePhoto />
-      <MeInfo />
+      {/* <MeInfo /> */}
       {/* <MeProject /> */}
       <Bottom />
     </div>

@@ -1,12 +1,10 @@
 import './index.css'
 import Bottom from '../../components/Bottom'
-import HomeMe from './components/HomeMe'
 import HomeRecentProject from './components/HomeRecentProject'
 import HomeTopBar from './components/HomeTopBar'
-import HomeNote from './components/HomeNote'
 import Navigation from '../../components/Navigation'
-import News from '../../components/News'
 import { useEffect } from 'react'
+import HomeOtherProject from './components/HomeOtherProject'
 
 const Home = () => {
   useEffect(() => {
@@ -15,12 +13,13 @@ const Home = () => {
 
   return (
     <div className='home-content'>
-      <News />
+      {/* <News /> */}
       <Navigation />
       <HomeTopBar />
       <HomeRecentProject />
-      <HomeNote />
-      <HomeMe />
+      <HomeOtherProject />
+      {/* <HomeNote /> */}
+      {/* <HomeMe /> */}
       <Bottom />
     </div>
   )

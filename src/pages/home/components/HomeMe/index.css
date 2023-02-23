@@ -1,47 +1,45 @@
 .home-me-content {
-  margin-top: 16px;
-  margin-bottom: 16px;
-  /* background-image: linear-gradient(
+    display: flex;
+    justify-content: center;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    width: 100%;
+    height: 450px;
+
+    /* background-image: linear-gradient(
     to right,
     rgb(255, 94, 69),
     rgb(253, 100, 89),
     rgb(255, 69, 119),
     rgb(255, 69, 143)
   ); */
-  background-color: black;
-  width: 100%;
-  height: 450px;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
+    background-color: black;
+    flex-direction: column;
 }
-
 .home-me-title {
-  color: white;
-  font-size: 58px;
-  font-weight: 800;
-  text-align: center;
-  padding-bottom: 48px;
+    padding-bottom: 48px;
+    font-size: 58px;
+    font-weight: 800;
+    text-align: center;
+    color: white;
 }
-
 .home-me-desc {
-  color: white;
-  font-size: 24px;
-  font-weight: 400;
-  text-align: center;
-  line-height: 40px;
-  padding-bottom: 32px;
-  padding-left: 32px;
-  padding-right: 32px;
+    padding-right: 32px;
+    padding-bottom: 32px;
+    padding-left: 32px;
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+    color: white;
+    line-height: 40px;
 }
 
-@media screen and (min-width: 0px) and (max-width: 700px) {
-  .home-me-title {
-    font-size: 44px;
-  }
-
-  .home-me-desc {
-    font-size: 22px;
-    line-height: 28px;
-  }
+@media screen and (min-width: 0) and (max-width: 700px) {
+    .home-me-title {
+        font-size: 44px;
+    }
+    .home-me-desc {
+        font-size: 22px;
+        line-height: 28px;
+    }
 }

@@ -1,19 +1,41 @@
 import { useNavigate } from 'react-router-dom'
-import { PAGE_URL } from '../../constants/pageUrl/router-url'
+import { PAGE_URL } from '../../constants/router-url'
 import './index.css'
 import { MagicCrossButton } from '../../Common/components/MagicCrossButton'
 import Hu from '../Logo'
 import classNames from 'classnames'
 import { useEffect, useState } from 'react'
+import jump from '../../assets/img/tiaozhuan.svg'
 
 const navigationList = [
   // { title: 'Projects', url: PAGE_URL.PROJECT },
+  // {
+  //   title: <div>Docs</div>,
+  //   outLink: 'https://www.yuque.com/klaus-rtgrx/goy4cy',
+  // },
+  // { title: <div>About</div>, url: PAGE_URL.ABOUT },
   {
-    title: <div>Docs</div>,
+    title: (
+      <div className='ng-choice-content'>
+        Docs
+        <div className='np-choice-icon-content'>
+          <img className='ng-choice-icon' src={jump}></img>
+        </div>
+      </div>
+    ),
     outLink: 'https://www.yuque.com/klaus-rtgrx/goy4cy',
   },
-  { title: <div>About</div>, url: PAGE_URL.ABOUT },
-  { title: <div>GitHub</div>, outLink: 'https://github.com/zanlaihu' },
+  {
+    title: (
+      <div className='ng-choice-content'>
+        GitHub
+        <div className='np-choice-icon-content'>
+          <img className='ng-choice-icon' src={jump}></img>
+        </div>
+      </div>
+    ),
+    outLink: 'https://github.com/zanlaihu',
+  },
 ]
 
 const Navigation = () => {
@@ -86,7 +108,7 @@ const Navigation = () => {
       </div>
       <div className='ng-mobile'>
         <div className='ng-mobile-text'>
-          <div className='ng-mobile-Placeholder'></div>
+          <div className='ng-mobile-placeholder'></div>
           <Hu />
           <div
             onClick={() => {
@@ -103,8 +125,8 @@ const Navigation = () => {
           )}
         >
           <div className='ng-mobile-dropdown-line'></div>
-          {navigationList.map(item => (
-            <div className='ng-mogile-dropdown-text-content'>
+          {navigationList.map((item, index) => (
+            <div className='ng-mogile-dropdown-text-content' key={index}>
               <div
                 className='ng-mobile-dropdown-text'
                 onClick={() => {
