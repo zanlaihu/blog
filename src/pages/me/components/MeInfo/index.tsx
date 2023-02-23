@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import DropDownBar from '../../../../Common/components/DropDownBar'
+import DropDownBar from '../../../../components/DropDownBar'
 import MeInfoList from '../../../../components/MeInfoList'
 import WorkDetailList from '../../../../components/WorkDetailList'
 import './index.css'
