@@ -1,11 +1,11 @@
+import classNames from 'classnames'
+import { MagicCrossButton } from 'src/Common/components/MagicCrossButton'
+import jump from 'src/assets/img/tiaozhuan.svg'
+import { useEffect, useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { PAGE_URL } from '../../constants/router-url'
-import './index.css'
-import { MagicCrossButton } from '../../Common/components/MagicCrossButton'
 import Hu from '../Logo'
-import classNames from 'classnames'
-import { useEffect, useState } from 'react'
-import jump from '../../assets/img/tiaozhuan.svg'
+import './index.css'
 
 const navigationList = [
   // { title: 'Projects', url: PAGE_URL.PROJECT },

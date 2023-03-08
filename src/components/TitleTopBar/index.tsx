@@ -1,8 +1,7 @@
-import { FC } from 'react'
-import './index.css'
-import leftArrow from '../../assets/img/leftArrow.svg'
 import { useNavigate } from 'react-router-dom'
-import { PAGE_URL } from '../../constants/router-url'
+import leftArrow from 'src/assets/img/leftArrow.svg'
+import { PAGE_URL } from 'src/constants/router-url'
+import './index.css'
 
 interface TitleTopBarProps {
   title: string
@@ -11,7 +10,7 @@ interface TitleTopBarProps {
   desc?: string
 }
 
-const TitleTopBar: FC<TitleTopBarProps> = ({ title, back, backUrl, desc }) => {
+const TitleTopBar = ({ title, desc }: TitleTopBarProps) => {
   const navigate = useNavigate()
 
   return (

@@ -1,11 +1,9 @@
-import { useNavigate } from 'react-router-dom'
 import LuckyDraw from '../../../Common/components/LuckyDraw'
 import NgWord from '../../../components/NgWord'
 
 import './index.css'
 
 const HomeRecentProject = () => {
-  const navigate = useNavigate()
   return (
     <div className='home-r-content'>
       <div className='home-r-back'>

@@ -1,8 +1,4 @@
-import { FC } from 'react'
 import './index.css'
-import leftArrow from '../../assets/img/leftArrow.svg'
-import { useNavigate } from 'react-router-dom'
-import { PAGE_URL } from '../../constants/router-url'
 import rightArrow from '../../assets/img/rightArrow.svg'
 
 interface ProjectItemProps {
