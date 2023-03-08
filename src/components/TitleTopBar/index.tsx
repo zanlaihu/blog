@@ -1,6 +1,6 @@
-import { useNavigate } from 'react-router-dom'
 import leftArrow from 'src/assets/img/leftArrow.svg'
 import { PAGE_URL } from 'src/constants/router-url'
+import { useNavigate } from 'react-router-dom'
 import './index.css'
 
 interface TitleTopBarProps {
@@ -10,8 +10,9 @@ interface TitleTopBarProps {
   desc?: string
 }
 
-const TitleTopBar = ({ title, desc }: TitleTopBarProps) => {
+const TitleTopBar = (props: TitleTopBarProps) => {
   const navigate = useNavigate()
+  const { title, desc } = props
 
   return (
     <div className='titletopbar-content'>
