@@ -99,6 +99,7 @@
         padding-top: 16px;
         font-size: 14px;
         line-height: 24px;
+        text-align: center;
     }
     .home-welcome-contact {
         margin-top: 24px;
@@ -127,9 +128,9 @@
     }
     .home-welcome-desc {
         padding-top: 32px;
-        width: 600px;
         line-height: 24px;
         font-size: 14px;
+        text-align: center;
     }
     .home-welcome-contact {
         margin-top: 24px;
