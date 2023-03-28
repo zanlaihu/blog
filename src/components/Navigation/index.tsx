@@ -8,17 +8,17 @@ import Hu from '../Logo'
 import './index.css'
 
 const navigationList = [
-  {
-    title: (
-      <div className='ng-choice-content'>
-        Docs
-        <div className='np-choice-icon-content'>
-          <img className='ng-choice-icon' src={jump}></img>
-        </div>
-      </div>
-    ),
-    outLink: 'https://www.yuque.com/klaus-rtgrx/goy4cy',
-  },
+  // {
+  //   title: (
+  //     <div className='ng-choice-content'>
+  //       Docs
+  //       <div className='np-choice-icon-content'>
+  //         <img className='ng-choice-icon' src={jump}></img>
+  //       </div>
+  //     </div>
+  //   ),
+  //   outLink: 'https://www.yuque.com/klaus-rtgrx/goy4cy',
+  // },
   {
     title: (
       <div className='ng-choice-content'>
