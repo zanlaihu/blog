@@ -5,21 +5,15 @@ import { useEffect, useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { PAGE_URL } from '../../constants/router-url'
 import Hu from '../Logo'
-import './index.css'
+import './index.scss'
 
 const navigationList = [
-  // { title: 'Projects', url: PAGE_URL.PROJECT },
-  // {
-  //   title: <div>Docs</div>,
-  //   outLink: 'https://www.yuque.com/klaus-rtgrx/goy4cy',
-  // },
-  // { title: <div>About</div>, url: PAGE_URL.ABOUT },
   {
     title: (
       <div className='ng-choice-content'>
         Docs
         <div className='np-choice-icon-content'>
-          <img className='ng-choice-icon' src={jump}></img>
+          <img className='ng-choice-icon' src={jump} alt={''}></img>
         </div>
       </div>
     ),
@@ -30,7 +24,7 @@ const navigationList = [
       <div className='ng-choice-content'>
         GitHub
         <div className='np-choice-icon-content'>
-          <img className='ng-choice-icon' src={jump}></img>
+          <img className='ng-choice-icon' src={jump} alt={''}></img>
         </div>
       </div>
     ),
@@ -39,7 +33,6 @@ const navigationList = [
 ]
 
 const Navigation = () => {
-  // hooks
   const navigate = useNavigate()
   const [show, setShow] = useState(false)
 
@@ -52,12 +45,11 @@ const Navigation = () => {
     }
   }
 
+  // 移动端下拉导航时，阻止背景滚动
   function disableScroll() {
-    // To get the scroll position of current webpage
     const TopScroll = window.pageYOffset || document.documentElement.scrollTop
     const LeftScroll = window.pageXOffset || document.documentElement.scrollLeft
 
-    // if scroll happens, set it to the previous value
     window.onscroll = function () {
       window.scrollTo(LeftScroll, TopScroll)
     }

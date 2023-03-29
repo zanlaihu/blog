@@ -1,0 +1,73 @@
+@use 'src/styles/variables.scss';
+
+.home-other-project-content {
+  padding: 40px 0 100px;
+}
+
+.home-other-project-big-title {
+  padding-bottom: 50px;
+  font-size: 60px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.home-other-project-title {
+  padding-bottom: 16px;
+  font-size: 32px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.home-other-project-sub-title {
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+  color: variables.$title;
+}
+
+.home-other-project-table-content {
+  display: flex;
+  justify-content: center;
+  padding: 48px 0;
+}
+
+.home-other-project-table {
+  display: grid;
+  width: 992px;
+  grid-gap: 24px;
+  gap: 24px;
+}
+
+@media screen and (max-width: 910px) {
+  /* .home-other-project-table { padding: 0 24px; } */
+
+  .home-other-project-content {
+    padding: 40px 24px 100px;
+  }
+
+  .home-other-project-title {
+    font-size: 28px;
+  }
+
+  .home-other-project-sub-title {
+    font-size: 12px;
+  }
+}
+
+@media screen and (min-width: 911px) and (max-width: 1199px) {
+  .home-other-project-table {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1792px) {
+  .home-other-project-table {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+@media screen and (min-width: 1793px) {
+  .home-other-project-table {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}

@@ -1,6 +1,6 @@
 import TableProjectItem from '../../../components/TableProjectItem'
 import { ProjectConstant } from '../../../constants/CH'
-import './index.css'
+import './index.scss'
 
 const HomeOtherProject = () => {
   return (

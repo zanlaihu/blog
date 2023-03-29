@@ -9,7 +9,7 @@ module.exports = {
       'unit-case': null,
       'color-hex-case': 'lower',
       'color-hex-length': 'long',
-      'rule-empty-line-before': 'never',
+      'rule-empty-line-before': 'always',
       'font-family-no-missing-generic-family-keyword': null,
       'block-opening-brace-space-before': 'always',
       'property-no-unknown': null,
