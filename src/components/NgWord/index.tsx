@@ -1,7 +1,7 @@
 import classNames from 'classnames'
 import { FC } from 'react'
 import { useNavigate } from 'react-router-dom'
-import './index.css'
+import './index.scss'
 
 interface NgWordType {
   words: string

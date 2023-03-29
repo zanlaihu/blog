@@ -5,7 +5,7 @@ import { useEffect, useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { PAGE_URL } from '../../constants/router-url'
 import Hu from '../Logo'
-import './index.css'
+import './index.scss'
 
 const navigationList = [
   {
