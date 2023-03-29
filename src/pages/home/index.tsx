@@ -1,25 +1,17 @@
-import './index.css'
-import Bottom from '../../components/Bottom'
-import Navigation from '../../components/Navigation'
-import { useEffect } from 'react'
-import HomeOtherProject from '../../modules/home/HomeOtherProject'
-import HomeRecentProject from '../../modules/home/HomeRecentProject'
-import HomeTopBar from '../../modules/home/HomeTopBar'
+import Bottom from 'src/components/Bottom'
+import Navigation from 'src/components/Navigation'
+import HomeRecentProject from 'src/modules/home/HomeRecentProject'
+import HomeTopBar from 'src/modules/home/HomeTopBar'
+import HomeOtherProject from 'src/modules/home/Projects'
+import './index.scss'
 
 const Home = () => {
-  useEffect(() => {
-    document.body.classList.toggle('lock-scroll')
-  }, [])
-
   return (
     <div className='home-content'>
-      {/* <News /> */}
       <Navigation />
       <HomeTopBar />
       <HomeRecentProject />
       <HomeOtherProject />
-      {/* <HomeNote /> */}
-      {/* <HomeMe /> */}
       <Bottom />
     </div>
   )

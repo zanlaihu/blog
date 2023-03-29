@@ -5,24 +5,23 @@
 }
 
 .home-other-project-big-title {
-  padding-bottom: 50px;
-  font-size: 60px;
   font-weight: 700;
+  font-size: 60px;
   text-align: center;
 }
 
 .home-other-project-title {
   padding-bottom: 16px;
-  font-size: 32px;
   font-weight: 700;
+  font-size: 32px;
   text-align: center;
 }
 
 .home-other-project-sub-title {
-  font-size: 16px;
-  font-weight: 400;
-  text-align: center;
   color: variables.$title;
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
 }
 
 .home-other-project-table-content {
@@ -33,9 +32,9 @@
 
 .home-other-project-table {
   display: grid;
-  width: 992px;
   grid-gap: 24px;
   gap: 24px;
+  width: 992px;
 }
 
 @media screen and (max-width: 910px) {
