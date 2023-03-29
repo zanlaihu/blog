@@ -1,47 +1,49 @@
 .news-content {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  flex-direction: row;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
 }
 
 .news-text {
-  width: 100%;
-  min-width: 700px;
-  /* background-image: linear-gradient(
+    display: flex;
+    justify-content: center;
+
+    /* background-image: linear-gradient(
     to right,
     rgb(120, 221, 252),
     rgb(69, 171, 255),
     rgb(69, 143, 255),
     rgb(140, 69, 255)
   ); */
-  margin: auto;
-  line-height: 26px;
-  color: #666;
-  text-align: center;
-  font-size: 12px;
-  font-weight: 400;
-  display: flex;
-  justify-content: center;
-  flex-direction: row;
+    margin: auto;
+    width: 100%;
+    min-width: 700px;
+    font-size: 12px;
+    font-weight: 400;
+    text-align: center;
+    color: #666666;
+    flex-direction: row;
+    line-height: 26px;
 }
 
 .news-old-ng {
-  color: rgb(37, 52, 255);
-  text-decoration: underline;
-  text-decoration-color: rgb(37, 52, 255);
-  text-decoration-thickness: 1px;
-  text-underline-offset: 2px;
+    text-decoration: underline;
+    color: rgb(37 52 255);
+    text-decoration-color: rgb(37 52 255);
+    text-decoration-thickness: 1px;
+    text-underline-offset: 2px;
 }
 
 .news-golden {
-  background-image: linear-gradient(
-    to right,
-    rgb(243, 229, 200),
-    rgb(139, 118, 81),
-    rgb(80, 64, 38),
-    rgb(80, 64, 38),
-    rgb(160, 136, 95),
-    rgb(243, 229, 200)
-  );
+    background-image:
+        linear-gradient(
+            to right,
+            rgb(243 229 200),
+            rgb(139 118 81),
+            rgb(80 64 38),
+            rgb(80 64 38),
+            rgb(160 136 95),
+            rgb(243 229 200)
+        );
 }

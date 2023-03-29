@@ -25,7 +25,7 @@ const TableProjectItem = (props: TableProjectItemProps) => {
       <div className='table-project-item-link-content'>
         <div className='table-project-item-link'>Documentation </div>
         <div className='table-project-item-link-arrow'>
-          <img src={rightArrow}></img>
+          <img src={rightArrow} alt={''}></img>
         </div>
       </div>
     </div>

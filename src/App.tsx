@@ -1,7 +1,7 @@
 import { Route, Routes } from 'react-router-dom'
-import './App.css'
-import { PAGE_URL } from './constants/router-url'
-import Home from './pages/home'
+import './App.scss'
+import { PAGE_URL } from 'src/constants/router-url'
+import Home from 'src/pages/home'
 
 function App() {
   return (

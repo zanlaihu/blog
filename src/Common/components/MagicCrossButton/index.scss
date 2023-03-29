@@ -1,19 +1,19 @@
 .inner-header-icon {
   position: relative;
+  width: 40px;
   height: 64px;
   font-size: 25px;
   text-align: center;
-  width: 40px;
   cursor: pointer;
 }
 
 .inner-header-icon span {
   position: absolute;
-  left: calc((100% - 25px) / 2);
   top: calc((100% - 1px) / 2);
+  left: calc((100% - 25px) / 2);
   width: 25px;
   height: 1px;
-  background-color: rgba(0, 0, 0, 0.1);
+  background-color: rgb(0 0 0 / 10%);
 }
 
 .inner-header-icon span:nth-child(1) {
@@ -25,18 +25,18 @@
 }
 
 .inner-header-icon-click span:nth-child(1) {
+  animation-name: clickfirst;
   animation-duration: 0.5s;
   animation-fill-mode: both;
-  animation-name: clickfirst;
 }
 
 .inner-header-icon-click span:nth-child(2) {
+  animation-name: clickthird;
   animation-duration: 0.5s;
   animation-fill-mode: both;
-  animation-name: clickthird;
 }
 
-/*第一条线旋转动画*/
+/* 第一条线旋转动画 */
 @keyframes clickfirst {
   0% {
     transform: translateY(4px) rotate(0deg);
@@ -47,7 +47,7 @@
   }
 }
 
-/*第三条线旋转动画*/
+/* 第三条线旋转动画 */
 @keyframes clickthird {
   0% {
     transform: translateY(-4px) rotate(0deg);
@@ -59,15 +59,15 @@
 }
 
 .inner-header-icon-out span:nth-child(1) {
+  animation-name: outfirst;
   animation-duration: 0.5s;
   animation-fill-mode: both;
-  animation-name: outfirst;
 }
 
 .inner-header-icon-out span:nth-child(2) {
+  animation-name: outthird;
   animation-duration: 0.5s;
   animation-fill-mode: both;
-  animation-name: outthird;
 }
 
 @keyframes outfirst {

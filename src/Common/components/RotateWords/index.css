@@ -1,8 +1,8 @@
 .circle {
+  position: relative;
+  animation: rotating 200s linear infinite;
   width: 550px;
   height: 550px;
-  animation: rotating 200s linear infinite;
-  position: relative;
 }
 
 @keyframes rotating {
@@ -17,26 +17,26 @@
 }
 
 .circle-one {
+  fill: rgba(0, 0, 0, 0.15);
   position: absolute;
   top: 150px;
   left: 150px;
-  fill: rgba(0, 0, 0, 0.15);
   font-size: 0.4rem;
 }
 
 .circle-two {
+  fill: rgba(0, 0, 0, 0.12);
   position: absolute;
   top: 75.5px;
   left: 75.5px;
-  fill: rgba(0, 0, 0, 0.12);
   font-size: 0.3rem;
 }
 
 .circle-three {
+  fill: rgba(0, 0, 0, 0.1);
   position: absolute;
   top: 0px;
   left: 0px;
-  fill: rgba(0, 0, 0, 0.1);
   font-size: 0.2rem;
 }
 

@@ -5,7 +5,7 @@ import { useEffect, useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { PAGE_URL } from '../../constants/router-url'
 import Hu from '../Logo'
-import './index.css'
+import './index.scss'
 
 const navigationList = [
   {
@@ -13,7 +13,7 @@ const navigationList = [
       <div className='ng-choice-content'>
         Docs
         <div className='np-choice-icon-content'>
-          <img className='ng-choice-icon' src={jump}></img>
+          <img className='ng-choice-icon' src={jump} alt={''}></img>
         </div>
       </div>
     ),
@@ -24,7 +24,7 @@ const navigationList = [
       <div className='ng-choice-content'>
         GitHub
         <div className='np-choice-icon-content'>
-          <img className='ng-choice-icon' src={jump}></img>
+          <img className='ng-choice-icon' src={jump} alt={''}></img>
         </div>
       </div>
     ),
