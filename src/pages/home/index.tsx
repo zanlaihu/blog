@@ -5,7 +5,6 @@ import { useEffect } from 'react'
 import HomeOtherProject from '../../modules/home/HomeOtherProject'
 import HomeRecentProject from '../../modules/home/HomeRecentProject'
 import HomeTopBar from '../../modules/home/HomeTopBar'
-import './index.less'
 
 const Home = () => {
   useEffect(() => {
