@@ -1,7 +1,7 @@
 import { Dialog, Toast } from 'antd-mobile'
 import { useState } from 'react'
 import { LuckyDrawConstant } from './constants'
-import './index.css'
+import './index.scss'
 
 const LuckyDraw = () => {
   const [startRotateDeg, setStartRotateDeg] = useState(0)

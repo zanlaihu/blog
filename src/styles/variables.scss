@@ -2,11 +2,13 @@
 $title: #696969;
 
 // size
-$small-size: '(max-width: 1199px)';
-$middle-size: 'screen and (min-width: 1200px) and (max-width: 1439px)';
-$large-size: 'screen and (min-width: 1440px) and (max-width: 1919px)';
-$biggest-size: '(min-width: 1920px)';
-
+// $small-size: '(max-width: 1199px)';
+// $middle-size: 'screen and (min-width: 1200px) and (max-width: 1439px)';
+// $large-size: 'screen and (min-width: 1440px) and (max-width: 1919px)';
+// $biggest-size: '(min-width: 1920px)';
+$small-size: 1199px;
+$middle-up-size: 1439px;
+$middle-down-size: 1200px;
 $large-up-size: 1919px;
 $large-down-size: 1440px;
 $max-size: 1920px;
