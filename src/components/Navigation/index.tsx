@@ -1,5 +1,5 @@
 import classNames from 'classnames'
-import { MagicCrossButton } from 'src/Common/components/MagicCrossButton'
+import { MagicCrossButton } from 'src/components/MagicCrossButton'
 import jump from 'src/assets/img/tiaozhuan.svg'
 import { useEffect, useState } from 'react'
 import { useNavigate } from 'react-router-dom'
