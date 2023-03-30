@@ -3,11 +3,11 @@ import Navigation from 'src/components/Navigation'
 import HomeRecentProject from 'src/modules/home/HomeRecentProject'
 import HomeTopBar from 'src/modules/home/HomeTopBar'
 import HomeOtherProject from 'src/modules/home/Projects'
-import './index.scss'
+
 
 const Home = () => {
   return (
-    <div className='home-content'>
+    <div>
       <Navigation />
       <HomeTopBar />
       <HomeRecentProject />
