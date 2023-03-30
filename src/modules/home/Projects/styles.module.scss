@@ -1,24 +1,25 @@
-@use 'src/styles/variables.scss';
+@use "src/styles/variables.scss";
 
 .content {
-  justify-content: center;
-  flex-direction: column;
-  padding: 180px 0px;
-  display: flex;
-  // background-color: #fafafa;
-  // border-top: 1px solid #eaeaea;
-  // border-bottom: 1px solid #eaeaea;
-  @include variables.plaid-bg-white;
+    display: flex;
+    justify-content: center;
+    padding: 180px 0;
+    flex-direction: column;
+
+    // background-color: #fafafa;
+    // border-top: 1px solid #eaeaea;
+    // border-bottom: 1px solid #eaeaea;
+    @include variables.plaid-bg-white;
 }
 
-@media screen and (min-width: variables.$max-size) {
-}
+// @media screen and (min-width: variables.$max-size) {
+// }
 
-@media screen and (min-width: variables.$large-down-size) and (max-width: variables.$large-up-size) {
-}
+// @media screen and (min-width: variables.$large-down-size) and (max-width: variables.$large-up-size) {
+// }
 
-@media screen and (min-width: variables.$middle-down-size) and (max-width: variables.$middle-up-size) {
-}
+// @media screen and (min-width: variables.$middle-down-size) and (max-width: variables.$middle-up-size) {
+// }
 
-@media screen and (max-width: variables.$small-size) {
-}
+// @media screen and (max-width: variables.$small-size) {
+// }
