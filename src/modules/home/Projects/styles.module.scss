@@ -5,9 +5,10 @@
   justify-content: center;
   flex-direction: column;
   padding: 180px 0px;
-  background-color: #fafafa;
-  border-top: 1px solid #eaeaea;
-  border-bottom: 1px solid #eaeaea;
+  // background-color: #fafafa;
+  // border-top: 1px solid #eaeaea;
+  // border-bottom: 1px solid #eaeaea;
+  @include variables.plaid-bg-white;
 }
 
 @media screen and (min-width: variables.$max-size) {
