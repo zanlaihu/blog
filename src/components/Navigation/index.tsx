@@ -1,11 +1,12 @@
 import classNames from 'classnames'
-import { MagicCrossButton } from 'src/components/MagicCrossButton'
 import jump from 'src/assets/img/tiaozhuan.svg'
+import { MagicCrossButton } from 'src/components/MagicCrossButton'
 import { useEffect, useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { PAGE_URL } from '../../constants/router-url'
 import Hu from '../Logo'
 import './index.scss'
+import styles from './styles.module.scss'
 
 const navigationList = [
   {
@@ -68,9 +69,9 @@ const Navigation = () => {
   }, [show])
 
   return (
-    <div className={classNames('ng-content', `${show && 'ng-content-white'}`)}>
+    <div className={'ng-content'}>
       <div className='ng-pc'>
-        <div className='ng-pc-choice-content'>
+        <div className={styles.choiceContent}>
           <div className='ng-pc-choice-left-content'>
             <div
               onClick={() => {

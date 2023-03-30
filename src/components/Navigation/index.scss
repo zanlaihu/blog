@@ -111,29 +111,11 @@
   line-height: 44px;
 }
 
-@media screen and (max-width: 910px) {
+@media screen and (max-width: variables.$small-size) {
   .ng-pc {
     display: none;
   }
   .ng-mobile {
     display: block;
-  }
-}
-
-@media screen and (min-width: 911px) and (max-width: 1199px) {
-  .ng-pc-choice-content {
-    width: 800px;
-  }
-}
-
-@media screen and (min-width: 1200px) and (max-width: 1792px) {
-  .ng-pc-choice-content {
-    width: 1000px;
-  }
-}
-
-@media screen and (min-width: variables.$max-size) {
-  .ng-pc-choice-content {
-    width: 1200px;
   }
 }
