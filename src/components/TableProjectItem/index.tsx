@@ -1,5 +1,6 @@
-import './index.css'
 import rightArrow from '../../assets/img/rightArrow.svg'
+import './index.css'
+import styles from './styles.module.scss'
 
 interface ProjectItemProps {
   title: string
@@ -15,7 +16,7 @@ const TableProjectItem = (props: TableProjectItemProps) => {
 
   return (
     <div
-      className='table-project-item-content'
+      className={styles.content}
       onClick={() => {
         window.open(link)
       }}
@@ -23,7 +24,7 @@ const TableProjectItem = (props: TableProjectItemProps) => {
       <div className='table-project-item-title'>{title}</div>
       <div className='table-project-item-sub-title'>{subTitle}</div>
       <div className='table-project-item-link-content'>
-        <div className='table-project-item-link'>Documentation </div>
+        <div className={styles.link}>Documentation </div>
         <div className='table-project-item-link-arrow'>
           <img src={rightArrow} alt={''}></img>
         </div>

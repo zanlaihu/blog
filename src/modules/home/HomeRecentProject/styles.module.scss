@@ -3,39 +3,18 @@
 .content {
   display: flex;
   justify-content: center;
-  padding: 52px 0 24px;
-  background-color: #fafafa;
-  flex-direction: row;
-}
-
-.middleContent {
-  font-size: 14px;
-  width: 1440px;
-}
-
-.contact {
-  font-weight: 500;
-  color: #000;
-  padding-bottom: 24px;
+  flex-direction: column;
+  padding: 180px 0px;
 }
 
 @media screen and (min-width: variables.$max-size) {
 }
 
 @media screen and (min-width: variables.$large-down-size) and (max-width: variables.$large-up-size) {
-  .middleContent {
-    width: 1120px;
-  }
 }
 
 @media screen and (min-width: variables.$middle-down-size) and (max-width: variables.$middle-up-size) {
-  .middleContent {
-    width: 910px;
-  }
 }
 
 @media screen and (max-width: variables.$small-size) {
-  .middleContent {
-    width: auto;
-  }
 }
