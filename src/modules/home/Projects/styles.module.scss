@@ -1,15 +1,15 @@
 @use "src/styles/variables.scss";
 
 .content {
-    display: flex;
-    justify-content: center;
-    padding: 180px 0;
-    flex-direction: column;
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  flex-direction: column;
 
-    // background-color: #fafafa;
-    // border-top: 1px solid #eaeaea;
-    // border-bottom: 1px solid #eaeaea;
-    @include variables.plaid-bg-white;
+  // background-color: #fafafa;
+  // border-top: 1px solid #eaeaea;
+  // border-bottom: 1px solid #eaeaea;
+  //   @include variables.plaid-bg-white;
 }
 
 // @media screen and (min-width: variables.$max-size) {

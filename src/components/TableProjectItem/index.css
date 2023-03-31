@@ -2,20 +2,24 @@
   font-size: 18px;
   font-weight: 600;
 }
+
 .table-project-item-sub-title {
   padding: 14px 0;
   font-size: 15px;
   line-height: 24px;
 }
+
 .table-project-item-link-content {
   display: flex;
   flex-direction: row;
 }
+
 .table-project-item-link {
   font-size: 14px;
   color: #0070f3;
   transition: color 0.1s ease;
 }
+
 .table-project-item-link-arrow {
   display: flex;
   justify-content: center;
@@ -23,6 +27,7 @@
 }
 
 @media screen and (max-width: 910px) {
+
   .table-project-item-sub-title {
     font-size: 12px;
   }
