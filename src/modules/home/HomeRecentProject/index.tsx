@@ -1,4 +1,4 @@
-import LuckyDraw from '../../../Common/components/LuckyDraw'
+import LuckyDraw from '../../../components/LuckyDraw'
 import NgWord from '../../../components/NgWord'
 
 import './index.css'
