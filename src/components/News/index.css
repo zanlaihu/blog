@@ -1,8 +1,8 @@
 .news-content {
     display: flex;
-    flex-direction: row;
     justify-content: center;
     width: 100%;
+    flex-direction: row;
 }
 
 .news-text {

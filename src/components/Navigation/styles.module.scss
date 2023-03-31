@@ -1,0 +1,32 @@
+@use "src/styles/variables.scss";
+
+.choiceContent {
+    display: flex;
+    justify-content: space-between;
+    width: 1400px;
+    flex-direction: row;
+}
+
+// @media screen and (min-width: variables.$max-size) {
+// }
+
+@media screen and (min-width: variables.$large-down-size) and (max-width: variables.$large-up-size) {
+
+    .choiceContent {
+        width: 1120px;
+    }
+}
+
+@media screen and (min-width: variables.$middle-down-size) and (max-width: variables.$middle-up-size) {
+
+    .choiceContent {
+        width: 910px;
+    }
+}
+
+@media screen and (max-width: variables.$small-size) {
+
+    .choiceContent {
+        width: auto;
+    }
+}
