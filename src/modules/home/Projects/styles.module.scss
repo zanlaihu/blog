@@ -1,0 +1,25 @@
+@use "src/styles/variables.scss";
+
+.content {
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  flex-direction: column;
+
+  // background-color: #fafafa;
+  // border-top: 1px solid #eaeaea;
+  // border-bottom: 1px solid #eaeaea;
+  //   @include variables.plaid-bg-white;
+}
+
+// @media screen and (min-width: variables.$max-size) {
+// }
+
+// @media screen and (min-width: variables.$large-down-size) and (max-width: variables.$large-up-size) {
+// }
+
+// @media screen and (min-width: variables.$middle-down-size) and (max-width: variables.$middle-up-size) {
+// }
+
+// @media screen and (max-width: variables.$small-size) {
+// }

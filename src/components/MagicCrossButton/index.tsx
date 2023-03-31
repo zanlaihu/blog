@@ -1,6 +1,6 @@
 import classNames from 'classnames'
 import { useState } from 'react'
-import './index.css'
+import './index.scss'
 
 export const MagicCrossButton = () => {
   const [close, setClose] = useState(false)
