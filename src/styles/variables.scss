@@ -1,7 +1,11 @@
-$title: #696969;
+// text-color
+$title: #000000;
 $subtitle: #666666;
 
-/* Responsive Size */
+// background-color
+$grey-background: #fafafa;
+
+// Responsive Size 
 $small-size: 1199px;
 $middle-up-size: 1439px;
 $middle-down-size: 1200px;
@@ -9,7 +13,8 @@ $large-up-size: 1919px;
 $large-down-size: 1440px;
 $max-size: 1920px;
 
+// mixin background
 @mixin plaid-bg-white() {
-  background: #ffffff
-    url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUAQMAAAC3R49OAAAABlBMVEUAAAD19fWydBufAAAAAnRSTlMAgJsrThgAAAAUSURBVAjXY/j//wNDA4MANTDILACHzA/9syP4tgAAAABJRU5ErkJggg==");
+    background: #ffffff
+        url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUAQMAAAC3R49OAAAABlBMVEUAAAD19fWydBufAAAAAnRSTlMAgJsrThgAAAAUSURBVAjXY/j//wNDA4MANTDILACHzA/9syP4tgAAAABJRU5ErkJggg==");
 }

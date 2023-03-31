@@ -7,7 +7,7 @@ module.exports = {
     'no-descending-specificity': null,
     'function-url-quotes': 'always',
     'string-quotes': 'double',
-    indentation: 2,
+    indentation: 4,
     'unit-case': null,
     'color-hex-case': 'lower',
     'color-hex-length': 'long',
