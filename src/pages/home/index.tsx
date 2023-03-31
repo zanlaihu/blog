@@ -1,10 +1,8 @@
 import Bottom from 'src/components/Bottom'
 import Navigation from 'src/components/Navigation'
+import AntProduct from 'src/modules/home/AntProduct'
 import HomeRecentProject from 'src/modules/home/HomeRecentProject'
 import HomeTopBar from 'src/modules/home/HomeTopBar'
-import ProductWallet from 'src/modules/home/ProductWallet'
-import HomeOtherProject from 'src/modules/home/Projects'
-
 
 const Home = () => {
   return (
@@ -12,7 +10,7 @@ const Home = () => {
       <Navigation />
       <HomeTopBar />
       <HomeRecentProject />
-      <ProductWallet />
+      <AntProduct />
       {/* <HomeOtherProject /> */}
       <Bottom />
     </div>
