@@ -1,0 +1,38 @@
+@use "src/styles/variables.scss";
+
+.content {
+  display: flex;
+  justify-content: center;
+  padding-top: 128px;
+}
+
+.middleContent {
+  width: 1400px;
+}
+
+.oneLine {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  padding-top: 32px;
+}
+
+.col {
+  width: 0;
+  height: 300px;
+  border: 0.5px solid #dfdfdf;
+}
+
+@media screen and (min-width: variables.$large-down-size) and (max-width: variables.$large-up-size) {
+
+  .middleContent {
+    width: 1120px;
+  }
+}
+
+@media screen and (min-width: variables.$middle-down-size) and (max-width: variables.$middle-up-size) {
+
+  .middleContent {
+    width: 910px;
+  }
+}

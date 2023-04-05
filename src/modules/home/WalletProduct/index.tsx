@@ -1,3 +1,4 @@
+import { useState } from 'react'
 import component from 'src/assets/img/component.svg'
 import coupon from 'src/assets/img/coupon.svg'
 import discount from 'src/assets/img/discount.svg'
@@ -8,7 +9,9 @@ import SingleProject from 'src/components/SingleProject'
 import TypeProject from 'src/components/TypeProject'
 import styles from './styles.module.scss'
 
-const AntProduct = () => {
+const WalletProduct = () => {
+  const [show, setShow] = useState(false)
+
   return (
     <div className={styles.content}>
       <div className={styles.middleContent}>
@@ -42,31 +45,43 @@ const AntProduct = () => {
             background={'rgb(255 227 123)'}
           />
         </div>
-        <div className={styles.oneLine}>
-          <SingleProject
-            img={coupon}
-            title={'券详情页&活动详情页'}
-            label={'展示一个活动或券的详细信息'}
-            background={'rgb(249 248 242)'}
-          />
-          <div className={styles.col}></div>
-          <SingleProject
-            img={pos}
-            title={'线下扫码支付'}
-            label={'用于用户在门店扫码。'}
-            background={'rgb(255 215 215)'}
-          />
-          <div className={styles.col}></div>
-          <SingleProject
-            img={component}
-            title={'组件库'}
-            label={'专用于钱包的组件库'}
-            background={'rgb(255 255 255)'}
-          />
-        </div>
+        {!show && (
+          <div
+            className={styles.btnContent}
+            onClick={() => {
+              setShow(true)
+            }}
+          >
+            More
+          </div>
+        )}
+        {show && (
+          <div className={styles.oneLine}>
+            <SingleProject
+              img={coupon}
+              title={'券详情页&活动详情页'}
+              label={'展示一个活动或券的详细信息'}
+              background={'rgb(249 248 242)'}
+            />
+            <div className={styles.col}></div>
+            <SingleProject
+              img={pos}
+              title={'线下扫码支付'}
+              label={'用于用户在门店扫码。'}
+              background={'rgb(255 215 215)'}
+            />
+            <div className={styles.col}></div>
+            <SingleProject
+              img={component}
+              title={'组件库'}
+              label={'专用于钱包的组件库'}
+              background={'rgb(255 255 255)'}
+            />
+          </div>
+        )}
       </div>
     </div>
   )
 }
 
-export default AntProduct
+export default WalletProduct
