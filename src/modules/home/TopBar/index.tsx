@@ -1,8 +1,8 @@
-
 import RotateWords from '../../../components/RotateWords'
 import './index.css'
+import styles from './styles.module.scss'
 
-const HomeTopBar = () => {
+const TopBar = () => {
   function scrollToBottom() {
     const scrollingElement = document.scrollingElement || document.body
     // scrollingElement.scrollTop = scrollingElement.scrollHeight
@@ -10,7 +10,7 @@ const HomeTopBar = () => {
   }
 
   return (
-    <div className='home-top-content'>
+    <div className={styles.content}>
       <div className='rotate-content'>
         <div className='rotate-middle-content'>
           <RotateWords />
@@ -18,10 +18,8 @@ const HomeTopBar = () => {
       </div>
       <div className='home-top-bar'>
         <div className='home-top-text-content'>
-          <div className='home-welcome-title-ch'>欢迎来到我的小站</div>
-          <div className='home-welcome-desc'>
-            我用这个网站来更直观地展示项目。近期做好的比较有特色的项目会放在首页。
-          </div>
+          <div className={styles.title}>欢迎来到我的小站</div>
+          <div className={styles.label}>我用这个网站来更直观地展示项目经历</div>
           <div className='home-welcome-contact-content'>
             <div
               className='home-welcome-contact'
@@ -38,4 +36,4 @@ const HomeTopBar = () => {
   )
 }
 
-export default HomeTopBar
+export default TopBar

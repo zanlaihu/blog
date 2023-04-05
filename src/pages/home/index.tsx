@@ -2,7 +2,7 @@ import Bottom from 'src/components/Bottom'
 import Navigation from 'src/components/Navigation'
 import AntProduct from 'src/modules/home/AntProduct'
 import HomeRecentProject from 'src/modules/home/HomeRecentProject'
-import HomeTopBar from 'src/modules/home/HomeTopBar'
+import HomeTopBar from 'src/modules/home/TopBar'
 
 const Home = () => {
   return (

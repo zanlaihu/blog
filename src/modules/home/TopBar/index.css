@@ -1,32 +1,3 @@
-.home-top-content {
-    width: 100%;
-
-    /* background-image: linear-gradient(
-    to right,
-    rgb(120, 221, 252),
-    rgb(69, 171, 255),
-    rgb(69, 143, 255),
-    rgb(140, 69, 255)
-  ); */
-    --gradient-from: 247 185 85;
-    --gradient-to: 255 0 128;
-
-    background:
-        linear-gradient(180deg, #ffffff 0, hsl(0deg 0% 100% / 0%) 100%),
-        linear-gradient(
-            90deg,
-            rgb(var(--gradient-from, 192.5 192.5 192.5) / 8%) 0,
-            rgb(var(--gradient-to, 192.5 192.5 192.5) / 8%) 100%
-        ),
-        linear-gradient(
-            to right,
-            transparent,
-            rgb(0 0 0 / 0%) 10%,
-            rgb(0 0 0 / 0%) 90%,
-            transparent
-        );
-}
-
 .rotate-content {
     position: relative;
     z-index: 1;
@@ -80,12 +51,11 @@
     display: inline-block;
     width: fit-content;
     color: #000000;
-    background:
-        linear-gradient(
-            135deg,
-            rgb(var(--gradient-from) / 15%) 0,
-            rgb(var(--gradient-to) / 15%) 100%
-        );
+    background: linear-gradient(
+        135deg,
+        rgb(var(--gradient-from) / 15%) 0,
+        rgb(var(--gradient-to) / 15%) 100%
+    );
     cursor: pointer;
 }
 

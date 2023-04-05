@@ -7,19 +7,19 @@ $grey-background: #fafafa;
 
 // Responsive Size
 $small-size: 1199px;
-$middle-up-size: 1439px;
 $middle-down-size: 1200px;
-$large-up-size: 1919px;
+$middle-up-size: 1439px;
 $large-down-size: 1440px;
+$large-up-size: 1919px;
 $max-size: 1920px;
 
 // mixin background
 @mixin plaid-bg-white() {
-  background: #ffffff
-    url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUAQMAAAC3R49OAAAABlBMVEUAAAD19fWydBufAAAAAnRSTlMAgJsrThgAAAAUSURBVAjXY/j//wNDA4MANTDILACHzA/9syP4tgAAAABJRU5ErkJggg==');
+    background: #ffffff
+        url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUAQMAAAC3R49OAAAABlBMVEUAAAD19fWydBufAAAAAnRSTlMAgJsrThgAAAAUSURBVAjXY/j//wNDA4MANTDILACHzA/9syP4tgAAAABJRU5ErkJggg==");
 }
 
 @mixin plaid-bg-grey() {
-  background: rgb(255 255 255)
-    url('https://cdn.marmot-cloud.com/storage/2023/3/17/881e2357-1675-4f9f-bfd3-87991472ed8e.png');
+    background: rgb(255 255 255)
+        url("https://cdn.marmot-cloud.com/storage/2023/3/17/881e2357-1675-4f9f-bfd3-87991472ed8e.png");
 }
