@@ -1,7 +1,6 @@
 import Bottom from '../../components/Bottom'
 import Navigation from '../../components/Navigation'
 import News from '../../components/News'
-import MeInfo from './components/MeInfo'
 import MePhoto from './components/MePhoto'
 import MeProject from './components/MeProject'
 import './index.css'
