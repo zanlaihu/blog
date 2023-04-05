@@ -1,0 +1,64 @@
+@use "src/styles/variables.scss";
+
+@function vw($target) {
+  $vw-context: (780 * 0.01) * 1px;
+
+  @return ($target / $vw-context) * 1vw;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+  padding: 162px 0;
+  background-image: conic-gradient(from -90deg at 110% 100%,#ffffff 0deg,#ebecf0 90deg,#ebecf0 1turn);
+}
+
+.middleContent {
+  width: 1400px;
+}
+
+.oneLine {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  padding-top: 32px;
+}
+
+.col {
+  width: 0;
+  height: 300px;
+  border: 0.5px solid #dfdfdf;
+}
+
+@media screen and (min-width: variables.$large-down-size) and (max-width: variables.$large-up-size) {
+
+  .middleContent {
+    width: 1120px;
+  }
+}
+
+@media screen and (min-width: variables.$middle-down-size) and (max-width: variables.$middle-up-size) {
+
+  .middleContent {
+    width: 910px;
+  }
+}
+
+@media screen and (max-width: variables.$small-size) {
+
+  .content {
+    padding: vw(84px) vw(20px) vw(128px);
+  }
+
+  .middleContent {
+    width: auto;
+  }
+
+  .oneLine {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding-top: vw(28px);
+  }
+}

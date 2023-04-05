@@ -3,28 +3,24 @@
 .content {
   display: flex;
   justify-content: center;
-  padding: 52px 0 24px;
-  background-color: #fafafa;
   flex-direction: row;
 }
 
 .middleContent {
+  padding: 45px 36px;
   width: 1400px;
-  font-size: 14px;
+  border-top: 1px solid #dfdfdf;
+  box-sizing: border-box;
 }
 
-.contact {
-  padding-bottom: 24px;
-  font-weight: 500;
-  color: #000000;
+.sign {
+  display: inline;
+  width: auto;
+  font-size: 18px;
+  font-family: Cereal, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  color: #484848;
 }
-
-.info {
-  color: variables.$subtitle;
-}
-
-// @media screen and (min-width: variables.$max-size) {
-// }
 
 @media screen and (min-width: variables.$large-down-size) and (max-width: variables.$large-up-size) {
 
@@ -42,11 +38,7 @@
 
 @media screen and (max-width: variables.$small-size) {
 
-  .content {
-    padding: 52px 40px 24px;
-  }
-
   .middleContent {
-    width: 100%;
+    width: auto;
   }
 }
