@@ -1,14 +1,9 @@
-import RotateWords from '../../../components/RotateWords'
-import './index.css'
+import RotateWords from 'src/components/RotateWords'
+import { scrollToBottom } from 'src/utils'
+import './index.scss'
 import styles from './styles.module.scss'
 
 const TopBar = () => {
-  function scrollToBottom() {
-    const scrollingElement = document.scrollingElement || document.body
-    // scrollingElement.scrollTop = scrollingElement.scrollHeight
-    window.scrollTo({ top: scrollingElement.scrollHeight, behavior: 'smooth' })
-  }
-
   return (
     <div className={styles.content}>
       <div className='rotate-content'>
@@ -18,15 +13,10 @@ const TopBar = () => {
       </div>
       <div className='home-top-bar'>
         <div className='home-top-text-content'>
-          <div className={styles.title}>欢迎来到我的小站</div>
-          <div className={styles.label}>我用这个网站来更直观地展示项目经历</div>
-          <div className='home-welcome-contact-content'>
-            <div
-              className='home-welcome-contact'
-              onClick={() => {
-                scrollToBottom()
-              }}
-            >
+          <div className={styles.title}>胡赞来的小站</div>
+          <div className={styles.label}>这里有更详细的项目经历</div>
+          <div className={styles.contactContent}>
+            <div className='home-welcome-contact' onClick={scrollToBottom}>
               Contact me
             </div>
           </div>
