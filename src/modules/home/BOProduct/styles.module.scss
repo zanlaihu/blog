@@ -1,8 +1,15 @@
 @use "src/styles/variables.scss";
 
+@function vw($target) {
+  $vw-context: (780 * 0.01) * 1px;
+
+  @return ($target / $vw-context) * 1vw;
+}
+
 .content {
   display: flex;
   justify-content: center;
+  overflow: hidden;
   padding-top: 128px;
 }
 
@@ -34,5 +41,23 @@
 
   .middleContent {
     width: 910px;
+  }
+}
+
+@media screen and (max-width: variables.$small-size) {
+
+  .content {
+    padding: vw(64px) vw(20px);
+  }
+
+  .middleContent {
+    width: auto;
+  }
+
+  .oneLine {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding-top: vw(28px);
   }
 }
