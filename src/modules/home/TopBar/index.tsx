@@ -15,11 +15,11 @@ const TopBar = () => {
         <div className='home-top-text-content'>
           <div className={styles.title}>胡赞来的小站</div>
           <div className={styles.label}>这里有更详细的项目经历</div>
-          <div className={styles.contactContent}>
+          {/* <div className={styles.contactContent}>
             <div className='home-welcome-contact' onClick={scrollToBottom}>
               Contact me
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>

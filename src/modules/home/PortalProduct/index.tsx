@@ -18,7 +18,7 @@ const PortalProduct = () => {
           <SingleProject
             img={portal}
             title={'钱包科技官网'}
-            label={'是蚂蚁国际事业群 - 钱包科技团队的对外官网'}
+            label={'蚂蚁国际事业群 - 钱包科技团队的对外官网'}
             background={'rgb(250, 250, 250)'}
           />
         </div>
