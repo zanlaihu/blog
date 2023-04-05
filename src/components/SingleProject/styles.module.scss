@@ -1,0 +1,36 @@
+.content {
+  width: 380px;
+}
+
+.imgContent {
+  display: flex;
+  justify-content: center;
+  height: 220px;
+
+  .imgMiddle {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    .img {
+      height: 150px;
+    }
+  }
+}
+
+.textContent {
+  padding-top: 24px;
+  font-size: 18px;
+
+  .title {
+    display: inline;
+    font-weight: 700;
+    color: #2b2b2b;
+  }
+  
+  .label {
+    display: inline;
+    padding-top: 16px;
+    color: #767676;
+  }
+}
