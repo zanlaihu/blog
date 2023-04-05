@@ -14,7 +14,6 @@ const SingleProject = (props: SingleProjectProps) => {
     <div className={styles.content}>
       <div
         className={styles.imgContent}
-        style={{ backgroundColor: background }}
       >
         <div className={styles.imgMiddle}>
           <img src={img} className={styles.img}></img>

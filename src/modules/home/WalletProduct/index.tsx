@@ -45,7 +45,7 @@ const WalletProduct = () => {
             background={'rgb(255 227 123)'}
           />
         </div>
-        {/* {!show && (
+        {!show && (
           <div
             className={styles.btnContent}
             onClick={() => {
@@ -78,7 +78,7 @@ const WalletProduct = () => {
               background={'rgb(255 255 255)'}
             />
           </div>
-        )} */}
+        )}
       </div>
     </div>
   )
