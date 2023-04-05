@@ -10,19 +10,17 @@
   display: flex;
   justify-content: center;
   overflow: hidden;
+  background-image: conic-gradient(
+    from -90deg at 110% 100%,
+    #ffffff 0deg,
+    #ebecf0 90deg,
+    #ebecf0 1turn
+  );
+  padding: 160px 0;
 }
 
 .middleContent {
   width: 1400px;
-}
-
-.title {
-  padding: 24px 0;
-  font-size: 22px;
-  font-weight: 800;
-  border-top: 1px solid #dfdfdf;
-  color: #ff919c;
-  letter-spacing: 0.8px;
 }
 
 .oneLine {
@@ -74,7 +72,7 @@
 @media screen and (max-width: variables.$small-size) {
 
   .content {
-    padding: 0 vw(20px);
+    padding: vw(64px) vw(20px);
   }
 
   .middleContent {

@@ -10,7 +10,8 @@
   display: flex;
   justify-content: center;
   overflow: hidden;
-  padding-top: 128px;
+  padding: 162px 0;
+  background-image: conic-gradient(from -90deg at 110% 100%,#ffffff 0deg,#ebecf0 90deg,#ebecf0 1turn);
 }
 
 .middleContent {

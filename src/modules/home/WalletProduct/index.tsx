@@ -15,7 +15,6 @@ const WalletProduct = () => {
   return (
     <div className={styles.content}>
       <div className={styles.middleContent}>
-        <div className={styles.title}></div>
         <TypeProject
           type={'移动端web开发'}
           title={'产品化钱包'}
