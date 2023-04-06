@@ -1,5 +1,11 @@
 @use "src/styles/variables.scss";
 
+@function vw($target) {
+  $vw-context: (780 * 0.01) * 1px;
+  
+  @return ($target / $vw-context) * 1vw;
+}
+
 .content {
   display: flex;
   justify-content: center;
@@ -8,18 +14,42 @@
 
 .middleContent {
   padding: 45px 36px;
-  width: 1400px;
+  width: 1280px;
   border-top: 1px solid #dfdfdf;
   box-sizing: border-box;
 }
 
-.sign {
-  display: inline;
+.title {
+  display: block;
+  padding-bottom: 24px;
   width: auto;
   font-size: 18px;
   font-family: Cereal, "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 300;
-  color: #484848;
+  font-weight: 600;
+  color: #1e1e1e;
+}
+
+.link {
+  display: inline-block;
+  padding-bottom: 24px;
+  width: auto;
+  font-size: 18px;
+  font-family: Cereal, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  color: #202020;
+}
+
+.sign {
+  display: block;
+  padding-top: 64px;
+  padding-bottom: 24px;
+  width: auto;
+  font-size: 18px;
+  font-family: Cereal, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  text-align: end;
+  color: #1e1e1e;
 }
 
 @media screen and (min-width: variables.$large-down-size) and (max-width: variables.$large-up-size) {
@@ -38,7 +68,23 @@
 
 @media screen and (max-width: variables.$small-size) {
 
+  .content {
+    display: block;
+  }
+
   .middleContent {
     width: auto;
+  }
+
+  .title {
+    font-size: vw(28px);
+  }
+
+  .link {
+    font-size: vw(28px);
+  }
+
+  .sign {
+    font-size: vw(28px);
   }
 }
