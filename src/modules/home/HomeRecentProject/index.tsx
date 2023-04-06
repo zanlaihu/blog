@@ -1,5 +1,4 @@
 import LuckyDraw from '../../../components/LuckyDraw'
-import NgWord from '../../../components/NgWord'
 import './index.css'
 import styles from './styles.module.scss'
 
