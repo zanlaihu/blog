@@ -10,14 +10,9 @@
   display: flex;
   justify-content: center;
   overflow: hidden;
-  padding: 128px 0;
+  padding: 64px 0;
   border-bottom: 1px solid var(--accents-2);
-  background-image: linear-gradient(
-    180deg,
-    #ffffff 30%,
-    #fafafa 50%,
-    #fafafa 100%
-  );
+
 }
 
 .middleContent {
@@ -38,6 +33,7 @@
   justify-content: space-between;
   flex-direction: row;
   padding-top: 48px;
+  grid-gap: 24px;
 }
 
 .col {

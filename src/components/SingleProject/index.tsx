@@ -4,13 +4,21 @@ interface SingleProjectProps {
   img?: any
   title?: string
   label?: string
+  background?: string
 }
 
 const SingleProject = (props: SingleProjectProps) => {
-  const { img, title, label } = props
+  const { img, title, label, background } = props
 
   return (
     <div className={styles.content}>
+      <div
+        className={styles.imgContent}
+      >
+        <div className={styles.imgMiddle}>
+          <img src={img} className={styles.img}></img>
+        </div>
+      </div>
       <div className={styles.textContent}>
         <div className={styles.title}>{title}</div>
         <div className={styles.label}>{label}</div>

@@ -11,8 +11,10 @@ const TypeProject = (props: TypeProjectProps) => {
 
   return (
     <div className={styles.content}>
-      <div className={styles.type}>{type}</div>
-      <div className={styles.title}>{title}</div>
+      <div>
+        <div className={styles.title}>{title}</div>
+        <div className={styles.type}>{type}</div>
+      </div>
       <div className={styles.label}>{label}</div>
     </div>
   )
