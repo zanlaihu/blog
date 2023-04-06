@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/blog/static/css/main.ebbb961d.css",
-    "main.js": "/blog/static/js/main.d391995e.js",
+    "main.css": "/blog/static/css/main.074a2c1e.css",
+    "main.js": "/blog/static/js/main.e7905d85.js",
     "static/media/dacing-script.ttf": "/blog/static/media/dacing-script.d618761a95b9c756b18a.ttf",
     "static/media/pos.svg": "/blog/static/media/pos.cfcbc5c8d42d0ef9347293269b5bbae7.svg",
     "static/media/discount.svg": "/blog/static/media/discount.59591a3969757ac40b627f09a471aa58.svg",
@@ -10,14 +10,13 @@
     "static/media/lucky.svg": "/blog/static/media/lucky.b344d3fedced39c748aba8245829f432.svg",
     "static/media/bulk.svg": "/blog/static/media/bulk.704b8b35b5bd38633bde815c63cd8ef7.svg",
     "static/media/coupon.svg": "/blog/static/media/coupon.b543b987c40dbb76997061e28c8088dc.svg",
-    "static/media/tiaozhuan.svg": "/blog/static/media/tiaozhuan.9f33ea0031a3c9554c9ce7b0b8a0a0ca.svg",
     "static/media/component.svg": "/blog/static/media/component.c0047b7dc2f710e86b9212fa49964815.svg",
     "index.html": "/blog/index.html",
-    "main.ebbb961d.css.map": "/blog/static/css/main.ebbb961d.css.map",
-    "main.d391995e.js.map": "/blog/static/js/main.d391995e.js.map"
+    "main.074a2c1e.css.map": "/blog/static/css/main.074a2c1e.css.map",
+    "main.e7905d85.js.map": "/blog/static/js/main.e7905d85.js.map"
   },
   "entrypoints": [
-    "static/css/main.ebbb961d.css",
-    "static/js/main.d391995e.js"
+    "static/css/main.074a2c1e.css",
+    "static/js/main.e7905d85.js"
   ]
 }
