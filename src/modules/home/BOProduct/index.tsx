@@ -19,7 +19,6 @@ const BOProduct = () => {
             img={bulk}
             title={'批量代发'}
             label={'可以批量代发员工工资'}
-            background={'rgb(249, 248, 242)'}
           />
         </div>
       </div>

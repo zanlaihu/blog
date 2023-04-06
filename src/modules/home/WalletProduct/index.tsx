@@ -26,58 +26,36 @@ const WalletProduct = () => {
           <SingleProject
             img={lucky}
             title={'大转盘'}
-            label={'使用旋转的转盘随机抽取奖品'}
-            background={'rgb(250 235 255)'}
+            label={'大转盘提供随机抽取奖品的能力。难点在于控制转盘转动的角度。'}
           />
-          <div className={styles.col}></div>
           <SingleProject
             img={kyc}
             title={'KYC'}
             label={'是用户信息管理系统。'}
-            background={'rgb(222 229 236)'}
           />
-          <div className={styles.col}></div>
           <SingleProject
             img={discount}
             title={'折扣券'}
-            label={'用于抵扣支付金额。'}
-            background={'rgb(255 227 123)'}
+            label={'在收银台页面，用户可以选择添加折扣券来抵扣支付金额。'}
           />
         </div>
-        {!show && (
-          <div
-            className={styles.btnContent}
-            onClick={() => {
-              setShow(true)
-            }}
-          >
-            More
-          </div>
-        )}
-        {show && (
-          <div className={styles.oneLine}>
-            <SingleProject
-              img={coupon}
-              title={'券详情页&活动详情页'}
-              label={'展示一个活动或券的详细信息'}
-              background={'rgb(249 248 242)'}
-            />
-            <div className={styles.col}></div>
-            <SingleProject
-              img={pos}
-              title={'线下扫码支付'}
-              label={'用于用户在门店扫码。'}
-              background={'rgb(255 215 215)'}
-            />
-            <div className={styles.col}></div>
-            <SingleProject
-              img={component}
-              title={'组件库'}
-              label={'专用于钱包的组件库'}
-              background={'rgb(255 255 255)'}
-            />
-          </div>
-        )}
+        <div className={styles.oneLine}>
+          <SingleProject
+            img={coupon}
+            title={'券详情页&活动详情页'}
+            label={'展示一个活动或券的详细信息'}
+          />
+          <SingleProject
+            img={pos}
+            title={'线下扫码支付'}
+            label={'用户进入线下扫码页面，供商户扫码付费。属于B扫C功能。'}
+          />
+          <SingleProject
+            img={component}
+            title={'组件库'}
+            label={'专用于钱包的组件库'}
+          />
+        </div>
       </div>
     </div>
   )

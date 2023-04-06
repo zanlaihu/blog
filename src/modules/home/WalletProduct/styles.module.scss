@@ -10,24 +10,34 @@
   display: flex;
   justify-content: center;
   overflow: hidden;
-  background-image: conic-gradient(
-    from -90deg at 110% 100%,
-    #ffffff 0deg,
-    #ebecf0 90deg,
-    #ebecf0 1turn
+  padding: 128px 0;
+  border-bottom: 1px solid var(--accents-2);
+  background-image: linear-gradient(
+    180deg,
+    #ffffff 30%,
+    #fafafa 50%,
+    #fafafa 100%
   );
-  padding: 160px 0;
 }
 
 .middleContent {
   width: 1280px;
 }
 
+.table {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  display: grid;
+  grid-gap: 16px;
+  gap: 16px;
+  margin-top: 48px;
+  width: 100%;
+}
+
 .oneLine {
   display: flex;
   justify-content: space-between;
   flex-direction: row;
-  padding-top: 32px;
+  padding-top: 48px;
 }
 
 .col {

@@ -1,7 +1,7 @@
-import './index.css'
+import styles from './styles.module.scss'
 
 const Hu = () => {
-  return <div className='logo'>Hu</div>
+  return <div className={styles.content}>Hu</div>
 }
 
-export default Hu;
+export default Hu

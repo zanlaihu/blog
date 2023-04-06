@@ -86,6 +86,7 @@ module.exports = {
       'white-space',
       'color',
       'background',
+      'background-image',
       'background-position',
       'background-repeat',
       'background-size',

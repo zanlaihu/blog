@@ -1,4 +1,4 @@
-import LuckyDraw from '../../../components/LuckyDraw'
+import LuckyDraw from 'src/components/LuckyDraw'
 import './index.css'
 import styles from './styles.module.scss'
 
