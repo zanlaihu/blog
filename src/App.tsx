@@ -1,7 +1,6 @@
 import { PAGE_URL } from 'src/constants/router-url'
 import Home from 'src/pages/home'
 import { Route, Routes } from 'react-router-dom'
-import './App.scss'
 
 function App() {
   return (

@@ -1,6 +1,8 @@
 import { useState } from 'react'
 import { useNavigate } from 'react-router-dom'
-import Hu from '../Logo'
+import { GithubIcon } from 'src/assets/img'
+import github from 'src/assets/img/github.svg'
+import logo from 'src/assets/img/logo.svg'
 import styles from './styles.module.scss'
 
 const Navigation = () => {
@@ -30,11 +32,30 @@ const Navigation = () => {
   // }, [show])
 
   return (
-    <div className={styles.content}>
+    <section className={styles.content}>
       <div className={styles.middleContent}>
-        <Hu />
+        <div className={styles.title}>
+          <img src={logo} className={styles.logo} />
+          <div className={styles.logoTitle}> Zanlai</div>
+        </div>
+        <div className={styles.navContent}>
+          <div className={styles.nav}>Projects</div>
+          <div className={styles.nav}>Contact</div>
+          <div className={styles.col}></div>
+          <div className={styles.iconContent}>
+            <a
+              className={styles.a}
+              href='https://github.com/vitejs/vite'
+              aria-label='github'
+              target='_blank'
+              rel='noopener'
+            >
+              <img src={github} className={styles.svg} />
+            </a>
+          </div>
+        </div>
       </div>
-    </div>
+    </section>
   )
 }
 
