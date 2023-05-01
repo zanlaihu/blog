@@ -55,7 +55,15 @@
 }
 
 .canvasContent {
+  display: flex;
+  flex-direction: row;
+  height: 200px;
+
   // background-color: #2b2b2b;
+
+  .boxCanvas {
+    width: 100px;
+  }
 }
 
 .contactContent {

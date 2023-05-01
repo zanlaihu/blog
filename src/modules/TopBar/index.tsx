@@ -39,15 +39,48 @@ const TopBar = () => {
         </div>
 
         <div className={styles.canvasContent}>
-          <Canvas>
-            <ambientLight />
-            <pointLight position={[10, 10, 10]} />
-            <Box position={[-6, 0, 0]} />
-            <Box position={[-3, 0, 0]} />
-            <Box position={[0, 0, 0]} />
-            <Box position={[3, 0, 0]} />
-            <Box position={[6, 0, 0]} />
-          </Canvas>
+          <div className={styles.boxCanvas}>
+            <Canvas>
+              <ambientLight />
+              <pointLight position={[10, 10, 10]} />
+              <Box position={[0, 0, 0]} />
+            </Canvas>
+          </div>
+          <div className={styles.boxCanvas}>
+            <Canvas>
+              <ambientLight />
+              <pointLight position={[10, 10, 10]} />
+              <Box position={[0, 0, 0]} />
+            </Canvas>
+          </div>
+          <div className={styles.boxCanvas}>
+            <Canvas>
+              <ambientLight />
+              <pointLight position={[10, 10, 10]} />
+              <Box position={[0, 0, 0]} />
+            </Canvas>
+          </div>
+          <div className={styles.boxCanvas}>
+            <Canvas>
+              <ambientLight />
+              <pointLight position={[10, 10, 10]} />
+              <Box position={[0, 0, 0]} />
+            </Canvas>
+          </div>
+          <div className={styles.boxCanvas}>
+            <Canvas>
+              <ambientLight />
+              <pointLight position={[10, 10, 10]} />
+              <Box position={[0, 0, 0]} />
+            </Canvas>
+          </div>
+          <div className={styles.boxCanvas}>
+            <Canvas>
+              <ambientLight />
+              <pointLight position={[10, 10, 10]} />
+              <Box position={[0, 0, 0]} />
+            </Canvas>
+          </div>
         </div>
       </div>
     </div>
