@@ -32,12 +32,13 @@ const Navigation = () => {
 
   return (
     <section className={styles.content}>
-      <div className={styles.middleContent}>
+      <div className={styles.innerContent}>
         <div className={styles.logoContent}>
           <img src={logo} className={styles.logo} />
           <div className={styles.title}> Zanlai</div>
         </div>
         <div className={styles.navContent}>
+          <div className={styles.nav}>Study Notes & Documentations</div>
           <div className={styles.nav}>Projects</div>
           <div className={styles.nav}>Contact</div>
           <div className={styles.col}></div>
