@@ -1,16 +1,16 @@
 import Bottom from 'src/components/Bottom'
 import Head from 'src/components/Head'
-import BOProduct from 'src/modules/home/BOProduct'
-import HomeRecentProject from 'src/modules/home/HomeRecentProject'
-import PortalProduct from 'src/modules/home/PortalProduct'
-import HomeTopBar from 'src/modules/home/TopBar'
-import WalletProduct from 'src/modules/home/WalletProduct'
+import BOProduct from 'src/modules/BOProduct'
+import HomeRecentProject from 'src/modules/HomeRecentProject'
+import PortalProduct from 'src/modules/PortalProduct'
+import TopBar from 'src/modules/TopBar'
+import WalletProduct from 'src/modules/WalletProduct'
 
 const Home = () => {
   return (
     <div>
       <Head />
-      <HomeTopBar />
+      <TopBar />
       <HomeRecentProject />
       <WalletProduct />
       <BOProduct />

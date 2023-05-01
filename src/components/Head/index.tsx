@@ -1,6 +1,5 @@
 import { useState } from 'react'
 import { useNavigate } from 'react-router-dom'
-import { GithubIcon } from 'src/assets/img'
 import github from 'src/assets/img/github.svg'
 import logo from 'src/assets/img/logo.svg'
 import styles from './styles.module.scss'
@@ -34,9 +33,9 @@ const Navigation = () => {
   return (
     <section className={styles.content}>
       <div className={styles.middleContent}>
-        <div className={styles.title}>
+        <div className={styles.logoContent}>
           <img src={logo} className={styles.logo} />
-          <div className={styles.logoTitle}> Zanlai</div>
+          <div className={styles.title}> Zanlai</div>
         </div>
         <div className={styles.navContent}>
           <div className={styles.nav}>Projects</div>

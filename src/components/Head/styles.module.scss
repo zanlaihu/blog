@@ -21,7 +21,7 @@
   line-height: 64px;
 }
 
-.title {
+.logoContent {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -33,13 +33,10 @@
     margin-right: 8px;
     width: 28px;
     height: 28px;
-    color: #0074d9;
   }
 
-  .logoTitle {
+  .title {
     font-size: 18px;
-    font-weight: 300;
-    color: rgb(60 60 67);
   }
 }
 
@@ -59,6 +56,7 @@
     font-weight: 500;
     transition: color 0.25s;
     cursor: pointer;
+    letter-spacing: 0.3px;
   }
 
   .nav:hover {
@@ -83,18 +81,19 @@
       justify-content: center;
       align-items: center;
       height: 36px;
+      opacity: 0.6;
       transition: all 0.25s;
       cursor: pointer;
 
       .svg {
         padding: 0 8px;
-        width: 20px;
-        height: 20px;
+        width: 22px;
+        height: 22px;
       }
     }
 
     .a:hover {
-      opacity: 0.6;
+      opacity: 1;
     }
   }
 }
