@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/blog/static/css/main.db6afb27.css",
-    "main.js": "/blog/static/js/main.bc18def3.js",
+    "main.css": "/blog/static/css/main.f846769a.css",
+    "main.js": "/blog/static/js/main.51943dea.js",
     "static/media/pos.svg": "/blog/static/media/pos.cfcbc5c8d42d0ef9347293269b5bbae7.svg",
     "static/media/discount.svg": "/blog/static/media/discount.59591a3969757ac40b627f09a471aa58.svg",
     "static/media/logo.svg": "/blog/static/media/logo.05ccc60f350ba3211335c649cba3d673.svg",
@@ -10,14 +10,13 @@
     "static/media/lucky.svg": "/blog/static/media/lucky.b344d3fedced39c748aba8245829f432.svg",
     "static/media/bulk.svg": "/blog/static/media/bulk.704b8b35b5bd38633bde815c63cd8ef7.svg",
     "static/media/coupon.svg": "/blog/static/media/coupon.b543b987c40dbb76997061e28c8088dc.svg",
-    "static/media/github.svg": "/blog/static/media/github.38ffe380d742cb850be87e1f63610eb0.svg",
     "static/media/component.svg": "/blog/static/media/component.c0047b7dc2f710e86b9212fa49964815.svg",
     "index.html": "/blog/index.html",
-    "main.db6afb27.css.map": "/blog/static/css/main.db6afb27.css.map",
-    "main.bc18def3.js.map": "/blog/static/js/main.bc18def3.js.map"
+    "main.f846769a.css.map": "/blog/static/css/main.f846769a.css.map",
+    "main.51943dea.js.map": "/blog/static/js/main.51943dea.js.map"
   },
   "entrypoints": [
-    "static/css/main.db6afb27.css",
-    "static/js/main.bc18def3.js"
+    "static/css/main.f846769a.css",
+    "static/js/main.51943dea.js"
   ]
 }
