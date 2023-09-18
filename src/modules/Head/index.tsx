@@ -4,6 +4,13 @@ import github from 'src/assets/img/github.svg'
 import logo from 'src/assets/img/logo.svg'
 import styles from './styles.module.scss'
 
+const navs = [
+  { title: '主页', id: 1 },
+  { title: '博客', id: 2 },
+  { title: '关于本站', id: 3 },
+  { title: 'Github', id: 4 },
+]
+
 const Navigation = () => {
   const navigate = useNavigate()
   const [show, setShow] = useState(false)
@@ -35,25 +42,12 @@ const Navigation = () => {
       <div className={styles.innerContent}>
         <div className={styles.logoContent}>
           <img src={logo} className={styles.logo} />
-          <div className={styles.title}> Zanlai</div>
         </div>
-        <div className={styles.navContent}>
-          <div className={styles.nav}>Study Notes & Documentations</div>
-          <div className={styles.nav}>Projects</div>
-          <div className={styles.nav}>Contact</div>
-          <div className={styles.col}></div>
-          <div className={styles.iconContent}>
-            <a
-              className={styles.a}
-              href='https://github.com/vitejs/vite'
-              aria-label='github'
-              target='_blank'
-              rel='noopener'
-            >
-              <img src={github} className={styles.svg} />
-            </a>
+        {navs.map(nav => (
+          <div key={nav.id} className={styles.nav}>
+            {nav.title}
           </div>
-        </div>
+        ))}
       </div>
     </section>
   )

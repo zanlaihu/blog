@@ -1,5 +1,5 @@
 import Bottom from 'src/components/Bottom'
-import Head from 'src/components/Head'
+import Head from 'src/modules/Head'
 import BOProduct from 'src/modules/BOProduct'
 import HomeRecentProject from 'src/modules/HomeRecentProject'
 import PortalProduct from 'src/modules/PortalProduct'
