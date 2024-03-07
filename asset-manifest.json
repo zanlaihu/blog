@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/blog/static/css/main.f846769a.css",
-    "main.js": "/blog/static/js/main.51943dea.js",
+    "main.css": "/blog/static/css/main.17faf3ed.css",
+    "main.js": "/blog/static/js/main.69738abb.js",
+    "static/media/dacing-script.ttf": "/blog/static/media/dacing-script.d618761a95b9c756b18a.ttf",
     "static/media/pos.svg": "/blog/static/media/pos.cfcbc5c8d42d0ef9347293269b5bbae7.svg",
     "static/media/discount.svg": "/blog/static/media/discount.59591a3969757ac40b627f09a471aa58.svg",
-    "static/media/logo.svg": "/blog/static/media/logo.05ccc60f350ba3211335c649cba3d673.svg",
     "static/media/kyc.svg": "/blog/static/media/kyc.fca56b5b90555a7d058aa58899fa4345.svg",
     "static/media/portal.svg": "/blog/static/media/portal.42bd7a5c8609395b2e327b4dd43c038b.svg",
     "static/media/lucky.svg": "/blog/static/media/lucky.b344d3fedced39c748aba8245829f432.svg",
@@ -12,11 +12,11 @@
     "static/media/coupon.svg": "/blog/static/media/coupon.b543b987c40dbb76997061e28c8088dc.svg",
     "static/media/component.svg": "/blog/static/media/component.c0047b7dc2f710e86b9212fa49964815.svg",
     "index.html": "/blog/index.html",
-    "main.f846769a.css.map": "/blog/static/css/main.f846769a.css.map",
-    "main.51943dea.js.map": "/blog/static/js/main.51943dea.js.map"
+    "main.17faf3ed.css.map": "/blog/static/css/main.17faf3ed.css.map",
+    "main.69738abb.js.map": "/blog/static/js/main.69738abb.js.map"
   },
   "entrypoints": [
-    "static/css/main.f846769a.css",
-    "static/js/main.51943dea.js"
+    "static/css/main.17faf3ed.css",
+    "static/js/main.69738abb.js"
   ]
 }
